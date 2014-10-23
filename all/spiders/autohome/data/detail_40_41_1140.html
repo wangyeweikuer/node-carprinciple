@@ -1,0 +1,576 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+    <title>
+        电控涡轮增压器_汽车百科</title>
+    <meta name="Keywords" content="电控涡轮增压器" />
+    <meta name="Description" content=" 法雷奥(Valeo)研发的电控涡轮增压器。与普通涡轮增压器不同，电控涡轮增压器能独立于空气环路而工作，由集成开关磁阻技术和即时响应（300..." />
+    <meta http-equiv="x-ua-compatible" content="ie=emulateie7" />
+    <link href="/stylecss/frame.css?v=20130911" rel="stylesheet" type="text/css" />
+    <link href="/Style/shuyu/ency.css?v=20131230" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+<script type="text/javascript">
+    function fnH() {
+        var ftree = document.getElementById('frame_tree');
+        var fleft = document.getElementById('frame_left');
+        var windowh = document.documentElement.clientHeight;
+        ftree.style.height = (windowh - 75) + "px";    
+        fleft.style.height = windowh + "px";
+    }
+    if (window.addEventListener) {
+        window.addEventListener("load", fnH, false);
+        window.addEventListener("resize", fnH, false);
+    } else if (window.attachEvent) {
+        window.attachEvent("onload", fnH);
+        window.attachEvent("onresize", fnH);
+    }
+</script>
+<!--头部区域开始-->
+<!--迷你导航开始-->
+<div class="minitop" id="minitop">
+  <div class="mini_main">
+    <div class="mini_left">
+      <ul>
+        <li>
+          <a target="_self" href="http://www.autohome.com.cn/">&lt;&lt; 汽车之家首页</a>
+        </li>
+        <li>
+          <span>|</span>
+        </li>
+        <li id="cslbtt" class="cslbtt"><span>城市：</span><a target="_blank" href="http://www.autohome.com.cn/beijing/">北京</a><a target="_blank" href="http://www.autohome.com.cn/shanghai/">上海</a><a target="_blank" href="http://www.autohome.com.cn/shenzhen/">深圳</a><a target="_blank" href="http://www.autohome.com.cn/guangzhou/">广州</a><a target="_blank" href="http://www.autohome.com.cn/hangzhou/">杭州</a><a target="_blank" href="http://www.autohome.com.cn/nanjing/">南京</a><a target="_blank" href="http://www.autohome.com.cn/AreaList.html">查看所有城市&gt;&gt;</a></li>
+      </ul>
+    </div>
+    <div class="mini_right">
+      <ul class="frs ">
+        <li class="moreli">
+          <div class="moreli_title">
+            <a target="_self" href="javascript:void(0);">
+              <i class="icon-more"></i>
+              <span>更多应用</span>
+              <em></em>
+            </a>
+          </div>
+          <!--更多切换层开始-->
+          <div class="topchadiv topchadiv-dw01">
+            <div class="topchadiv_top">
+              <div class="topchadiv_top_con"></div>
+            </div>
+            <div class="topchadiv_box">
+              <div class="topchadiv_con">
+                <a target="_blank" href="http://www.autohome.com.cn/buycar.html?pvareaid=101806">购车计算器</a>
+                <a target="_blank" href="http://www.autohome.com.cn/channel2/MaintenanceCars/Violation.aspx?pvareaid=101807">违章查询</a>
+                <a target="_blank" href="http://car.autohome.com.cn/zhaoche/jiage/?pvareaid=101808">按价格找车</a>
+                <a target="_blank" href="http://car.autohome.com.cn/zhaoche/pinpai/?pvareaid=101809">按品牌找车</a>
+                <div class="linedc"></div>
+                <a target="_blank" href="http://dealer.autohome.com.cn/Passport/login.aspx?pvareaid=101810">车商汇</a>
+                <a target="_blank" href="http://www.che168.com/?pvareaid=100400">二手车之家</a>
+                <a target="_blank" href="http://www.pcpop.com">泡泡网</a>
+                <a target="_blank" href="http://www.it168.com">IT168</a>
+              </div>
+            </div>
+          </div>
+          <!--更多切换层结束-->
+        </li>
+      </ul>
+      <ul id="clubInfo" class="frs" style="display: none;">
+        <li>
+          <div class="moreli_title"><a target="_blank" href="http://club.autohome.com.cn/?pvareaid=101645"><i class="icon-club"></i><span>进入论坛</span><em></em></a></div>
+          <div class="topchadiv topchadiv-dw02"><div class="topchadiv_top"><div class="topchadiv_top_con"></div></div>
+          <div class="topchadiv_box"><div id="bbsList" class="topchadiv_con">加载中...</div></div></div>
+        </li>
+      </ul>      
+      <ul id="homeInfo" class="frs" style="display: none;">
+        <li>
+          <div class="moreli_title">
+            <a target="_self" href="javascript:void(0);">
+              <span>消息</span>
+              <span class="info" id="InfoId" style="display:none;"></span>
+              <em></em>
+            </a>
+          </div>
+          <!--更多切换层开始-->
+          <div class="topchadiv topchadiv-dw03">
+            <div class="topchadiv_top">
+              <div class="topchadiv_top_con"></div>
+            </div>
+            <div class="topchadiv_box">
+              <div id="dataInfo" class="topchadiv_con">
+              </div>
+            </div>
+          </div>
+          <!--更多切换层结束-->
+        </li>
+      </ul>
+      <ul id="login" class="frs frs-login"><li><div class="moreli_title">您好！请&nbsp;<a target="_self" href="http://account.autohome.com.cn/?backurl=http://www.autohome.com.cn/beijing/">登录</a>&nbsp;或&nbsp;<a target="_self" href="http://account.autohome.com.cn/register?backurl=http://www.autohome.com.cn/beijing/">注册</a></div></li></ul>
+    </div>
+  </div>
+</div>
+<!--迷你导航结束--><script type="text/javascript">   
+    (function(window,undefined){var auto=function(){var document=window.document;var auto=function(selector){return new auto.fn.init(selector)};auto.fn=auto.prototype={elem:null,init:function(selector){this.length=1;this[0]="string"==typeof selector?document.getElementById(selector):selector;this.elem=this[0]}};auto.extend=auto.fn.extend=function(){var target=arguments[0]||{},i=1,length=arguments.length,deep=false,options;if(typeof target==="boolean"){deep=target;target=arguments[1]||{};i=2}if(typeof target!=="object"&&!typeof target==="function")target={};if(length==i){target=this;--i}for(;i<length;i++){if((options=arguments[i])!=null){for(var name in options){var src=target[name],copy=options[name];if(target===copy){continue}if(deep&&copy&&typeof copy==="object"&&!copy.nodeType){target[name]=auto.extend(deep,src||(copy.length!=null?[]:{}),copy)}else{if(copy!==undefined){target[name]=copy}}}}}return target};auto.fn.init.prototype=auto.fn;return auto}();auto.extend({isArray:function(o){return Object.prototype.toString.call(o)=="[object Array]"},isMouseLeaveOrEnter:function(e,handler){if(e.type!=="mouseout"&&e.type!=="mouseover"){return false}var reltg=e.relatedTarget?e.relatedTarget:e.type==="mouseout"?e.toElement:e.fromElement;while(reltg&&reltg!==handler){reltg=reltg.parentNode}return reltg!==handler},ready:function(fn){document.onreadystatechange=function(){if(document.readyState==="complete")fn()}},cookie:{set:function(name,value,option){var str=name+"="+encodeURIComponent(value);if(option){if(option.expireHours){var d=new Date();d.setTime(d.getTime()+option.expireHours*3600*1e3);str+="; expires="+d.toGMTString()}if(option.path)str+="; path="+option.path;else str+="; path=/";if(option.domain)str+="; domain="+option.domain;if(option.secure)str+="; true"}document.cookie=str},get:function(name,defval){var nameEQ=name+"=";var ca=document.cookie.split(";");for(var i=0;i<ca.length;i++){var c=ca[i];while(c.charAt(0)==" ")c=c.substring(1,c.length);if(c.indexOf(nameEQ)==0)return decodeURIComponent(c.substring(nameEQ.length,c.length))}return typeof defval=="undefined"?null:defval},del:function(name){var exp=new Date();exp.setTime(exp.getTime()-1);var cval=this.get(name);if(cval!=null)document.cookie=name+"="+cval+";expires="+exp.toGMTString()}},jsLoad:function(){var scr,fn,args=[],length=arguments.length;if(length==1){target=arguments[0]||{};if(typeof target=="object"){src=target.url;fn=target.fn;args=target.args}}else{src=arguments[0];fn=arguments[1];for(var i=0;i<length-2;i++){args[i]=arguments[i+2]}}s=document.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src",src);s.onload=s.onreadystatechange=function(){if(!s.readyState||s.readyState=="loaded"||s.readyState=="complete"){if(typeof fn=="function")fn.apply(this,args);s.onload=s.onreadystatechange=null;try{s.parentNode&&s.parentNode.removeChild(s)}catch(e){}}};document.getElementsByTagName("head")[0].appendChild(s)},waitTime:function(fn,s){var waitInterval,args=[],length=arguments.length;if(length>2){if(length==3){if(auto.isArray(arguments[2])){args=arguments[2]}}else{for(var i=0;i<length-2;i++){args[i]=arguments[i+2]}}}clearTimeout(waitInterval);waitInterval=window.setTimeout(function(){fn.apply(this,args)},s)},binds:function(target,eventName,handler,args){var eventHandler=handler;if(args){eventHander=function(e){handler.call(args,e)}}if(window.addEventListener){if(eventName.substring(0,2)=="on")eventName=eventName.substring(2,eventName.length);target.addEventListener(eventName,eventHandler,false)}else if(window.attachEvent){if(eventName.substring(0,2)!="on")eventName="on"+eventName;target.attachEvent(eventName,eventHandler)}},mouseHover:function(f,c,s){var fn,args=[],length=arguments.length,fo=auto(f),co=auto(c);if(fo==null||co==null)return;fn=length>3?arguments[3]:function(){};this.binds(fo[0],"onmouseover",function(){fn();s==0?co.show():auto.waitTime(function(){co.show()},s)});this.binds(fo[0],"onmouseout",function(){s==0?co.hide():auto.waitTime(function(){co.hide()},s)})},mouseClick:function(f,c,ch,s){var fn,args=[],length=arguments.length,fo=auto(f),co=auto(c),cho=auto(ch);if(fo==null||co==null||cho==null)return;fn=length>4?arguments[4]:function(){};this.binds(cho[0],"onclick",function(){fn();s==0?co.target():auto.waitTime(function(){co.target()},s)});this.binds(fo[0],"onmouseout",function(evt){if(auto.isMouseLeaveOrEnter(evt,fo[0])){s==0?co.hide():auto.waitTime(function(){co.hide()},s)}})}});auto.fn.extend({show:function(){this.elem.style.display="block"},hide:function(){this.elem.style.display="none"},target:function(){this.elem.style.display==""||this.elem.style.display=="block"?this.hide():this.show()},html:function(val){if(val){this.elem.innerHTML=val}else{return this.elem.innerHTML}},attr:function(name){var val=arguments[1];if(val){this.elem.attributes(name,val)}else{return this.elem.getAttribute(name)}},css:function(val){if(val){this.elem.className=val}else{return this.elem.className}},click:function(fn){this.elem.onclick=function(){fn()}},href:function(url){if(url){this.elem.href=url}else{return this.elem.href}}});auto.extend({home:{waitTime:[0,300,250],homeUrl:"http://www.autohome.com.cn/",clubUrl:"http://club.autohome.com.cn/",clubServUrl:"http://club.service.autohome.com.cn/",newServUrl:"http://news.service.autohome.com.cn/",nowUrl:encodeURIComponent(location.href),ocid:auto.cookie.get("cityId")?parseInt(auto.cookie.get("cityId")):0,ccid:auto.cookie.get("cookieCityId")?parseInt(auto.cookie.get("cookieCityId")):0,areaid:parseInt(auto.cookie.get("area"))?parseInt(auto.cookie.get("area")):0,cid:auto.cookie.get("cookieCityId")==null||auto.cookie.get("cookieCityId")==0?auto.cookie.get("area")?parseInt(auto.cookie.get("area")/100)*100:0:parseInt(auto.cookie.get("cookieCityId")),getUserArea:function(cid){var cityid=cid!=null||cid>0?cid:auto.home.cid;auto.jsLoad(auto.home.homeUrl+"Ashx/AjaxHeadArea.ashx?OperType=GetAreaNavList&VarName=AreaNavList&CityId="+cityid,function(){if(typeof AreaNavList!="undefined"){if(AreaNavList.Status){if(AreaNavList.AreaNavCount>0){var arrAreaNav=AreaNavList.AreaNavList;html="<span>城市：</span>";for(var i=0;i<arrAreaNav.length;i++){html+='<a href="'+auto.home.homeUrl+arrAreaNav[i].PinYin+'/" target="_blank">'+arrAreaNav[i].CityName+"</a>"}html+='<a href="'+auto.home.homeUrl+'AreaList.html" target="_blank">查看所有城市&gt;&gt;</a>';auto("cslbtt").html(html)}}}})},areaCookie:function(){var r=true;if(typeof arguments[0]=="boolean"){r=arguments[0]}expire=arguments[1]?arguments[1]:{expireHours:36e3*24,domain:".autohome.com.cn"};this.set=function(cityName,oldCityId,newCityId){auto.cookie.del("cityId");auto.cookie.del("cookieCityId");auto.cookie.set("cityId",oldCityId,expire);auto.cookie.set("cookieCityId",newCityId,expire);auto("hidcid")[0].value=newCityId;if(r){window.location.reload()}else{changArea(newCityId);auto.home.getUserArea(newCityId);auto("changediv").hide();auto("changediv").html(GetCityHtml(auto("hidcid")[0].value))}}}}});window.auto=auto})(window);Function.prototype.bind=function(bindObj,args){var _self=this;return function(){return _self.apply(bindObj,[].concat(args))}};function readCookie(name,defauleValue){var nameEQ=name+"=";var ca=document.cookie.split(";");for(var i=0;i<ca.length;i++){var c=ca[i];while(c.charAt(0)==" ")c=c.substring(1,c.length);if(c.indexOf(nameEQ)==0)return decodeURIComponent(c.substring(nameEQ.length,c.length))}return typeof defauleValue!="undefined"?defauleValue:null}function AutohomeJsLoad(args){var s=document.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src",args.url);s.onload=s.onreadystatechange=function(){if(!this.readyState||this.readyState=="loaded"||this.readyState=="complete"){if(typeof args.callBack=="function")args.callBack(args.args);s.onload=s.onreadystatechange=null;try{s.parentNode&&s.parentNode.removeChild(s)}catch(e){}}};document.getElementsByTagName("head")[0].appendChild(s)}function GetClubList(data){var html='';if(!data.ReturnCode){if(data.Result.length==0)return;for(var i=0;i<data.Result.length;i++){html+='<a target="_blank" href="'+data.Result[i].ObjUrl+'#pvareaid=101647">'+data.Result[i].ObjTitle+'</a>'}}if(html!=''){auto("bbsList").html(html)}else{auto("bbsList").hide()}};Function.prototype.bind=function(bindObj,args){var _self=this;return function(){return _self.apply(bindObj,[].concat(args))}};function AutoUserFct(){this.init()}AutoUserFct.prototype={sopClubUrl:auto.home.newServUrl+"header/AjaxHeadClub.ashx?OperType=GetClubList&VarName=UserClubList&timestamp="+Math.random(),logUrl:"http://account.autohome.com.cn/?backurl="+auto.home.nowUrl,userUrl:"http://i.autohome.com.cn",regUrl:"http://account.autohome.com.cn/register?backurl="+auto.home.nowUrl,upgradeUrl:"http://account.autohome.com.cn/Upgrade?backurl="+auto.home.nowUrl,isLogIn:false,UC:null,UID:null,UP:null,UN:null,clubUserShow:null,isLoadOver:false,logoffArray:[],loginArray:[],LoginDIV:document.getElementById("login"),isNeedAddCookie:function(){var tempClubUserShow=readCookie("clubUserShow");if(tempClubUserShow==null){return true}else{return false}},isShowUserHeader:function(){var tempClubUserShow=readCookie("clubUserShow");if(tempClubUserShow!=null){this.clubUserShow=tempClubUserShow.split("|");this.UN=this.clubUserShow[3];this.UP=parseInt(this.clubUserShow[2]);this.UID=this.clubUserShow[0];return true}else{return false}},init:function(){this.isLoadOver=false;window.onfocus=openFun;window.onblur=closeFun;if(readCookie("clubUserShow")!=null){this.isLogIn=true;this.showPageHeader();if(this.isNeedAddCookie()){AutohomeJsLoad({url:"http://account.autohome.com.cn/addcookie/CookieRepair",callBack:function(){}.bind(this,[])})}else{}}else{this.showPageHeader()}},getClubList:function(uid){uid=uid?uid:this.UID;if(uid){AutohomeJsLoad({url:'http://ms.i.autohome.com.cn/collection/myclub?callback=GetClubList',callBack:function(){}})}},getCookieClubList:function(){if(readCookie("historybbsName4")!=null){var historybbs=readCookie("historybbsName4");var historystr="";html="";if(historybbs.indexOf(",")>0){historystr=historybbs.split(",");for(var i=historystr.length;i>(historystr.length>7?historystr.length-7:0);i--){html+='<a href="'+auto.home.clubUrl+"bbs/forum-"+historystr[i-1].split("|")[0]+'-1.html?pvareaid=101646" target="_blank">'+historystr[i-1].split("|")[1]+"论坛</a>"}}else{historystr=historybbs.split("|");html+='<a href="'+auto.home.clubUrl+"bbs/forum-"+historystr[0]+'-1.html?pvareaid=101646" target="_blank">'+historystr[1]+"论坛</a>"}auto("bbsList").html(html);auto("clubInfo").show()}else{auto("clubInfo").hide()}},getHomeList:function(){AutohomeJsLoad({url:"http://msg.autohome.com.cn/clubalert?callback=jsonpCallbackInfo&uid="+readCookie("clubUserShow").split("|")[0]+"&timestamp="+Math.random(),callBack:function(){}})},showPageHeader:function(){if(!this.isShowUserHeader()){htmlMain='<li><div class="moreli_title">您好！请&nbsp;<a href="'+this.logUrl+'" target="_self">登录</a>&nbsp;或&nbsp;<a href="'+this.regUrl+'" target="_self">注册</a></div></li>';this.getCookieClubList();auto("homeInfo").hide()}else{htmlMain='<li><div class="moreli_title">您好！<a href="'+this.userUrl+'" class="reda">'+this.UN+'</a>&nbsp;<a href="javascript:AutohomeUserInfo.logoff()" target="_self">退出</a></div></li>';this.getHomeList();this.getClubList();auto("clubInfo").show();auto("homeInfo").show()}this.onlogin();this.LoginDIV.innerHTML=htmlMain},logoff:function(){this.isLogIn=false;this.isLoadOver=false;window.clearInterval(clearIntervar);AutohomeJsLoad({url:"http://account.autohome.com.cn/login/logoutjson?backvar=autologinout&timestamp="+Math.random(),callBack:function(){this.logoffHTML();this.onlogoff();this.getCookieClubList();auto("homeInfo").hide()}.bind(this,[])});AutohomeJsLoad({url:"http://account.che168.com/login/logoutjson?backvar=cheloginout&timestamp="+Math.random(),callBack:function(){}.bind(this,[])})},logoffHTML:function(){this.isLogIn=false;this.isLoadOver=true;this.LoginDIV.innerHTML='<li><div class="moreli_title">您好！请&nbsp;<a href="'+this.logUrl+'" target="_self">登录</a>&nbsp;或&nbsp;<a href="'+this.regUrl+'" target="_self">注册</a></div></li>'},onlogoff:function(){for(var i=0,length=this.logoffArray.length;i<length;i++){if(typeof this.logoffArray[i]=="function")try{this.logoffArray[i]()}catch(err){}}},onlogin:function(){this.isLoadOver=true;for(var i=0,length=this.loginArray.length;i<length;i++){if(typeof this.loginArray[i]=="function")try{this.loginArray[i]()}catch(err){}}},onloginAdd:function(fun){if(typeof fun=="function"&&this.isLoadOver){try{fun()}catch(err){}}this.loginArray.push(fun)},onlogoffAdd:function(fun){if(typeof fun=="function"&&this.isLoadOver){try{fun()}catch(err){}}this.logoffArray.push(fun)}};var AutohomeUserInfo=new AutoUserFct();function jsonpCallbackInfo(data){var html="",temp="";data.NewReply>0?data.NewReply>99?html+='<a href="http://i.autohome.com.cn/receivereply/?pvareaid=101298" target="_blank"><span class="cn">99+条新论坛回复</span><span class="ck">查看论坛回复</span></a>':html+='<a href="http://i.autohome.com.cn/receivereply/?pvareaid=101298" target="_blank"><span class="cn">'+data.NewReply+'条新论坛回复</span><span class="ck">查看论坛回复</span></a>':temp+='<a href="http://i.autohome.com.cn/receivereply/?pvareaid=101606" target="_blank">查看论坛回复</a>';data.commentreply>0?data.commentreply>99?html+='<a href="http://i.autohome.com.cn/inbox/?pvareaid=101482" target="_blank"><span class="cn">99+条新评论回复</span><span class="ck">查看评论回复</span></a>':html+='<a href="http://i.autohome.com.cn/inbox/?pvareaid=101482" target="_blank"><span class="cn">'+data.commentreply+'条新评论回复</span><span class="ck">查看评论回复</span></a>':temp+='<a href="http://i.autohome.com.cn/inbox/?pvareaid=101607" target="_blank">查看评论回复</a>';data.NewComment>0?data.NewComment>99?html+='<a href="http://i.autohome.com.cn/club/record_comment/?pvareaid=101299" target="_blank"><span class="cn">99+条新话说评论</span><span class="ck">查看话说评论</span></a>':html+='<a href="http://i.autohome.com.cn/club/record_comment/?pvareaid=101299" target="_blank"><span class="cn">'+data.NewComment+'条新话说评论</span><span class="ck">查看话说评论</span></a>':temp+='<a href="http://i.autohome.com.cn/club/record_comment/?pvareaid=101608" target="_blank">查看话说评论</a>';data.NewLetter>0?data.NewLetter>99?html+='<a href="http://i.autohome.com.cn/club/message/?pvareaid=101300" target="_blank"><span class="cn">99+条新私信</span><span class="ck">查看私信</span></a>':html+='<a href="http://i.autohome.com.cn/club/message/?pvareaid=101300" target="_blank"><span class="cn">'+data.NewLetter+'条新私信</span><span class="ck">查看私信</span></a>':temp+='<a href="http://i.autohome.com.cn/club/message/?pvareaid=101609" target="_blank">查看私信</a>';data.NewNotice>0?data.NewNotice>99?html+='<a href="http://i.autohome.com.cn/club/notice/?pvareaid=101301" target="_blank"><span class="cn">99+条新通知</span><span class="ck">查看通知</span></a>':html+='<a href="http://i.autohome.com.cn/club/notice/?pvareaid=101301" target="_blank"><span class="cn">'+data.NewNotice+'条新通知</span><span class="ck">查看通知</span></a>':temp+='<a href="http://i.autohome.com.cn/club/notice/?pvareaid=101610" target="_blank">查看通知</a>';data.NewFollowers>0?data.NewFollowers>99?html+='<a href="http://i.autohome.com.cn/club/follower/?pvareaid=101297" target="_blank"><span class="cn">99+个新粉丝</span><span class="ck">查看粉丝</span></a>':html+='<a href="http://i.autohome.com.cn/club/follower/?pvareaid=101297" target="_blank"><span class="cn">'+data.NewFollowers+'个新粉丝</span><span class="ck">查看粉丝</span></a>':temp+='<a href="http://i.autohome.com.cn/club/follower/?pvareaid=101611" target="_blank">查看粉丝</a>';if(data.order!=null){data.order>0?data.order>99?html+='<a href="http://i.autohome.com.cn/club/orderlist/?pvareaid=101548" target="_blank"><span class="cn">99+条新订单</span><span class="ck">查看订单</span></a>':html+='<a href="http://i.autohome.com.cn/orderlist/?pvareaid=101548" target="_blank"><span class="cn">'+data.order+'条新订单</span><span class="ck">查看订单</span></a>':temp+='<a href="http://i.autohome.com.cn/orderlist/?pvareaid=101612" target="_blank">查看订单</a>'}else{temp+='<a href="http://i.autohome.com.cn/orderlist/?pvareaid=101612" target="_blank">查看订单</a>'}var a="";if(html.length>0&&temp.length>0){a=html+'<div class="linedc"></div>'+temp}else if(temp.length==0){a=html}else if(html.length==0){a=temp}auto("dataInfo").html(a);var count=data.NewLetter+data.NewReply+data.NewComment+data.NewNotice+data.NewFollowers+data.commentreply+(data.order==null?0:data.order);if(count>0){if(count>99){auto("InfoId").css("info");document.getElementById("InfoId").innerHTML="99+";auto("InfoId").show()}else{auto("InfoId").css("info");auto("InfoId").html(count);auto("InfoId").show()}}else{auto("InfoId").hide()}}var clearIntervar=null;function openFun(){if(AutohomeUserInfo.isLogIn){AutohomeUserInfo.getHomeList();clearIntervar=setInterval("AutohomeUserInfo.getHomeList()",15e3)}}function closeFun(){if(AutohomeUserInfo.isLogIn){window.clearInterval(clearIntervar)}}auto.home.getUserArea();
+</script>
+<script type="text/javascript">
+    (function(win){var doc=win.document,navSelect=byClass('moreli_title',null,'div'),nodeCache=[],len=navSelect.length,i=len-1;function byClass(name,content,tag){var arr=[],nodes=(content||doc).getElementsByTagName((tag||'*')),len=nodes.length,pattern=new RegExp("(\\s|^)"+name+"($|\\s)"),i=0;for(;i<len;i++)pattern.test(nodes[i].className)&&arr.push(nodes[i]);return arr};function addEvent(elem,type,fn){elem.addEventListener?elem.addEventListener(type,fn,false):elem.attachEvent('on'+type,fn)};function hasClass(elem,name){var className=' '+name+' ';if((' '+elem.className+' ').replace(/[\n\t]/g,' ').indexOf(className)>-1)return true;return false};function addClass(elem,name){!hasClass(elem,name)&&(elem.className+=(elem.className?' ':'')+name)};function removeClass(elem,name){hasClass(elem,name)&&(elem.className=elem.className.replace(name,''))};function getSelect(elem){var o=null,n=elem.nextSibling;while(n){if(n.nodeType===1&&n.className&&n.className.indexOf('topchadiv')!=-1){o=n;break}n=n.nextSibling};return o};for(;i>-1;i--){(function(i){addEvent(navSelect[i],'mouseover',function(){navSelect[i].timer&&clearTimeout(navSelect[i].timer);var s;if(nodeCache[i]){s=nodeCache[i]}else{s=nodeCache[i]=getSelect(navSelect[i]);if(s){addEvent(s,'click',function(e){var target=e.srcElement==null?e.target:e.srcElement;if(target.tagName=="A"||target.parentNode.tagName=="A"){navSelect[i].timer=setTimeout(function(){s&&(s.style.display='none',removeClass(navSelect[i],'moreli_active'))},0)}});addEvent(s,'mouseover',function(){navSelect[i].timer&&clearTimeout(navSelect[i].timer)});addEvent(s,'mouseout',function(){navSelect[i].timer=setTimeout(function(){s&&(s.style.display='none',removeClass(navSelect[i],'moreli_active'))},50)})}}if(s){s.style.display='block';addClass(navSelect[i],'moreli_active')}});addEvent(navSelect[i],'mouseout',function(){var s;if(nodeCache[i])s=nodeCache[i];else s=nodeCache[i]=getSelect(navSelect[i]);navSelect[i].timer=setTimeout(function(){s&&(s.style.display='none',removeClass(navSelect[i],'moreli_active'))},50)})})(i)}})(window);</script><!--顶部开始-->
+<div id="frame_top" class="frame_top">
+   <div class="topline">
+      <div id="logo"><a href="http://www.autohome.com.cn"><img src="http://www.autoimg.cn/car/images/logo.png" /></a></div>
+   </div>
+   <ul>
+      <li class=""><a href="/">报价</a></li>
+	  <li class=""><a href="/pic/">图片</a></li>
+      <li class=""><a href="/baoyang/index.html">保养</a></li>      
+	  <li class=""><a href="/video/index.html">视频</a></li>
+      <li class=""><a id="aChe168Link" href="">二手车</a></li>
+	  <li class="hot"><a href="/shuyu/index.html">百科</a></li>	  
+      <li class="navpos"><a href="/jingxuan/index.html" target="_blank">精图</a></li>
+   </ul>
+   <div class="topline_bottom"></div>
+</div>
+<script type="text/javascript">
+    (function () {
+        if (! -[1, ]) {
+            var b_version = navigator.appVersion;
+            var version = b_version.split(";");
+            var trim_Version = version[1].replace(/[ ]/g, "");
+            if (trim_Version == "MSIE6.0") {
+                window.setInterval(function () {
+                    var wtop = document.documentElement.scrollTop || document.body.scrollTop;
+                    document.getElementById("minitop").style.top = (wtop) + "px";  
+                    document.getElementById("frame_top").style.top = (wtop+28) + "px";  
+                    document.getElementById("frame_left").style.top = (wtop)+"px";
+                }, 20);
+            }
+        }
+    })();
+</script>
+<script type="text/javascript">
+
+    /*取COOKIE*/
+    function che168ReadCookie(name,defaultVal) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
+        }
+        return defaultVal;
+    }
+    /*二手车TAB　Link*/
+    function GetChe168Link() {
+        var url = "/2sc/area/index.html";
+        var areaId=0;
+        if (parseInt(areaId) == 0) {
+            var area = che168ReadCookie("cookieCityId", 0);
+            if (parseInt(area) == 0)
+                area = che168ReadCookie("area", 0);
+            if (parseInt(area) > 0) {
+                url = url.replace("area", area);
+            }
+            else {
+                url = url.replace("area", "1");
+            }
+        }
+        else {
+            url = url.replace("area", areaId);
+        }
+        document.getElementById("aChe168Link").href = url;
+
+    }
+    GetChe168Link();
+</script>
+<!--顶部结束-->
+    
+<div id="frame_left" class="frame_left">
+    <div id="frame_tree" class="frame_tree" style="height: 1500px; margin-top: 73px">
+        <ul>
+            <li id='p76' onclick = "OpenBrand(76)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_76.html" >新能源</a></h3><li id='p8' onclick = "OpenBrand(8)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_8.html" >发动机</a></h3><li id='p1' onclick = "OpenBrand(1)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_1.html" >变速箱</a></h3><li id='p3' onclick = "OpenBrand(3)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_3.html" >车身及底盘</a></h3><li id='p13' onclick = "OpenBrand(13)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_13.html" >车轮制动</a></h3><li id='p16' onclick = "OpenBrand(16)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_16.html" >安全辅助类</a></h3><li id='p11' onclick = "OpenBrand(11)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_11.html" >配置及多媒体</a></h3><li id='p18' onclick = "OpenBrand(18)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_18.html" >参数配置详解</a></h3><li id='p32' onclick = "OpenBrand(32)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_32.html" >汽车赛事</a></h3><li id='p38' onclick = "OpenBrand(38)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_38.html" >汽车改装</a></h3><li id='p25' onclick = "OpenBrand(25)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_25.html" >维修及保养</a></h3><li id='p60' onclick = "OpenBrand(60)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_60.html" >汽车美容装饰</a></h3><li id='p27' onclick = "OpenBrand(27)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_27.html" >相关人物</a></h3><li id='p29' onclick = "OpenBrand(29)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_29.html" >厂商信息</a></h3><li id='p36' onclick = "OpenBrand(36)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_36.html" >车展信息</a></h3><li id='p57' onclick = "OpenBrand(57)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_57.html" >汽车品牌</a></h3><li class="openli" id='p40' onclick="setopenclose(this,40);"><h3><em></em><span></span><a  href="/shuyu/list_1_0_40.html" >专业名词</a></h3><div class="listtree"  id='s40' style="display:block" ><dl><dt id='41'><a  href="/shuyu/list_1_41_40.html">专业名词</a></dt><dd id='lan1119'><a  href="/shuyu/detail_40_41_1119.html" >9G-Tronic</a></dd><dd id='lan1241'><a  href="/shuyu/detail_40_41_1241.html" >ACL主动转向照明系统</a></dd><dd id='lan1123'><a  href="/shuyu/detail_40_41_1123.html" >AH-100</a></dd><dd id='lan1199'><a  href="/shuyu/detail_40_41_1199.html" >AkzoNobe</a></dd><dd id='lan1203'><a  href="/shuyu/detail_40_41_1203.html" >Audi pre sense</a></dd><dd id='lan797'><a  href="/shuyu/detail_40_41_797.html" >CAN-BUS</a></dd><dd id='lan1130'><a  href="/shuyu/detail_40_41_1130.html" >carplay</a></dd><dd id='lan1077'><a  href="/shuyu/detail_40_41_1077.html" >CUV</a></dd><dd id='lan1120'><a  href="/shuyu/detail_40_41_1120.html" >CVT8</a></dd><dd id='lan1118'><a  href="/shuyu/detail_40_41_1118.html" >DQ500变速箱</a></dd><dd id='lan998'><a  href="/shuyu/detail_40_41_998.html" >Edonis</a></dd><dd id='lan1139'><a  href="/shuyu/detail_40_41_1139.html" >eSkin2</a></dd><dd id='lan997'><a  href="/shuyu/detail_40_41_997.html" >Fisker</a></dd><dd id='lan1256'><a  href="/shuyu/detail_40_41_1256.html" >IDAS</a></dd><dd id='lan1031'><a  href="/shuyu/detail_40_41_1031.html" >KERS</a></dd><dd id='lan1000'><a  href="/shuyu/detail_40_41_1000.html" >Marussia</a></dd><dd id='lan1247'><a  href="/shuyu/detail_40_41_1247.html" >MASR</a></dd><dd id='lan995'><a  href="/shuyu/detail_40_41_995.html" >Melkus</a></dd><dd id='lan1243'><a  href="/shuyu/detail_40_41_1243.html" >MSR发动机阻力距控制</a></dd><dd id='lan1138'><a  href="/shuyu/detail_40_41_1138.html" >mySPIN</a></dd><dd id='lan999'><a  href="/shuyu/detail_40_41_999.html" >Noble</a></dd><dd id='lan1133'><a  href="/shuyu/detail_40_41_1133.html" >NVH</a></dd><dd id='lan794'><a  href="/shuyu/detail_40_41_794.html" >PTC陶瓷辅助加热</a></dd><dd id='lan1148'><a  href="/shuyu/detail_40_41_1148.html" >PZEV</a></dd><dd id='lan1244'><a  href="/shuyu/detail_40_41_1244.html" >RNS810</a></dd><dd id='lan1240'><a  href="/shuyu/detail_40_41_1240.html" >RNS850</a></dd><dd id='lan1245'><a  href="/shuyu/detail_40_41_1245.html" >TMC</a></dd><dd id='lan1202'><a  href="/shuyu/detail_40_41_1202.html" >阿特金森循环</a></dd><dd id='lan1227'><a  href="/shuyu/detail_40_41_1227.html" >充电桩</a></dd><dd id='lan1239'><a  href="/shuyu/detail_40_41_1239.html" >串联式混合动力</a></dd><dd id='lan520'><a  href="/shuyu/detail_40_41_520.html" >大贸车</a></dd><dd id='lan1201'><a  href="/shuyu/detail_40_41_1201.html" >电动涡轮</a></dd><dd id='lan1140'><a style="color: #000000; font-weight: bold;"  href="/shuyu/detail_40_41_1140.html" >电控涡轮增压器</a></dd><dd id='lan880'><a  href="/shuyu/detail_40_41_880.html" >负极搭铁</a></dd><dd id='lan98'><a  href="/shuyu/detail_40_41_98.html" >功率</a></dd><dd id='lan811'><a  href="/shuyu/detail_40_41_811.html" >购置税</a></dd><dd id='lan204'><a  href="/shuyu/detail_40_41_204.html" >黄标车</a></dd><dd id='lan986'><a  href="/shuyu/detail_40_41_986.html" >惠民补贴</a></dd><dd id='lan1249'><a  href="/shuyu/detail_40_41_1249.html" >激光大灯</a></dd><dd id='lan687'><a  href="/shuyu/detail_40_41_687.html" >激光雾灯</a></dd><dd id='lan302'><a  href="/shuyu/detail_40_41_302.html" >交叉轴</a></dd><dd id='lan1001'><a  href="/shuyu/detail_40_41_1001.html" >节能减税</a></dd><dd id='lan662'><a  href="/shuyu/detail_40_41_662.html" >抗拉强度</a></dd><dd id='lan1229'><a  href="/shuyu/detail_40_41_1229.html" >锂空气电池</a></dd><dd id='lan1233'><a  href="/shuyu/detail_40_41_1233.html" >铝空气电池</a></dd><dd id='lan497'><a  href="/shuyu/detail_40_41_497.html" >轮上功率</a></dd><dd id='lan526'><a  href="/shuyu/detail_40_41_526.html" >美规车</a></dd><dd id='lan1235'><a  href="/shuyu/detail_40_41_1235.html" >钠硫电池</a></dd><dd id='lan99'><a  href="/shuyu/detail_40_41_99.html" >扭矩</a></dd><dd id='lan1196'><a  href="/shuyu/detail_40_41_1196.html" >汽车消费税</a></dd><dd id='lan829'><a  href="/shuyu/detail_40_41_829.html" >轻量化</a></dd><dd id='lan663'><a  href="/shuyu/detail_40_41_663.html" >屈服强度</a></dd><dd id='lan967'><a  href="/shuyu/detail_40_41_967.html" >全尺寸油泥模型</a></dd><dd id='lan845'><a  href="/shuyu/detail_40_41_845.html" >热力学风洞</a></dd><dd id='lan670'><a  href="/shuyu/detail_40_41_670.html" >闪光器</a></dd><dd id='lan543'><a  href="/shuyu/detail_40_41_543.html" >生物燃料</a></dd><dd id='lan1137'><a  href="/shuyu/detail_40_41_1137.html" >胎面花纹</a></dd><dd id='lan194'><a  href="/shuyu/detail_40_41_194.html" >套牌</a></dd><dd id='lan309'><a  href="/shuyu/detail_40_41_309.html" >推头</a></dd><dd id='lan521'><a  href="/shuyu/detail_40_41_521.html" >小贸车</a></dd><dd id='lan1228'><a  href="/shuyu/detail_40_41_1228.html" >锌空气电池</a></dd><dd id='lan664'><a  href="/shuyu/detail_40_41_664.html" >延伸率</a></dd><dd id='lan652'><a  href="/shuyu/detail_40_41_652.html" >乙醇汽油</a></dd><dd id='lan1238'><a  href="/shuyu/detail_40_41_1238.html" >中国新能源汽车定义</a></dd><dd id='lan308'><a  href="/shuyu/detail_40_41_308.html" >综合经销商</a></dd><dt id='67'><a  href="/shuyu/list_1_67_40.html">汽车保险</a></dt><dd id='lan1242'><a  href="/shuyu/detail_40_67_1242.html" >玻璃险</a></dd><dd id='lan1026'><a  href="/shuyu/detail_40_67_1026.html" >不计免赔</a></dd><dd id='lan1023'><a  href="/shuyu/detail_40_67_1023.html" >车损险</a></dd><dd id='lan1027'><a  href="/shuyu/detail_40_67_1027.html" >盗抢险</a></dd><dd id='lan1024'><a  href="/shuyu/detail_40_67_1024.html" >第三者责任险</a></dd><dd id='lan519'><a  href="/shuyu/detail_40_67_519.html" >交强险</a></dd><dd id='lan1025'><a  href="/shuyu/detail_40_67_1025.html" >自燃险</a></dd></div>
+        </ul>
+        <div id="carBottom" style="height: 775px;">
+        </div>
+    </div>
+</div>
+<script language="javascript" type="text/javascript">
+
+    Function.prototype.bind = function (bindObj, args) { var _self = this; return function () { return _self.apply(bindObj, [].concat(args)); }; };
+    function h3MouseEvent(){
+        function h3MouseOver(){
+            this.style.backgroundColor="#d9e6f6";
+            this.getElementsByTagName("a")[0].style.color="#d60000";
+        }
+        function h3MouseOut(){
+            this.style.backgroundColor="";
+            this.getElementsByTagName("a")[0].style.color="";
+        }
+        var list=document.getElementById("frame_tree").getElementsByTagName("li");
+        for(var i=0;i<list.length;i++){
+            if(list[i].className==""){
+                var objh3=list[i].getElementsByTagName("h3")[0];
+                if(objh3)
+                {
+                    if (window.addEventListener) {
+                        objh3.addEventListener("mouseover", h3MouseOver.bind(objh3,[objh3]), false);
+                        objh3.addEventListener("mouseout", h3MouseOut.bind(objh3,[objh3]), false);
+                    } else if (window.attachEvent) {
+                        objh3.attachEvent("onmouseover", h3MouseOver.bind(objh3,[objh3]));
+                        objh3.attachEvent("onmouseout", h3MouseOut.bind(objh3,[objh3]));
+                    }
+                }
+            }
+        }
+    }
+    h3MouseEvent();
+
+
+            var hashId = parseInt(16)
+            if(hashId != 0){
+                if (document.getElementById('p' + 40) != null) {
+                setTimeout(function () {document.getElementById('frame_tree').scrollTop = parseInt(hashId * 24) ; }, 1)
+                }
+            }
+            function OpenBrand(pid)
+            {
+                window.location ="/shuyu/list_1_0_" + pid + ".html";
+            }
+
+            function setopenclose(vxc, vcrt) {
+                var bId = document.getElementById('p' + vcrt);
+                var bl = document.getElementById('s' + vcrt);
+                if (bl.style.display == 'none' || bl.style.display == '') {
+                    bl.style.display = 'block';
+                    bId.className="openli";
+                }
+                else {
+                    bl.style.display = 'none';
+                    bId.className="";
+                }
+            }
+
+            function fnHCarBottom() {
+                var o = document.getElementById('frame_tree');
+                var h = document.documentElement.clientHeight;
+                o.style.height = (h - 70) + 'px';
+                document.getElementById('carBottom').style.height = (h - 74) + 'px';
+            }
+            function winResize() {
+                fnHCarBottom();
+            }
+            var appName = navigator.appName.toLowerCase();
+            if (appName != 'netscape') {
+                fnHCarBottom();
+                if (window.frameElement != null) {
+                    window.frameElement.attachEvent("onresize", winResize);
+                }
+                else {
+                    window.attachEvent("onresize", winResize);
+                }
+            }
+            else{
+                fnHCarBottom();
+                if (window.frameElement != null) {
+                    window.frameElement.addEventListener("resize", winResize, false);
+                }
+                else {
+                    window.addEventListener("resize", winResize, false);
+                }
+            }
+            fnH();
+</script>
+
+    <!--右侧内容开始-->
+    <div class="frame_right">
+        <!--start右侧主体-->
+        <div id="container">
+            <!--start搜索-->
+            
+<div class="overflow">
+    <form id="souform" method="get" action="/shuyu/search/">
+    <div class="search fl">
+        <p class="fl">
+            <input type="text" class="searchinp" name="txtsearch" id="txtsearch" autocomplete="off" value="" />
+        </p>
+        <p class="fl"><a href="javascript:void(0)"  onclick="onSearch();"  class="btn-seach" >搜索</a></p>
+    </div>
+    <div class="hotcs fl">
+        <span>热词：</span><a href="http://car.autohome.com.cn/shuyu/detail_1_2_141.html">DSG</a><a href="http://car.autohome.com.cn/shuyu/detail_8_10_103.html">缸内直喷</a><a href="http://car.autohome.com.cn/shuyu/detail_60_61_849.html">底盘装甲</a><a href="http://car.autohome.com.cn/shuyu/detail_3_6_61.html">麦弗逊</a><a href="http://www.autohome.com.cn/chezhan/beijing/">北京车展</a>
+      </div>
+    </form>
+     <div class="slt_lxc" id="autocomplateTip" style="display: none">
+    </div>
+    <script type="text/javascript" language="javascript">
+        function onSearch() {
+            var val = document.getElementById("souform").getElementsByTagName("input")[0].value;
+            val = val.replace(/(^\s*)(\s*$)/g, "");
+            val = val.replace(/(<|>)/g, "");
+            if (val != "") {
+                document.getElementById("souform").getElementsByTagName("input")[0].value = val;
+                setTimeout(function(){ document.getElementById("souform").submit()},0);
+            }
+        }
+        function acOnFocus() {
+            var script = document.createElement("script");
+            script.src = "/JavaScript/shuyu/autocomplate_shuyu.js?v=3";
+            script.onreadystatechange = script.onload = function () {
+                if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+                    if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")
+                        Sou.Autocomplate.AddAutocomplate(document.getElementById("souform").getElementsByTagName("input")[0]);
+                }
+            }
+            document.getElementsByTagName("head")[0].appendChild(script);
+            document.getElementById("souform").getElementsByTagName("input")[0].onfocus = "";
+        }
+        document.getElementById("souform").getElementsByTagName("input")[0].onfocus = acOnFocus;
+    </script>
+</div>
+
+            <!--end搜索 start顶部-->
+            <!-- 导航开始 -->
+            
+<div class="subnav overflow">
+    <ul class="fl subnavul">
+        <li><a href="http://www.autohome.com.cn" target="_blank">汽车之家</a>&nbsp;&gt;&nbsp;<a href="http://car.autohome.com.cn/shuyu/index.html">汽车百科</a>&nbsp;&gt;&nbsp;
+        
+                <a href="/shuyu/list_1_0_40.html">专业名词</a>&nbsp;&gt;&nbsp;
+            
+                <a href="/shuyu/list_1_41_40.html">专业名词</a>&nbsp;&gt;&nbsp;
+            
+                
+            
+                电控涡轮增压器
+            </li>
+    </ul>
+</div>
+
+
+            <!-- 导航结束 -->
+            <!--end当前位置导航start标题-->
+            <h1 class="contith1">
+                <span id="lblName"><a id="lg1140" name="lg1140"></a>电控涡轮增压器</span></h1>
+            <!--end标题start内容区-->
+            <div class="conmain clearfix endcon" id="termbox">
+                <!--start左侧-->
+                <div class="conleft">
+                    <FONT style="FONT-SIZE: 14px; FONT-FAMILY: 宋体">&nbsp;&nbsp;&nbsp; 法雷奥(Valeo)研发的电控<a class="ShuKeyWordLink" href="/shuyu/detail_8_10_95.html?lang=95 " target=_blank>涡轮增压</a>器。与普通<a class="ShuKeyWordLink" href="/shuyu/detail_8_10_95.html?lang=95 " target=_blank>涡轮增压</a>器不同，电控<a class="ShuKeyWordLink" href="/shuyu/detail_8_10_95.html?lang=95 " target=_blank>涡轮增压</a>器能独立于空气环路而工作，由集成开关磁阻技术和即时响应（300 毫秒）的电机驱动。因此，它能够根据不同工况提供所需的转矩。此外，电控<a class="ShuKeyWordLink" href="/shuyu/detail_8_10_95.html?lang=95 " target=_blank>涡轮增压</a>器也使汽车制造商可以优化动力系统从而提升燃油效率。厂家宣称，电控<a class="ShuKeyWordLink" href="/shuyu/detail_8_10_95.html?lang=95 " target=_blank>涡轮增压</a>器可以降低10%的燃油消耗，如与能源回收系统相结合，在欧洲和中国标准驾驶循环下可节省燃油15%到20%。此外，该系统无需对现有动力总成架构进行改动，能够低成本地快速应用于新车型和现有车型。 </FONT>
+<P align=center><A href="http://www.autohome.com.cn/img/?img=newspic/2014/4/30/0_1_2014043002172846939.jpg" target=_blank _xhe_href="http://www.autohome.com.cn/img/?img=newspic/2014/4/30/0_1_2014043002172846939.jpg"><FONT style="FONT-SIZE: 14px; FONT-FAMILY: 宋体"><IMG style="HEIGHT: 443px; FONT-FAMILY: ; WIDTH: 512px; DISPLAY: inline-block" alt=汽车之家 src="http://www1.autoimg.cn/newspic/2014/4/30/620x0_1_2014043002172846939.jpg" width=620 height=503 _xhe_src="http://www1.autoimg.cn/newspic/2014/4/30/620x0_1_2014043002172846939.jpg"></FONT></A></P>
+<P align=center><A href="http://www.autohome.com.cn/img/?img=newspic/2014/4/30/0_1_2014043002172469959.jpg" target=_blank _xhe_href="http://www.autohome.com.cn/img/?img=newspic/2014/4/30/0_1_2014043002172469959.jpg"><FONT style="FONT-SIZE: 14px; FONT-FAMILY: 宋体"><IMG style="HEIGHT: 402px; FONT-FAMILY: ; WIDTH: 513px; DISPLAY: inline-block" alt=汽车之家 src="http://www1.autoimg.cn/newspic/2014/4/30/620x0_1_2014043002172469959.jpg" width=620 height=465 _xhe_src="http://www1.autoimg.cn/newspic/2014/4/30/620x0_1_2014043002172469959.jpg"></FONT></A></P>
+<P align=left><FONT style="FONT-SIZE: 14px; FONT-FAMILY: 宋体">&nbsp;&nbsp;&nbsp; 与普通<a class="ShuKeyWordLink" href="/shuyu/detail_8_10_95.html?lang=95 " target=_blank>涡轮增压</a>器不同，电控<a class="ShuKeyWordLink" href="/shuyu/detail_8_10_95.html?lang=95 " target=_blank>涡轮增压</a>器能独立于空气环路而工作，因此它能够根据不同工况提供所需的转矩，涡轮迟滞现象更小。</FONT></P><div class="dashed_line"></div>
+                </div>
+                <!--end左侧start右侧-->
+                <div class="conright" id="menuright" style="position: fixed; left: 797px; top: 205px;
+                    _position: absolute; _top: 140px; _left: 603px; z-index: 100; width: 173px;">
+                    <div class="rcont">
+                        <h3 class="conrtit">词条目录</h3><dl class="rsubnav"><dt><a style="cursor:pointer;"  onclick="window.scrollTo(0, 0);"> 电控涡轮增压器</a></dt></dl></div>
+                        <div id="cookieLang" class="term_r1">
+                        </div>
+                    </div>
+                </div>
+                <!--end右侧-->
+                <div id="divBottom">
+                    <!--end内容区start最新术语-->
+                    <h2 class="tith2">
+                        <p class="titbor">
+                            <span class="titcon">更多术语</span></p>
+                    </h2>
+                    <ul class="contul">
+                        <li><p class="concimg"><a href="/shuyu/detail_57_58_861.html"><img src="http://car0.autoimg.cn/shuyu/20120831/120/4769755239241674703.jpg" title="F30" alt="F30" rel="nofollow"/></a></p><p class="c838383">宝马</p><p><a href="/shuyu/detail_57_58_861.html" title="F30">F30</a></p></li><li><p class="concimg"><a href="/shuyu/detail_27_28_1126.html"><img src="http://car1.autoimg.cn/shuyu/20140221/120/5750559906572858937.jpg" title="埃隆马斯克" alt="埃隆马斯克" rel="nofollow"/></a></p><p class="c838383">人物信息</p><p><a href="/shuyu/detail_27_28_1126.html" title="埃隆马斯克">埃隆马斯克</a></p></li><li><p class="concimg"><a href="/shuyu/detail_18_21_643.html"><img src="http://car0.autoimg.cn/shuyu/20120831/120/5055797635608792799.jpg" title="发动机特有技术" alt="发动机特有技术" rel="nofollow"/></a></p><p class="c838383">参数注解-发动机</p><p><a href="/shuyu/detail_18_21_643.html" title="发动机特有技术">发动机特有技术</a></p></li><li><p class="concimg"><a href="/shuyu/detail_40_41_1240.html"><img src="http://car1.autoimg.cn/shuyu/20140814/120/5140836398853401077.jpg" title="RNS850" alt="RNS850" rel="nofollow"/></a></p><p class="c838383">专业名词</p><p><a href="/shuyu/detail_40_41_1240.html" title="RNS850">RNS850</a></p></li><li><p class="concimg"><a href="/shuyu/detail_27_28_981.html"><img src="http://car0.autoimg.cn/shuyu/20120831/120/4768832512653802095.jpg" title="迈克尔・舒马赫" alt="迈克尔・舒马赫" rel="nofollow"/></a></p><p class="c838383">人物信息</p><p><a href="/shuyu/detail_27_28_981.html" title="迈克尔・舒马赫">迈克尔・舒马赫</a></p></li>
+                    </ul>
+                    <!--end最新术语start相关文章-->
+                    
+                    <!--end相关文章-->
+                </div>
+            </div>
+        </div>
+        <!--end右侧主体-->
+    </div>
+    <!--回到顶部-->
+    
+<style type="text/css"> 
+        .gotop02{width:50px; font-size:12px;text-align:center; background-color:#fafbfc; text-decoration:none; position:fixed; _position:absolute; left:987px;bottom:10px;_bottom:auto;z-index:100;}
+        .gotop02 a.gotop02-con{ display:inline-block; width:48px; height:38px; overflow:hidden;position:relative; margin-top:-1px;border:solid 1px #ccd3e4;color:#fff; font-size:12px; text-decoration:none; line-height:18px; float:left;}
+        .gotop02 a.gotop02-con i{ width:16px; height:16px; background:url(http://x.autoimg.cn/car/images/icon-top.png) no-repeat;position:relative; left:0px; top:12px;overflow:hidden;}
+        .gotop02 a.gotop02-con .icon-find{ background-position:-39px 0;}
+        .gotop02 a.gotop02-con .icon-book{ background-position:-19px 0;}
+        .gotop02 a.gotop02-con .icon-top{ background-position:0 0;}
+        .gotop02 a.gotop02-con span{ display:inline-block; width:30px; height:32px;text-align:center; padding: 3px 10px; line-height:16px; position:absolute; left:-1px; top:0;cursor:pointer;}
+        .gotop02 a.gotop02-con:hover{ color:#fff; background-color:#5577bb;border:solid 1px #5577bb;}
+        .gotop02 a.gotop02-con:hover i,.gotop02 a.gotop02-con span{ display:none;background-image:none;}
+        .gotop02 a.gotop02-con:hover span,.gotop02 a.gotop02-con i{ display:inline-block;}        
+</style>
+<div class="gotop02" id="gotop">    
+    
+    <a id="feedback" href="http://www.autohome.com.cn/bug/default.aspx" target="_blank" class="gotop02-con"><i class="icon-book"></i><span>意见反馈</span></a>    
+    <a id="backtop" class="gotop02-con" href="javascript:void(0)"  style="display:none" ><i class="icon-top"></i><span>返回顶部</span></a>
+</div>
+
+<script type="text/javascript">
+    var divShow = document.getElementById('backtop');
+    divShow.onclick = function () {
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+    } 
+    function goTop() {
+        var wtop = document.documentElement.scrollTop || document.body.scrollTop;        
+        var btop = document.getElementById("backtop");
+        var gotop = document.getElementById("gotop");
+        var selectTop;
+        if (document.getElementById('SelectTop')) {
+            selectTop = document.getElementById('SelectTop')
+        }
+        if (!!window.ActiveXObject && !window.XMLHttpRequest) {
+             var   topOffset = 120;
+            gotop.style.position = 'absolute';
+            if (selectTop) {
+                gotop.style.top = (wtop - 8 + parseInt(document.documentElement.clientHeight) - topOffset - 40) + "px";
+            }
+            else {
+                gotop.style.top = (wtop - 8 + parseInt(document.documentElement.clientHeight) - topOffset + 40) + "px";
+            }
+        }
+        if (wtop > 0) {
+            btop.style.display = "";
+            if (selectTop) {
+                selectTop.style.display = "";
+            }
+        } else {
+            btop.style.display = "none";
+            var obj = document.getElementById("divSearchTerm");
+            if (obj) {
+                if (selectTop) {
+                    if (obj.style.display != "none") { selectTop.style.display = "none"; } else { selectTop.style.display = ""; }
+                }
+            }
+        }
+    }
+    window.setInterval("goTop()", 100);
+</script>
+    <!--end回到顶部-->
+</body>
+</html>
+<script type="text/javascript" src="/JavaScript/shuyu/shuyuCookie.js"></script>
+<script type="text/javascript">
+    function addEvent(obj, type, fn) {
+        if (obj.attachEvent) {obj.attachEvent('on' + type, fn);} else {obj.addEventListener(type, fn, false);
+        }
+    }
+
+    (function addFlashAttribute() {
+        if (window.ActiveXObject && navigator.userAgent.toLowerCase().indexOf("msie") > 0) {
+            var flashes = document.getElementsByTagName("embed");
+            for (var i = 0; i < flashes.length; i++) {
+                flashes[i].setAttribute("WMode", "Opaque");
+            }
+            var objs = document.getElementsByTagName("OBJECT");
+            for (var j = 0; j < objs.length; j++) {
+                objs[j].WMode = "Opaque";
+            }
+        }
+    })();
+    function GotoPosition(id) {
+        if (parseInt(id) > 0) {
+            var position = document.getElementById("lg" + id);
+            //var top = window.ActiveXObject && navigator.userAgent.toLowerCase().indexOf("msie") > 0 ? GetElementTop(position)-48:GetElementTop(position)-48;
+            var top = GetElementTop(position) - 48;
+            window.scrollTo(0, top);
+        }
+    }
+    function GetElementTop(element) {
+        var actualTop = element.offsetTop;
+        var current = element.offsetParent;
+        while (current != null) {
+            actualTop += current.offsetTop;
+            current = current.offsetParent;
+        }
+        return actualTop;
+    }
+    var tipHeigh = document.getElementById("menuright").offsetHeight + 154;
+    window.onload = function () {
+        tipHeigh = document.getElementById("menuright").offsetHeight;
+    }
+    window.onscroll = function () {
+        var wtop = document.documentElement.scrollTop;
+        if (wtop == 0) {
+            wtop = document.body.scrollTop;
+        }
+        var $tip = document.getElementById("menuright");
+        var $bottom = document.getElementById("divBottom");
+        if (wtop > 140) {
+            if (wtop > $bottom.offsetTop - tipHeigh - 20) {
+                if (!!window.ActiveXObject && !window.XMLHttpRequest) {//IE6
+                    $tip.style.top = $bottom.offsetTop - tipHeigh - 20 + "px";
+                }
+                else {
+                    $tip.style.position = "absolute";
+                    $tip.style.left = "601px";
+                    $tip.style.top = $bottom.offsetTop - tipHeigh - 20 + "px";
+                }
+            } else {
+                if (!!window.ActiveXObject && !window.XMLHttpRequest) {//IE6
+                    $tip.style.top = wtop + "px";
+                }
+                else {
+                    $tip.style.position = "fixed";
+                    $tip.style.left = "797px";
+                    $tip.style.top = 78 + "px";
+                }
+            }
+        } else {
+            if (!!window.ActiveXObject && !window.XMLHttpRequest) {//IE6
+                document.getElementById("menuright").style.top = "140px";
+            } else {
+                $tip.style.position = "fixed";
+                $tip.style.left = "797px";
+                $tip.style.top = (205 - wtop) + "px";
+            }
+        }
+
+    }
+
+    function getQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+    }
+    addEvent(window, "load", function () {
+        (function toPosition() {
+            var lg = getQueryString("lang");
+            if (typeof (lg) != "undefined" && parseInt(lg) > 0) {
+                GotoPosition(getQueryString("lang"));
+            }
+        })();
+    });
+
+</script>
+<script type="text/javascript">
+    var langId = '1140';
+    var langName = '电控涡轮增压器';
+    var pid = '40';
+    var cid = '41';
+    setViewed(langId, langName, pid, cid);
+</script>
+<script language="javascript" type="text/javascript">
+    var pvTrack = function () { };
+    pvTrack.site = 2; 
+    pvTrack.category = 216;
+    pvTrack.subcategory = 789;
+    pvTrack.object =1140;
+</script>
+<script language=javascript type=text/javascript>
+var url_stats="http://stats.autohome.com.cn/pv_count.php?SiteId=";
+(function (){
+    if (typeof(pvTrack)!=="undefined"){				
+		setTimeout("func_stats()",3000);		
+		var doc = document,t=pvTrack;
+		var pv_site,pv_category ,pv_subcategory,pv_object,pv_series,pv_type,pv_typeid,pv_spec,pv_level,pv_dealer,pv_ref,pv_cur;
+		pv_ref=escape(doc.referrer);pv_cur=escape(doc.URL);
+		pv_site=t.site;pv_category=t.category ;pv_subcategory= t.subcategory;pv_object=t.object;pv_series=t.series;pv_type=t.type;pv_typeid=t.typeid;pv_spec=t.spec;pv_level=t.level;pv_dealer=t.dealer;
+		url_stats+= pv_site+(pv_category != null ? "&CategoryId=" + pv_category : "")+ (pv_subcategory != null ? "&SubCategoryId=" + pv_subcategory : "")+ (pv_object != null ? "&objectid=" + pv_object : "")+ (pv_series != null ? "&seriesid=" + pv_series : "")+ (pv_type != null ? "&type=" + pv_type : "")+ (pv_typeid != null ? "&typeid=" + pv_typeid : "")+ (pv_spec != null ? "&specid=" + pv_spec : "")+ (pv_level != null ? "&jbid=" + pv_level : "")+ (pv_dealer != null ? "&dealerid=" + pv_dealer : "")+ "&ref=" + pv_ref + "&cur=" + pv_cur+"&rnd="+Math.random();
+		var len_url_stats =url_stats.length;
+		}
+})();
+document.write('<iframe id="PageView_stats" src="" style="display:none;"></iframe>');
+function func_stats(){document.getElementById('PageView_stats').src =url_stats;}
+</script>
+<script language="javascript" type="text/javascript" src="http://x.autoimg.cn/pv/js/ga-count.js"></script>

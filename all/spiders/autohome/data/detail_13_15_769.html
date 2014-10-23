@@ -1,0 +1,608 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+    <title>
+        轮毂电机技术_汽车百科</title>
+    <meta name="Keywords" content="轮毂电机技术" />
+    <meta name="Description" content=" 新能源车现在已经成为汽车行业颇具前瞻性的领域，而新能源车型的驱动技术和传统内燃机汽车有着不小的区别，而其中有一类驱动技术有着很大的发展前景..." />
+    <meta http-equiv="x-ua-compatible" content="ie=emulateie7" />
+    <link href="/stylecss/frame.css?v=20130911" rel="stylesheet" type="text/css" />
+    <link href="/Style/shuyu/ency.css?v=20131230" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+<script type="text/javascript">
+    function fnH() {
+        var ftree = document.getElementById('frame_tree');
+        var fleft = document.getElementById('frame_left');
+        var windowh = document.documentElement.clientHeight;
+        ftree.style.height = (windowh - 75) + "px";    
+        fleft.style.height = windowh + "px";
+    }
+    if (window.addEventListener) {
+        window.addEventListener("load", fnH, false);
+        window.addEventListener("resize", fnH, false);
+    } else if (window.attachEvent) {
+        window.attachEvent("onload", fnH);
+        window.attachEvent("onresize", fnH);
+    }
+</script>
+<!--头部区域开始-->
+<!--迷你导航开始-->
+<div class="minitop" id="minitop">
+  <div class="mini_main">
+    <div class="mini_left">
+      <ul>
+        <li>
+          <a target="_self" href="http://www.autohome.com.cn/">&lt;&lt; 汽车之家首页</a>
+        </li>
+        <li>
+          <span>|</span>
+        </li>
+        <li id="cslbtt" class="cslbtt"><span>城市：</span><a target="_blank" href="http://www.autohome.com.cn/beijing/">北京</a><a target="_blank" href="http://www.autohome.com.cn/shanghai/">上海</a><a target="_blank" href="http://www.autohome.com.cn/shenzhen/">深圳</a><a target="_blank" href="http://www.autohome.com.cn/guangzhou/">广州</a><a target="_blank" href="http://www.autohome.com.cn/hangzhou/">杭州</a><a target="_blank" href="http://www.autohome.com.cn/nanjing/">南京</a><a target="_blank" href="http://www.autohome.com.cn/AreaList.html">查看所有城市&gt;&gt;</a></li>
+      </ul>
+    </div>
+    <div class="mini_right">
+      <ul class="frs ">
+        <li class="moreli">
+          <div class="moreli_title">
+            <a target="_self" href="javascript:void(0);">
+              <i class="icon-more"></i>
+              <span>更多应用</span>
+              <em></em>
+            </a>
+          </div>
+          <!--更多切换层开始-->
+          <div class="topchadiv topchadiv-dw01">
+            <div class="topchadiv_top">
+              <div class="topchadiv_top_con"></div>
+            </div>
+            <div class="topchadiv_box">
+              <div class="topchadiv_con">
+                <a target="_blank" href="http://www.autohome.com.cn/buycar.html?pvareaid=101806">购车计算器</a>
+                <a target="_blank" href="http://www.autohome.com.cn/channel2/MaintenanceCars/Violation.aspx?pvareaid=101807">违章查询</a>
+                <a target="_blank" href="http://car.autohome.com.cn/zhaoche/jiage/?pvareaid=101808">按价格找车</a>
+                <a target="_blank" href="http://car.autohome.com.cn/zhaoche/pinpai/?pvareaid=101809">按品牌找车</a>
+                <div class="linedc"></div>
+                <a target="_blank" href="http://dealer.autohome.com.cn/Passport/login.aspx?pvareaid=101810">车商汇</a>
+                <a target="_blank" href="http://www.che168.com/?pvareaid=100400">二手车之家</a>
+                <a target="_blank" href="http://www.pcpop.com">泡泡网</a>
+                <a target="_blank" href="http://www.it168.com">IT168</a>
+              </div>
+            </div>
+          </div>
+          <!--更多切换层结束-->
+        </li>
+      </ul>
+      <ul id="clubInfo" class="frs" style="display: none;">
+        <li>
+          <div class="moreli_title"><a target="_blank" href="http://club.autohome.com.cn/?pvareaid=101645"><i class="icon-club"></i><span>进入论坛</span><em></em></a></div>
+          <div class="topchadiv topchadiv-dw02"><div class="topchadiv_top"><div class="topchadiv_top_con"></div></div>
+          <div class="topchadiv_box"><div id="bbsList" class="topchadiv_con">加载中...</div></div></div>
+        </li>
+      </ul>      
+      <ul id="homeInfo" class="frs" style="display: none;">
+        <li>
+          <div class="moreli_title">
+            <a target="_self" href="javascript:void(0);">
+              <span>消息</span>
+              <span class="info" id="InfoId" style="display:none;"></span>
+              <em></em>
+            </a>
+          </div>
+          <!--更多切换层开始-->
+          <div class="topchadiv topchadiv-dw03">
+            <div class="topchadiv_top">
+              <div class="topchadiv_top_con"></div>
+            </div>
+            <div class="topchadiv_box">
+              <div id="dataInfo" class="topchadiv_con">
+              </div>
+            </div>
+          </div>
+          <!--更多切换层结束-->
+        </li>
+      </ul>
+      <ul id="login" class="frs frs-login"><li><div class="moreli_title">您好！请&nbsp;<a target="_self" href="http://account.autohome.com.cn/?backurl=http://www.autohome.com.cn/beijing/">登录</a>&nbsp;或&nbsp;<a target="_self" href="http://account.autohome.com.cn/register?backurl=http://www.autohome.com.cn/beijing/">注册</a></div></li></ul>
+    </div>
+  </div>
+</div>
+<!--迷你导航结束--><script type="text/javascript">   
+    (function(window,undefined){var auto=function(){var document=window.document;var auto=function(selector){return new auto.fn.init(selector)};auto.fn=auto.prototype={elem:null,init:function(selector){this.length=1;this[0]="string"==typeof selector?document.getElementById(selector):selector;this.elem=this[0]}};auto.extend=auto.fn.extend=function(){var target=arguments[0]||{},i=1,length=arguments.length,deep=false,options;if(typeof target==="boolean"){deep=target;target=arguments[1]||{};i=2}if(typeof target!=="object"&&!typeof target==="function")target={};if(length==i){target=this;--i}for(;i<length;i++){if((options=arguments[i])!=null){for(var name in options){var src=target[name],copy=options[name];if(target===copy){continue}if(deep&&copy&&typeof copy==="object"&&!copy.nodeType){target[name]=auto.extend(deep,src||(copy.length!=null?[]:{}),copy)}else{if(copy!==undefined){target[name]=copy}}}}}return target};auto.fn.init.prototype=auto.fn;return auto}();auto.extend({isArray:function(o){return Object.prototype.toString.call(o)=="[object Array]"},isMouseLeaveOrEnter:function(e,handler){if(e.type!=="mouseout"&&e.type!=="mouseover"){return false}var reltg=e.relatedTarget?e.relatedTarget:e.type==="mouseout"?e.toElement:e.fromElement;while(reltg&&reltg!==handler){reltg=reltg.parentNode}return reltg!==handler},ready:function(fn){document.onreadystatechange=function(){if(document.readyState==="complete")fn()}},cookie:{set:function(name,value,option){var str=name+"="+encodeURIComponent(value);if(option){if(option.expireHours){var d=new Date();d.setTime(d.getTime()+option.expireHours*3600*1e3);str+="; expires="+d.toGMTString()}if(option.path)str+="; path="+option.path;else str+="; path=/";if(option.domain)str+="; domain="+option.domain;if(option.secure)str+="; true"}document.cookie=str},get:function(name,defval){var nameEQ=name+"=";var ca=document.cookie.split(";");for(var i=0;i<ca.length;i++){var c=ca[i];while(c.charAt(0)==" ")c=c.substring(1,c.length);if(c.indexOf(nameEQ)==0)return decodeURIComponent(c.substring(nameEQ.length,c.length))}return typeof defval=="undefined"?null:defval},del:function(name){var exp=new Date();exp.setTime(exp.getTime()-1);var cval=this.get(name);if(cval!=null)document.cookie=name+"="+cval+";expires="+exp.toGMTString()}},jsLoad:function(){var scr,fn,args=[],length=arguments.length;if(length==1){target=arguments[0]||{};if(typeof target=="object"){src=target.url;fn=target.fn;args=target.args}}else{src=arguments[0];fn=arguments[1];for(var i=0;i<length-2;i++){args[i]=arguments[i+2]}}s=document.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src",src);s.onload=s.onreadystatechange=function(){if(!s.readyState||s.readyState=="loaded"||s.readyState=="complete"){if(typeof fn=="function")fn.apply(this,args);s.onload=s.onreadystatechange=null;try{s.parentNode&&s.parentNode.removeChild(s)}catch(e){}}};document.getElementsByTagName("head")[0].appendChild(s)},waitTime:function(fn,s){var waitInterval,args=[],length=arguments.length;if(length>2){if(length==3){if(auto.isArray(arguments[2])){args=arguments[2]}}else{for(var i=0;i<length-2;i++){args[i]=arguments[i+2]}}}clearTimeout(waitInterval);waitInterval=window.setTimeout(function(){fn.apply(this,args)},s)},binds:function(target,eventName,handler,args){var eventHandler=handler;if(args){eventHander=function(e){handler.call(args,e)}}if(window.addEventListener){if(eventName.substring(0,2)=="on")eventName=eventName.substring(2,eventName.length);target.addEventListener(eventName,eventHandler,false)}else if(window.attachEvent){if(eventName.substring(0,2)!="on")eventName="on"+eventName;target.attachEvent(eventName,eventHandler)}},mouseHover:function(f,c,s){var fn,args=[],length=arguments.length,fo=auto(f),co=auto(c);if(fo==null||co==null)return;fn=length>3?arguments[3]:function(){};this.binds(fo[0],"onmouseover",function(){fn();s==0?co.show():auto.waitTime(function(){co.show()},s)});this.binds(fo[0],"onmouseout",function(){s==0?co.hide():auto.waitTime(function(){co.hide()},s)})},mouseClick:function(f,c,ch,s){var fn,args=[],length=arguments.length,fo=auto(f),co=auto(c),cho=auto(ch);if(fo==null||co==null||cho==null)return;fn=length>4?arguments[4]:function(){};this.binds(cho[0],"onclick",function(){fn();s==0?co.target():auto.waitTime(function(){co.target()},s)});this.binds(fo[0],"onmouseout",function(evt){if(auto.isMouseLeaveOrEnter(evt,fo[0])){s==0?co.hide():auto.waitTime(function(){co.hide()},s)}})}});auto.fn.extend({show:function(){this.elem.style.display="block"},hide:function(){this.elem.style.display="none"},target:function(){this.elem.style.display==""||this.elem.style.display=="block"?this.hide():this.show()},html:function(val){if(val){this.elem.innerHTML=val}else{return this.elem.innerHTML}},attr:function(name){var val=arguments[1];if(val){this.elem.attributes(name,val)}else{return this.elem.getAttribute(name)}},css:function(val){if(val){this.elem.className=val}else{return this.elem.className}},click:function(fn){this.elem.onclick=function(){fn()}},href:function(url){if(url){this.elem.href=url}else{return this.elem.href}}});auto.extend({home:{waitTime:[0,300,250],homeUrl:"http://www.autohome.com.cn/",clubUrl:"http://club.autohome.com.cn/",clubServUrl:"http://club.service.autohome.com.cn/",newServUrl:"http://news.service.autohome.com.cn/",nowUrl:encodeURIComponent(location.href),ocid:auto.cookie.get("cityId")?parseInt(auto.cookie.get("cityId")):0,ccid:auto.cookie.get("cookieCityId")?parseInt(auto.cookie.get("cookieCityId")):0,areaid:parseInt(auto.cookie.get("area"))?parseInt(auto.cookie.get("area")):0,cid:auto.cookie.get("cookieCityId")==null||auto.cookie.get("cookieCityId")==0?auto.cookie.get("area")?parseInt(auto.cookie.get("area")/100)*100:0:parseInt(auto.cookie.get("cookieCityId")),getUserArea:function(cid){var cityid=cid!=null||cid>0?cid:auto.home.cid;auto.jsLoad(auto.home.homeUrl+"Ashx/AjaxHeadArea.ashx?OperType=GetAreaNavList&VarName=AreaNavList&CityId="+cityid,function(){if(typeof AreaNavList!="undefined"){if(AreaNavList.Status){if(AreaNavList.AreaNavCount>0){var arrAreaNav=AreaNavList.AreaNavList;html="<span>城市：</span>";for(var i=0;i<arrAreaNav.length;i++){html+='<a href="'+auto.home.homeUrl+arrAreaNav[i].PinYin+'/" target="_blank">'+arrAreaNav[i].CityName+"</a>"}html+='<a href="'+auto.home.homeUrl+'AreaList.html" target="_blank">查看所有城市&gt;&gt;</a>';auto("cslbtt").html(html)}}}})},areaCookie:function(){var r=true;if(typeof arguments[0]=="boolean"){r=arguments[0]}expire=arguments[1]?arguments[1]:{expireHours:36e3*24,domain:".autohome.com.cn"};this.set=function(cityName,oldCityId,newCityId){auto.cookie.del("cityId");auto.cookie.del("cookieCityId");auto.cookie.set("cityId",oldCityId,expire);auto.cookie.set("cookieCityId",newCityId,expire);auto("hidcid")[0].value=newCityId;if(r){window.location.reload()}else{changArea(newCityId);auto.home.getUserArea(newCityId);auto("changediv").hide();auto("changediv").html(GetCityHtml(auto("hidcid")[0].value))}}}}});window.auto=auto})(window);Function.prototype.bind=function(bindObj,args){var _self=this;return function(){return _self.apply(bindObj,[].concat(args))}};function readCookie(name,defauleValue){var nameEQ=name+"=";var ca=document.cookie.split(";");for(var i=0;i<ca.length;i++){var c=ca[i];while(c.charAt(0)==" ")c=c.substring(1,c.length);if(c.indexOf(nameEQ)==0)return decodeURIComponent(c.substring(nameEQ.length,c.length))}return typeof defauleValue!="undefined"?defauleValue:null}function AutohomeJsLoad(args){var s=document.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src",args.url);s.onload=s.onreadystatechange=function(){if(!this.readyState||this.readyState=="loaded"||this.readyState=="complete"){if(typeof args.callBack=="function")args.callBack(args.args);s.onload=s.onreadystatechange=null;try{s.parentNode&&s.parentNode.removeChild(s)}catch(e){}}};document.getElementsByTagName("head")[0].appendChild(s)}function GetClubList(data){var html='';if(!data.ReturnCode){if(data.Result.length==0)return;for(var i=0;i<data.Result.length;i++){html+='<a target="_blank" href="'+data.Result[i].ObjUrl+'#pvareaid=101647">'+data.Result[i].ObjTitle+'</a>'}}if(html!=''){auto("bbsList").html(html)}else{auto("bbsList").hide()}};Function.prototype.bind=function(bindObj,args){var _self=this;return function(){return _self.apply(bindObj,[].concat(args))}};function AutoUserFct(){this.init()}AutoUserFct.prototype={sopClubUrl:auto.home.newServUrl+"header/AjaxHeadClub.ashx?OperType=GetClubList&VarName=UserClubList&timestamp="+Math.random(),logUrl:"http://account.autohome.com.cn/?backurl="+auto.home.nowUrl,userUrl:"http://i.autohome.com.cn",regUrl:"http://account.autohome.com.cn/register?backurl="+auto.home.nowUrl,upgradeUrl:"http://account.autohome.com.cn/Upgrade?backurl="+auto.home.nowUrl,isLogIn:false,UC:null,UID:null,UP:null,UN:null,clubUserShow:null,isLoadOver:false,logoffArray:[],loginArray:[],LoginDIV:document.getElementById("login"),isNeedAddCookie:function(){var tempClubUserShow=readCookie("clubUserShow");if(tempClubUserShow==null){return true}else{return false}},isShowUserHeader:function(){var tempClubUserShow=readCookie("clubUserShow");if(tempClubUserShow!=null){this.clubUserShow=tempClubUserShow.split("|");this.UN=this.clubUserShow[3];this.UP=parseInt(this.clubUserShow[2]);this.UID=this.clubUserShow[0];return true}else{return false}},init:function(){this.isLoadOver=false;window.onfocus=openFun;window.onblur=closeFun;if(readCookie("clubUserShow")!=null){this.isLogIn=true;this.showPageHeader();if(this.isNeedAddCookie()){AutohomeJsLoad({url:"http://account.autohome.com.cn/addcookie/CookieRepair",callBack:function(){}.bind(this,[])})}else{}}else{this.showPageHeader()}},getClubList:function(uid){uid=uid?uid:this.UID;if(uid){AutohomeJsLoad({url:'http://ms.i.autohome.com.cn/collection/myclub?callback=GetClubList',callBack:function(){}})}},getCookieClubList:function(){if(readCookie("historybbsName4")!=null){var historybbs=readCookie("historybbsName4");var historystr="";html="";if(historybbs.indexOf(",")>0){historystr=historybbs.split(",");for(var i=historystr.length;i>(historystr.length>7?historystr.length-7:0);i--){html+='<a href="'+auto.home.clubUrl+"bbs/forum-"+historystr[i-1].split("|")[0]+'-1.html?pvareaid=101646" target="_blank">'+historystr[i-1].split("|")[1]+"论坛</a>"}}else{historystr=historybbs.split("|");html+='<a href="'+auto.home.clubUrl+"bbs/forum-"+historystr[0]+'-1.html?pvareaid=101646" target="_blank">'+historystr[1]+"论坛</a>"}auto("bbsList").html(html);auto("clubInfo").show()}else{auto("clubInfo").hide()}},getHomeList:function(){AutohomeJsLoad({url:"http://msg.autohome.com.cn/clubalert?callback=jsonpCallbackInfo&uid="+readCookie("clubUserShow").split("|")[0]+"&timestamp="+Math.random(),callBack:function(){}})},showPageHeader:function(){if(!this.isShowUserHeader()){htmlMain='<li><div class="moreli_title">您好！请&nbsp;<a href="'+this.logUrl+'" target="_self">登录</a>&nbsp;或&nbsp;<a href="'+this.regUrl+'" target="_self">注册</a></div></li>';this.getCookieClubList();auto("homeInfo").hide()}else{htmlMain='<li><div class="moreli_title">您好！<a href="'+this.userUrl+'" class="reda">'+this.UN+'</a>&nbsp;<a href="javascript:AutohomeUserInfo.logoff()" target="_self">退出</a></div></li>';this.getHomeList();this.getClubList();auto("clubInfo").show();auto("homeInfo").show()}this.onlogin();this.LoginDIV.innerHTML=htmlMain},logoff:function(){this.isLogIn=false;this.isLoadOver=false;window.clearInterval(clearIntervar);AutohomeJsLoad({url:"http://account.autohome.com.cn/login/logoutjson?backvar=autologinout&timestamp="+Math.random(),callBack:function(){this.logoffHTML();this.onlogoff();this.getCookieClubList();auto("homeInfo").hide()}.bind(this,[])});AutohomeJsLoad({url:"http://account.che168.com/login/logoutjson?backvar=cheloginout&timestamp="+Math.random(),callBack:function(){}.bind(this,[])})},logoffHTML:function(){this.isLogIn=false;this.isLoadOver=true;this.LoginDIV.innerHTML='<li><div class="moreli_title">您好！请&nbsp;<a href="'+this.logUrl+'" target="_self">登录</a>&nbsp;或&nbsp;<a href="'+this.regUrl+'" target="_self">注册</a></div></li>'},onlogoff:function(){for(var i=0,length=this.logoffArray.length;i<length;i++){if(typeof this.logoffArray[i]=="function")try{this.logoffArray[i]()}catch(err){}}},onlogin:function(){this.isLoadOver=true;for(var i=0,length=this.loginArray.length;i<length;i++){if(typeof this.loginArray[i]=="function")try{this.loginArray[i]()}catch(err){}}},onloginAdd:function(fun){if(typeof fun=="function"&&this.isLoadOver){try{fun()}catch(err){}}this.loginArray.push(fun)},onlogoffAdd:function(fun){if(typeof fun=="function"&&this.isLoadOver){try{fun()}catch(err){}}this.logoffArray.push(fun)}};var AutohomeUserInfo=new AutoUserFct();function jsonpCallbackInfo(data){var html="",temp="";data.NewReply>0?data.NewReply>99?html+='<a href="http://i.autohome.com.cn/receivereply/?pvareaid=101298" target="_blank"><span class="cn">99+条新论坛回复</span><span class="ck">查看论坛回复</span></a>':html+='<a href="http://i.autohome.com.cn/receivereply/?pvareaid=101298" target="_blank"><span class="cn">'+data.NewReply+'条新论坛回复</span><span class="ck">查看论坛回复</span></a>':temp+='<a href="http://i.autohome.com.cn/receivereply/?pvareaid=101606" target="_blank">查看论坛回复</a>';data.commentreply>0?data.commentreply>99?html+='<a href="http://i.autohome.com.cn/inbox/?pvareaid=101482" target="_blank"><span class="cn">99+条新评论回复</span><span class="ck">查看评论回复</span></a>':html+='<a href="http://i.autohome.com.cn/inbox/?pvareaid=101482" target="_blank"><span class="cn">'+data.commentreply+'条新评论回复</span><span class="ck">查看评论回复</span></a>':temp+='<a href="http://i.autohome.com.cn/inbox/?pvareaid=101607" target="_blank">查看评论回复</a>';data.NewComment>0?data.NewComment>99?html+='<a href="http://i.autohome.com.cn/club/record_comment/?pvareaid=101299" target="_blank"><span class="cn">99+条新话说评论</span><span class="ck">查看话说评论</span></a>':html+='<a href="http://i.autohome.com.cn/club/record_comment/?pvareaid=101299" target="_blank"><span class="cn">'+data.NewComment+'条新话说评论</span><span class="ck">查看话说评论</span></a>':temp+='<a href="http://i.autohome.com.cn/club/record_comment/?pvareaid=101608" target="_blank">查看话说评论</a>';data.NewLetter>0?data.NewLetter>99?html+='<a href="http://i.autohome.com.cn/club/message/?pvareaid=101300" target="_blank"><span class="cn">99+条新私信</span><span class="ck">查看私信</span></a>':html+='<a href="http://i.autohome.com.cn/club/message/?pvareaid=101300" target="_blank"><span class="cn">'+data.NewLetter+'条新私信</span><span class="ck">查看私信</span></a>':temp+='<a href="http://i.autohome.com.cn/club/message/?pvareaid=101609" target="_blank">查看私信</a>';data.NewNotice>0?data.NewNotice>99?html+='<a href="http://i.autohome.com.cn/club/notice/?pvareaid=101301" target="_blank"><span class="cn">99+条新通知</span><span class="ck">查看通知</span></a>':html+='<a href="http://i.autohome.com.cn/club/notice/?pvareaid=101301" target="_blank"><span class="cn">'+data.NewNotice+'条新通知</span><span class="ck">查看通知</span></a>':temp+='<a href="http://i.autohome.com.cn/club/notice/?pvareaid=101610" target="_blank">查看通知</a>';data.NewFollowers>0?data.NewFollowers>99?html+='<a href="http://i.autohome.com.cn/club/follower/?pvareaid=101297" target="_blank"><span class="cn">99+个新粉丝</span><span class="ck">查看粉丝</span></a>':html+='<a href="http://i.autohome.com.cn/club/follower/?pvareaid=101297" target="_blank"><span class="cn">'+data.NewFollowers+'个新粉丝</span><span class="ck">查看粉丝</span></a>':temp+='<a href="http://i.autohome.com.cn/club/follower/?pvareaid=101611" target="_blank">查看粉丝</a>';if(data.order!=null){data.order>0?data.order>99?html+='<a href="http://i.autohome.com.cn/club/orderlist/?pvareaid=101548" target="_blank"><span class="cn">99+条新订单</span><span class="ck">查看订单</span></a>':html+='<a href="http://i.autohome.com.cn/orderlist/?pvareaid=101548" target="_blank"><span class="cn">'+data.order+'条新订单</span><span class="ck">查看订单</span></a>':temp+='<a href="http://i.autohome.com.cn/orderlist/?pvareaid=101612" target="_blank">查看订单</a>'}else{temp+='<a href="http://i.autohome.com.cn/orderlist/?pvareaid=101612" target="_blank">查看订单</a>'}var a="";if(html.length>0&&temp.length>0){a=html+'<div class="linedc"></div>'+temp}else if(temp.length==0){a=html}else if(html.length==0){a=temp}auto("dataInfo").html(a);var count=data.NewLetter+data.NewReply+data.NewComment+data.NewNotice+data.NewFollowers+data.commentreply+(data.order==null?0:data.order);if(count>0){if(count>99){auto("InfoId").css("info");document.getElementById("InfoId").innerHTML="99+";auto("InfoId").show()}else{auto("InfoId").css("info");auto("InfoId").html(count);auto("InfoId").show()}}else{auto("InfoId").hide()}}var clearIntervar=null;function openFun(){if(AutohomeUserInfo.isLogIn){AutohomeUserInfo.getHomeList();clearIntervar=setInterval("AutohomeUserInfo.getHomeList()",15e3)}}function closeFun(){if(AutohomeUserInfo.isLogIn){window.clearInterval(clearIntervar)}}auto.home.getUserArea();
+</script>
+<script type="text/javascript">
+    (function(win){var doc=win.document,navSelect=byClass('moreli_title',null,'div'),nodeCache=[],len=navSelect.length,i=len-1;function byClass(name,content,tag){var arr=[],nodes=(content||doc).getElementsByTagName((tag||'*')),len=nodes.length,pattern=new RegExp("(\\s|^)"+name+"($|\\s)"),i=0;for(;i<len;i++)pattern.test(nodes[i].className)&&arr.push(nodes[i]);return arr};function addEvent(elem,type,fn){elem.addEventListener?elem.addEventListener(type,fn,false):elem.attachEvent('on'+type,fn)};function hasClass(elem,name){var className=' '+name+' ';if((' '+elem.className+' ').replace(/[\n\t]/g,' ').indexOf(className)>-1)return true;return false};function addClass(elem,name){!hasClass(elem,name)&&(elem.className+=(elem.className?' ':'')+name)};function removeClass(elem,name){hasClass(elem,name)&&(elem.className=elem.className.replace(name,''))};function getSelect(elem){var o=null,n=elem.nextSibling;while(n){if(n.nodeType===1&&n.className&&n.className.indexOf('topchadiv')!=-1){o=n;break}n=n.nextSibling};return o};for(;i>-1;i--){(function(i){addEvent(navSelect[i],'mouseover',function(){navSelect[i].timer&&clearTimeout(navSelect[i].timer);var s;if(nodeCache[i]){s=nodeCache[i]}else{s=nodeCache[i]=getSelect(navSelect[i]);if(s){addEvent(s,'click',function(e){var target=e.srcElement==null?e.target:e.srcElement;if(target.tagName=="A"||target.parentNode.tagName=="A"){navSelect[i].timer=setTimeout(function(){s&&(s.style.display='none',removeClass(navSelect[i],'moreli_active'))},0)}});addEvent(s,'mouseover',function(){navSelect[i].timer&&clearTimeout(navSelect[i].timer)});addEvent(s,'mouseout',function(){navSelect[i].timer=setTimeout(function(){s&&(s.style.display='none',removeClass(navSelect[i],'moreli_active'))},50)})}}if(s){s.style.display='block';addClass(navSelect[i],'moreli_active')}});addEvent(navSelect[i],'mouseout',function(){var s;if(nodeCache[i])s=nodeCache[i];else s=nodeCache[i]=getSelect(navSelect[i]);navSelect[i].timer=setTimeout(function(){s&&(s.style.display='none',removeClass(navSelect[i],'moreli_active'))},50)})})(i)}})(window);</script><!--顶部开始-->
+<div id="frame_top" class="frame_top">
+   <div class="topline">
+      <div id="logo"><a href="http://www.autohome.com.cn"><img src="http://www.autoimg.cn/car/images/logo.png" /></a></div>
+   </div>
+   <ul>
+      <li class=""><a href="/">报价</a></li>
+	  <li class=""><a href="/pic/">图片</a></li>
+      <li class=""><a href="/baoyang/index.html">保养</a></li>      
+	  <li class=""><a href="/video/index.html">视频</a></li>
+      <li class=""><a id="aChe168Link" href="">二手车</a></li>
+	  <li class="hot"><a href="/shuyu/index.html">百科</a></li>	  
+      <li class="navpos"><a href="/jingxuan/index.html" target="_blank">精图</a></li>
+   </ul>
+   <div class="topline_bottom"></div>
+</div>
+<script type="text/javascript">
+    (function () {
+        if (! -[1, ]) {
+            var b_version = navigator.appVersion;
+            var version = b_version.split(";");
+            var trim_Version = version[1].replace(/[ ]/g, "");
+            if (trim_Version == "MSIE6.0") {
+                window.setInterval(function () {
+                    var wtop = document.documentElement.scrollTop || document.body.scrollTop;
+                    document.getElementById("minitop").style.top = (wtop) + "px";  
+                    document.getElementById("frame_top").style.top = (wtop+28) + "px";  
+                    document.getElementById("frame_left").style.top = (wtop)+"px";
+                }, 20);
+            }
+        }
+    })();
+</script>
+<script type="text/javascript">
+
+    /*取COOKIE*/
+    function che168ReadCookie(name,defaultVal) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
+        }
+        return defaultVal;
+    }
+    /*二手车TAB　Link*/
+    function GetChe168Link() {
+        var url = "/2sc/area/index.html";
+        var areaId=0;
+        if (parseInt(areaId) == 0) {
+            var area = che168ReadCookie("cookieCityId", 0);
+            if (parseInt(area) == 0)
+                area = che168ReadCookie("area", 0);
+            if (parseInt(area) > 0) {
+                url = url.replace("area", area);
+            }
+            else {
+                url = url.replace("area", "1");
+            }
+        }
+        else {
+            url = url.replace("area", areaId);
+        }
+        document.getElementById("aChe168Link").href = url;
+
+    }
+    GetChe168Link();
+</script>
+<!--顶部结束-->
+    
+<div id="frame_left" class="frame_left">
+    <div id="frame_tree" class="frame_tree" style="height: 1500px; margin-top: 73px">
+        <ul>
+            <li id='p76' onclick = "OpenBrand(76)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_76.html" >新能源</a></h3><li id='p8' onclick = "OpenBrand(8)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_8.html" >发动机</a></h3><li id='p1' onclick = "OpenBrand(1)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_1.html" >变速箱</a></h3><li id='p3' onclick = "OpenBrand(3)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_3.html" >车身及底盘</a></h3><li class="openli" id='p13' onclick="setopenclose(this,13);"><h3><em></em><span></span><a  href="/shuyu/list_1_0_13.html" >车轮制动</a></h3><div class="listtree"  id='s13' style="display:block" ><dl><dt id='14'><a  href="/shuyu/list_1_14_13.html">制动系统</a></dt><dd id='lan766'><a  href="/shuyu/detail_13_14_766.html" >电涡流缓速器</a></dd><dd id='lan1028'><a  href="/shuyu/detail_13_14_1028.html" >感载比例阀</a></dd><dd id='lan156'><a  href="/shuyu/detail_13_14_156.html" >鼓刹</a></dd><dd id='lan157'><a  href="/shuyu/detail_13_14_157.html" >盘刹</a></dd><dd id='lan359'><a  href="/shuyu/detail_13_14_359.html" >热衰减</a></dd><dd id='lan364'><a  href="/shuyu/detail_13_14_364.html" >刹车分泵</a></dd><dd id='lan162'><a  href="/shuyu/detail_13_14_162.html" >刹车片</a></dd><dd id='lan365'><a  href="/shuyu/detail_13_14_365.html" >刹车总泵</a></dd><dd id='lan783'><a  href="/shuyu/detail_13_14_783.html" >制动能量回收</a></dd><dt id='15'><a  href="/shuyu/list_1_15_13.html">轮圈</a></dt><dd id='lan525'><a  href="/shuyu/detail_13_15_525.html" >铝合金轮圈</a></dd><dd id='lan769'><a style="color: #000000; font-weight: bold;"  href="/shuyu/detail_13_15_769.html" >轮毂电机技术</a></dd><dt id='43'><a  href="/shuyu/list_1_43_13.html">轮胎</a></dt><dd id='lan367'><a  href="/shuyu/detail_13_43_367.html" >扁平比</a></dd><dd id='lan366'><a  href="/shuyu/detail_13_43_366.html" >防爆胎</a></dd><dd id='lan368'><a  href="/shuyu/detail_13_43_368.html" >绿色轮胎</a></dd><dd id='lan1037'><a  href="/shuyu/detail_13_43_1037.html" >轮胎速度等级</a></dd><dd id='lan691'><a  href="/shuyu/detail_13_43_691.html" >斜交轮胎</a></dd><dd id='lan297'><a  href="/shuyu/detail_13_43_297.html" >越野轮胎</a></dd><dd id='lan692'><a  href="/shuyu/detail_13_43_692.html" >子午线轮胎</a></dd></dl><li id='p16' onclick = "OpenBrand(16)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_16.html" >安全辅助类</a></h3><li id='p11' onclick = "OpenBrand(11)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_11.html" >配置及多媒体</a></h3><li id='p18' onclick = "OpenBrand(18)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_18.html" >参数配置详解</a></h3><li id='p32' onclick = "OpenBrand(32)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_32.html" >汽车赛事</a></h3><li id='p38' onclick = "OpenBrand(38)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_38.html" >汽车改装</a></h3><li id='p25' onclick = "OpenBrand(25)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_25.html" >维修及保养</a></h3><li id='p60' onclick = "OpenBrand(60)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_60.html" >汽车美容装饰</a></h3><li id='p27' onclick = "OpenBrand(27)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_27.html" >相关人物</a></h3><li id='p29' onclick = "OpenBrand(29)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_29.html" >厂商信息</a></h3><li id='p36' onclick = "OpenBrand(36)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_36.html" >车展信息</a></h3><li id='p57' onclick = "OpenBrand(57)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_57.html" >汽车品牌</a></h3><li id='p40' onclick = "OpenBrand(40)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_40.html" >专业名词</a></h3>
+        </ul>
+        <div id="carBottom" style="height: 775px;">
+        </div>
+    </div>
+</div>
+<script language="javascript" type="text/javascript">
+
+    Function.prototype.bind = function (bindObj, args) { var _self = this; return function () { return _self.apply(bindObj, [].concat(args)); }; };
+    function h3MouseEvent(){
+        function h3MouseOver(){
+            this.style.backgroundColor="#d9e6f6";
+            this.getElementsByTagName("a")[0].style.color="#d60000";
+        }
+        function h3MouseOut(){
+            this.style.backgroundColor="";
+            this.getElementsByTagName("a")[0].style.color="";
+        }
+        var list=document.getElementById("frame_tree").getElementsByTagName("li");
+        for(var i=0;i<list.length;i++){
+            if(list[i].className==""){
+                var objh3=list[i].getElementsByTagName("h3")[0];
+                if(objh3)
+                {
+                    if (window.addEventListener) {
+                        objh3.addEventListener("mouseover", h3MouseOver.bind(objh3,[objh3]), false);
+                        objh3.addEventListener("mouseout", h3MouseOut.bind(objh3,[objh3]), false);
+                    } else if (window.attachEvent) {
+                        objh3.attachEvent("onmouseover", h3MouseOver.bind(objh3,[objh3]));
+                        objh3.attachEvent("onmouseout", h3MouseOut.bind(objh3,[objh3]));
+                    }
+                }
+            }
+        }
+    }
+    h3MouseEvent();
+
+
+            var hashId = parseInt(15)
+            if(hashId != 0){
+                if (document.getElementById('p' + 13) != null) {
+                setTimeout(function () {document.getElementById('frame_tree').scrollTop = parseInt(hashId * 24) ; }, 1)
+                }
+            }
+            function OpenBrand(pid)
+            {
+                window.location ="/shuyu/list_1_0_" + pid + ".html";
+            }
+
+            function setopenclose(vxc, vcrt) {
+                var bId = document.getElementById('p' + vcrt);
+                var bl = document.getElementById('s' + vcrt);
+                if (bl.style.display == 'none' || bl.style.display == '') {
+                    bl.style.display = 'block';
+                    bId.className="openli";
+                }
+                else {
+                    bl.style.display = 'none';
+                    bId.className="";
+                }
+            }
+
+            function fnHCarBottom() {
+                var o = document.getElementById('frame_tree');
+                var h = document.documentElement.clientHeight;
+                o.style.height = (h - 70) + 'px';
+                document.getElementById('carBottom').style.height = (h - 74) + 'px';
+            }
+            function winResize() {
+                fnHCarBottom();
+            }
+            var appName = navigator.appName.toLowerCase();
+            if (appName != 'netscape') {
+                fnHCarBottom();
+                if (window.frameElement != null) {
+                    window.frameElement.attachEvent("onresize", winResize);
+                }
+                else {
+                    window.attachEvent("onresize", winResize);
+                }
+            }
+            else{
+                fnHCarBottom();
+                if (window.frameElement != null) {
+                    window.frameElement.addEventListener("resize", winResize, false);
+                }
+                else {
+                    window.addEventListener("resize", winResize, false);
+                }
+            }
+            fnH();
+</script>
+
+    <!--右侧内容开始-->
+    <div class="frame_right">
+        <!--start右侧主体-->
+        <div id="container">
+            <!--start搜索-->
+            
+<div class="overflow">
+    <form id="souform" method="get" action="/shuyu/search/">
+    <div class="search fl">
+        <p class="fl">
+            <input type="text" class="searchinp" name="txtsearch" id="txtsearch" autocomplete="off" value="" />
+        </p>
+        <p class="fl"><a href="javascript:void(0)"  onclick="onSearch();"  class="btn-seach" >搜索</a></p>
+    </div>
+    <div class="hotcs fl">
+        <span>热词：</span><a href="http://car.autohome.com.cn/shuyu/detail_1_2_141.html">DSG</a><a href="http://car.autohome.com.cn/shuyu/detail_8_10_103.html">缸内直喷</a><a href="http://car.autohome.com.cn/shuyu/detail_60_61_849.html">底盘装甲</a><a href="http://car.autohome.com.cn/shuyu/detail_3_6_61.html">麦弗逊</a><a href="http://www.autohome.com.cn/chezhan/beijing/">北京车展</a>
+      </div>
+    </form>
+     <div class="slt_lxc" id="autocomplateTip" style="display: none">
+    </div>
+    <script type="text/javascript" language="javascript">
+        function onSearch() {
+            var val = document.getElementById("souform").getElementsByTagName("input")[0].value;
+            val = val.replace(/(^\s*)(\s*$)/g, "");
+            val = val.replace(/(<|>)/g, "");
+            if (val != "") {
+                document.getElementById("souform").getElementsByTagName("input")[0].value = val;
+                setTimeout(function(){ document.getElementById("souform").submit()},0);
+            }
+        }
+        function acOnFocus() {
+            var script = document.createElement("script");
+            script.src = "/JavaScript/shuyu/autocomplate_shuyu.js?v=3";
+            script.onreadystatechange = script.onload = function () {
+                if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+                    if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")
+                        Sou.Autocomplate.AddAutocomplate(document.getElementById("souform").getElementsByTagName("input")[0]);
+                }
+            }
+            document.getElementsByTagName("head")[0].appendChild(script);
+            document.getElementById("souform").getElementsByTagName("input")[0].onfocus = "";
+        }
+        document.getElementById("souform").getElementsByTagName("input")[0].onfocus = acOnFocus;
+    </script>
+</div>
+
+            <!--end搜索 start顶部-->
+            <!-- 导航开始 -->
+            
+<div class="subnav overflow">
+    <ul class="fl subnavul">
+        <li><a href="http://www.autohome.com.cn" target="_blank">汽车之家</a>&nbsp;&gt;&nbsp;<a href="http://car.autohome.com.cn/shuyu/index.html">汽车百科</a>&nbsp;&gt;&nbsp;
+        
+                <a href="/shuyu/list_1_0_13.html">车轮制动</a>&nbsp;&gt;&nbsp;
+            
+                <a href="/shuyu/list_1_15_13.html">轮圈</a>&nbsp;&gt;&nbsp;
+            
+                
+            
+                轮毂电机技术
+            </li>
+    </ul>
+</div>
+
+
+            <!-- 导航结束 -->
+            <!--end当前位置导航start标题-->
+            <h1 class="contith1">
+                <span id="lblName"><a id="lg769" name="lg769"></a>轮毂电机技术</span></h1>
+            <!--end标题start内容区-->
+            <div class="conmain clearfix endcon" id="termbox">
+                <!--start左侧-->
+                <div class="conleft">
+                    <P><FONT style="FONT-SIZE: 14px"><FONT style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 新能源车现在已经成为汽车行业颇具前瞻性的领域，而新能源车型的驱动技术和传统内燃机汽车有着不小的区别，而其中有一类驱动技术有着很大的发展前景，这就是轮毂电机技术。 </FONT></P><FONT style="FONT-SIZE: 14px">
+<HR>
+</FONT></FONT>
+<P><FONT style="FONT-SIZE: 14px"></FONT></P>
+<P><FONT style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 注：轮毂严格意义上讲仅指与<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_397.html?lang=397 " target=_blank>传动轴</a>连接的法兰、轴承座等部分，不过轮毂这一名词对于普通用户目前更多指的是轮圈，下文中涉及的轮毂一词将涵盖狭义的轮毂和轮圈两部分。</FONT></P><FONT style="FONT-SIZE: 14px">
+<HR>
+</FONT>
+<P><STRONG><FONT style="FONT-SIZE: 14px">轮毂电机技术简介</FONT></STRONG></P>
+<P><FONT style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 轮毂电机技术又称车轮内装电机技术，它的最大特点就是将动力、传动和制动装置都整合到轮毂内，因此将<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_1255.html?lang=1255 " target=_blank>电动车</a>辆的机械部分大大简化。轮毂电机技术并非新生事物，早在1900年，保时捷就首先制造出了前轮装备轮毂电机的电动汽车，在20世纪70年代，这一技术在矿山运输车等领域得到应用。而对于<a class="ShuKeyWordLink" href="/shuyu/detail_3_4_249.html?lang=249 " target=_blank>乘用车</a>所用的轮毂电机，日系<a class="ShuKeyWordLink" href="/shuyu/detail_18_19_218.html?lang=218 " target=_blank>厂商</a>对于此项技术研发开展较早，目前处于领先地位，包括通用、丰田在内的国际汽车巨头也都对该技术有所涉足。目前国内也有自主品牌汽车<a class="ShuKeyWordLink" href="/shuyu/detail_18_19_218.html?lang=218 " target=_blank>厂商</a>开始研发此项技术，在2011年<a class="ShuKeyWordLink" href="/shuyu/detail_36_37_534.html?lang=534 " target=_blank>上海车展</a>展出的瑞麒X1增程<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_1255.html?lang=1255 " target=_blank>电动车</a>就采用了轮毂电机技术。</FONT></P>
+<P align=center><A href="http://www.autohome.com.cn/img/?img=2011/6/4/4-10-10-1-450535554.jpg" target=_blank><FONT style="FONT-SIZE: 14px"><IMG style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border=1 alt=汽车之家 src="http://img.autohome.com.cn/2011/6/4/4-10-10-1-645720294.jpg"></FONT></A><BR><FONT style="FONT-SIZE: 14px"><a class="ShuKeyWordLink" href="/shuyu/detail_29_42_372.html?lang=372 " target=_blank>米其林</a>研发的将轮毂电机和电子主动悬挂都整合到轮内的驱动/悬挂系统结构图</FONT></P>
+<P align=center><A href="http://www.autohome.com.cn/img/?img=2011/6/4/4-10-10-2-1223348.jpg" target=_blank><FONT style="FONT-SIZE: 14px"><IMG style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border=1 alt=汽车之家 src="http://img.autohome.com.cn/2011/6/4/4-10-10-3-129898925.jpg"></FONT></A><BR><FONT style="FONT-SIZE: 14px">本田研发的轮毂电机实物</FONT></P>
+<P align=center><A href="http://www.autohome.com.cn/img/?img=2011/6/4/4-10-10-3-785264280.jpg" target=_blank><FONT style="FONT-SIZE: 14px"><IMG style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border=1 alt=汽车之家 src="http://img.autohome.com.cn/2011/6/4/4-10-10-3-339254047.jpg"></FONT></A><BR><FONT style="FONT-SIZE: 14px"><a class="ShuKeyWordLink" href="/shuyu/detail_36_37_534.html?lang=534 " target=_blank>上海车展</a>上的瑞麒X1-EV</FONT></P>
+<P align=center><A href="http://www.autohome.com.cn/img/?img=2011/6/4/4-10-10-4-360028375.jpg" target=_blank><FONT style="FONT-SIZE: 14px"><IMG style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border=1 alt=汽车之家 src="http://img.autohome.com.cn/2011/6/4/4-10-10-5-966278638.jpg"></FONT></A><BR><FONT style="FONT-SIZE: 14px">通用开发的为150吨的重型卡车设计的轮毂电机（内燃动力电传动）</FONT></P>
+<P align=center><A href="http://www.autohome.com.cn/img/?img=2011/6/4/4-10-10-5-360028375.jpg" target=_blank><FONT style="FONT-SIZE: 14px"><IMG style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border=1 alt=汽车之家 src="http://img.autohome.com.cn/2011/6/4/4-10-10-6-966278638.jpg"></FONT></A><BR><FONT style="FONT-SIZE: 14px">典型内转子结构的轮毂电机驱动系统结构示意图</FONT></P>
+<P><FONT style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 轮毂电机驱动系统根据电机的转子型式主要分成两种结构型式：内转子式和外转子式。其中外转子式采用低速外传子电机，电机的最高转速在1000-1500r/min，无减速装置，车轮的转速与电机相同；而内转子式则采用高速内转子电机，配备固定传动比的减速器，为获得较高的<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_98.html?lang=98 " target=_blank>功率</a>密度，电机的转速可高达10000r/min。随着更为紧凑的行星齿轮减速器的出现，内转子式轮毂电机在<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_98.html?lang=98 " target=_blank>功率</a>密度方面比低速外转子式更具竞争力。</FONT></P>
+<P><STRONG><FONT style="FONT-SIZE: 14px">&nbsp;轮毂电机的优缺点</FONT></STRONG></P>
+<P><STRONG><FONT style="FONT-SIZE: 14px">优点1：省略大量传动部件，让车辆结构更简单</FONT></STRONG></P>
+<P align=center><A href="http://www.autohome.com.cn/img/?img=2011/6/4/4-10-10-6-252048841.jpg" target=_blank><FONT style="FONT-SIZE: 14px"><IMG style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border=1 alt=汽车之家 src="http://img.autohome.com.cn/2011/6/4/4-10-10-6-806038608.jpg"></FONT></A><BR><FONT style="FONT-SIZE: 14px">类似上图中这种传统变速器在轮毂电机驱动的车辆上已经见不到了</FONT></P>
+<P align=center><A href="http://www.autohome.com.cn/img/?img=2011/6/4/4-10-10-7-537740760.jpg" target=_blank><FONT style="FONT-SIZE: 14px"><IMG style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border=1 alt=汽车之家 src="http://img.autohome.com.cn/2011/6/4/4-10-10-7-91730527.jpg"></FONT></A><BR><FONT style="FONT-SIZE: 14px">传统后驱车车厢后排地板上的突起在<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_1255.html?lang=1255 " target=_blank>电动车</a>上也会消失，为乘员腾出更大的空间</FONT></P>
+<P><FONT style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 对于传统车辆来说，<a class="ShuKeyWordLink" href="/shuyu/detail_1_2_764.html?lang=764 " target=_blank>离合器</a>、变速器、<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_397.html?lang=397 " target=_blank>传动轴</a>、<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>乃至分动器都是必不可少的，而这些部件不但重量不轻、让车辆的结构更为复杂，同时也存在需要定期维护和故障率的问题。但是轮毂电机就很好地解决了这个问题。除开结构更为简单之外，采用轮毂电机驱动的车辆可以获得更好的空间利用率，同时传动效率也要高出不少。</FONT></P>
+<P><STRONG><FONT style="FONT-SIZE: 14px">优点2：可实现多种复杂的<a class="ShuKeyWordLink" href="/shuyu/detail_18_23_395.html?lang=395 " target=_blank>驱动方式</a></FONT></STRONG></P>
+<P align=center><A href="http://www.autohome.com.cn/img/?img=2011/6/4/4-10-10-8-931412213.jpg" target=_blank><FONT style="FONT-SIZE: 14px"><IMG style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border=1 alt=汽车之家 src="http://img.autohome.com.cn/2011/6/4/4-10-10-8-485401979.jpg"></FONT></A><BR><FONT style="FONT-SIZE: 14px">像AHED“先进混合电驱动”样车这样的8轮电驱动很轻松就能实现</FONT></P>
+<P><FONT style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 由于轮毂电机具备单个车轮独立驱动的特性，因此无论是前驱、后驱还是<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_412.html?lang=412 " target=_blank>四驱形式</a>，它都可以比较轻松地实现，<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_147.html?lang=147 " target=_blank>全时四驱</a>在轮毂电机驱动的车辆上实现起来非常容易。同时轮毂电机可以通过左右车轮的不同转速甚至反转实现类似履带式车辆的差动转向，大大减小车辆的<a class="ShuKeyWordLink" href="/shuyu/detail_18_20_675.html?lang=675 " target=_blank>转弯半径</a>，在特殊情况下几乎可以实现原地转向（不过此时对车辆转向机构和轮胎的磨损较大），对于特种车辆很有价值。</FONT></P>
+<P><STRONG><FONT style="FONT-SIZE: 14px">优点3：便于采用多种新能源车技术</FONT></STRONG></P>
+<P align=center><A href="http://www.autohome.com.cn/img/?img=2011/6/4/4-10-22-55-290217240.jpg" target=_blank><FONT style="FONT-SIZE: 14px"><IMG style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border=1 alt=汽车之家 src="http://img.autohome.com.cn/2011/6/4/4-10-22-55-844207006.jpg"></FONT></A><BR><FONT style="FONT-SIZE: 14px">采用轮毂电机可以匹配包括<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_1145.html?lang=1145 " target=_blank>纯电动</a>、<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_239.html?lang=239 " target=_blank>混合动力</a>和燃料电池<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_1255.html?lang=1255 " target=_blank>电动车</a>等多种新能源车型</FONT></P>
+<P align=center><A href="http://www.autohome.com.cn/img/?img=2011/6/4/4-10-22-56-680586719.jpg" target=_blank><FONT style="FONT-SIZE: 14px"><IMG style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border=1 alt=汽车之家 src="http://img.autohome.com.cn/2011/6/4/4-10-22-56-875771459.jpg"></FONT></A><BR><FONT style="FONT-SIZE: 14px">轮毂电机可以和传统动力并联使用，这对于<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_239.html?lang=239 " target=_blank>混合动力</a>车型很有意义</FONT></P>
+<P><FONT style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 新能源车型不少都采用电驱动，因此轮毂电机驱动也就派上了大用场。无论是<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_1145.html?lang=1145 " target=_blank>纯电动</a>还是燃料电池<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_1255.html?lang=1255 " target=_blank>电动车</a>，抑或是增程<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_1255.html?lang=1255 " target=_blank>电动车</a>，都可以用轮毂电机作为主要驱动力；即便是对于<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_239.html?lang=239 " target=_blank>混合动力</a>车型，也可以采用轮毂电机作为起步或者急加速时的助力，可谓是一机多用。同时，新能源车的很多技术，比如<a class="ShuKeyWordLink" href="/shuyu/detail_13_14_783.html?lang=783 " target=_blank>制动能量回收</a>（即再生制动）也可以很轻松地在轮毂电机驱动车型上得以实现。</FONT></P>
+<P><STRONG><FONT style="FONT-SIZE: 14px">缺点1：增大<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_657.html?lang=657 " target=_blank>簧下质量</a>和轮毂的转动惯量，对车辆的操控有所影响</FONT></STRONG></P>
+<P align=center><A href="http://www.autohome.com.cn/img/?img=2011/6/4/4-10-22-57-736227473.jpg" target=_blank><FONT style="FONT-SIZE: 14px"><IMG style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border=1 alt=汽车之家 src="http://img.autohome.com.cn/2011/6/4/4-10-22-57-290217240.jpg"></FONT></A><BR><FONT style="FONT-SIZE: 14px">铝制下摆臂采用主要就为减重，如果加上轮毂电机，这些努力也就白费了</FONT></P>
+<P><FONT style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 对于普通民用车辆来说，常常用一些相对轻质的材料比如铝合金来制作悬挂的部件，以减轻<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_657.html?lang=657 " target=_blank>簧下质量</a>，提升悬挂的响应速度。可是轮毂电机恰好较大幅度地增大了<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_657.html?lang=657 " target=_blank>簧下质量</a>，同时也增加了轮毂的转动惯量，这对于车辆的操控性能是不利的。不过考虑到<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_1255.html?lang=1255 " target=_blank>电动车</a>型大多限于代步而非追求动力性能，这一点尚不是最大缺陷。</FONT></P>
+<P><STRONG><FONT style="FONT-SIZE: 14px">缺点2：电制动性能有限，维持制动系统运行需要消耗不少电能</FONT></STRONG></P>
+<P align=center><A href="http://www.autohome.com.cn/img/?img=2011/6/4/4-10-22-57-360028375.jpg" target=_blank><FONT style="FONT-SIZE: 14px"><IMG style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border=1 alt=汽车之家 src="http://img.autohome.com.cn/2011/6/4/4-10-22-58-771093898.jpg"></FONT></A><BR><FONT style="FONT-SIZE: 14px">商用车车桥的内置缓速器采用涡流制动原理，而轮毂电机的制动也可以利用这一原理</FONT></P>
+<P><FONT style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 现在的传统动力商用车已经有不少装备了利用涡流制动原理（也即电阻制动）的辅助减速设备，比如很多卡车所用的电动缓速器。而由于能源的关系，<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_1255.html?lang=1255 " target=_blank>电动车</a>采用电制动也是首选，不过对于轮毂电机驱动的车辆，由于轮毂电机系统的电制动容量较小，不能满足整车制动性能的要求，都需要附加机械制动系统，但是对于普通电动<a class="ShuKeyWordLink" href="/shuyu/detail_3_4_249.html?lang=249 " target=_blank>乘用车</a>，没有了传统内燃机带动的真空泵，就需要电动真空泵来提供刹车助力，但也就意味了有着更大的能量消耗，即便是再生制动能回收一些能量，如果要确保制动系统的效能，制动系统消耗的能量也是影响<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_1255.html?lang=1255 " target=_blank>电动车</a>续航里程的重要因素之一。</FONT></P>
+<P><FONT style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 此外，轮毂电机工作的环境恶劣，面临水、灰尘等多方面影响，在密封方面也有较高要求，同时在设计上也需要为轮毂电机单独考虑散热问题。</FONT></P>
+<P><STRONG><FONT style="FONT-SIZE: 14px">结语：</FONT></STRONG></P>
+<P><FONT style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 与电动机集中动力驱动相比，轮毂电机技术具备很大的优势，它布局更为灵活，不需要复杂的机械传动系统，同时也有自己的显著不足，比如密封和起步电流/<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>间的平衡关系，以及转向时驱动轮的差速问题等等，如果能在工程上解决这些难题，轮毂电机驱动技术将在未来的新能源车中拥有广阔的前景。</FONT></P><div class="dashed_line"></div>
+                </div>
+                <!--end左侧start右侧-->
+                <div class="conright" id="menuright" style="position: fixed; left: 797px; top: 205px;
+                    _position: absolute; _top: 140px; _left: 603px; z-index: 100; width: 173px;">
+                    <div class="rcont">
+                        <h3 class="conrtit">词条目录</h3><dl class="rsubnav"><dt><a style="cursor:pointer;"  onclick="window.scrollTo(0, 0);"> 轮毂电机技术</a></dt></dl></div>
+                        <div id="cookieLang" class="term_r1">
+                        </div>
+                    </div>
+                </div>
+                <!--end右侧-->
+                <div id="divBottom">
+                    <!--end内容区start最新术语-->
+                    <h2 class="tith2">
+                        <p class="titbor">
+                            <span class="titcon">更多术语</span></p>
+                    </h2>
+                    <ul class="contul">
+                        <li><p class="concimg"><a href="/shuyu/detail_18_21_1073.html"><img src="http://car0.autoimg.cn/shuyu/20130228/120/4984356937546429827.jpg" title="排量(L)" alt="排量(L)" rel="nofollow"/></a></p><p class="c838383">参数注解-发动机</p><p><a href="/shuyu/detail_18_21_1073.html" title="排量(L)">排量(L)</a></p></li><li><p class="concimg"><a href="/shuyu/detail_38_39_903.html"><img src="http://car1.autoimg.cn/shuyu/20120831/120/5253178918524670687.jpg" title="nismo" alt="nismo" rel="nofollow"/></a></p><p class="c838383">汽车改装</p><p><a href="/shuyu/detail_38_39_903.html" title="nismo">nismo</a></p></li><li><p class="concimg"><a href="/shuyu/detail_3_6_403.html"><img src="http://car1.autoimg.cn/shuyu/20120831/120/5631238035103845084.jpg" title="扭力转向" alt="扭力转向" rel="nofollow"/></a></p><p class="c838383">悬架及转向</p><p><a href="/shuyu/detail_3_6_403.html" title="扭力转向">扭力转向</a></p></li><li><p class="concimg"><a href="/shuyu/detail_25_26_495.html"><img src="http://car1.autoimg.cn/shuyu/20120831/120/5451066575623896497.jpg" title="防冻液" alt="防冻液" rel="nofollow"/></a></p><p class="c838383">维修及保养</p><p><a href="/shuyu/detail_25_26_495.html" title="防冻液">防冻液</a></p></li><li><p class="concimg"><a href="/shuyu/detail_18_55_1111.html"><img src="http://car0.autoimg.cn/shuyu/20131204/120/5084615694635161741.jpg" title="无机芯DVD" alt="无机芯DVD" rel="nofollow"/></a></p><p class="c838383">配置详解-多媒体配置</p><p><a href="/shuyu/detail_18_55_1111.html" title="无机芯DVD">无机芯DVD</a></p></li>
+                    </ul>
+                    <!--end最新术语start相关文章-->
+                    <h2 class="tith2"><p class="titbor font12"><span class="titcon">相关文章<span class="font14b">-电动车技术</span></span></p><span class="fr font12 mr10"><a href="http://www.autohome.com.cn/53/0/0/1/conjunction.html"  target="_blank">更多&gt;&gt;</a></span></h2><ul class="contul"><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201400/839024.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2014/9/11/120x90_0_2014091114010651318.jpg" title="教你看懂电动车 电动车基础知识解析" alt="教你看懂电动车 电动车基础知识解析" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201400/839024.html" title="教你看懂电动车 电动车基础知识解析" target="_blank">电动汽车基础知识全攻略</a></p><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201400/771883.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2014/5/9/120x90_0_2014050910311092112.jpg" title="中国特供 评沃尔沃S60L插电混动概念车" alt="中国特供 评沃尔沃S60L插电混动概念车" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201400/771883.html" title="中国特供 评沃尔沃S60L插电混动概念车" target="_blank">解读S60L插电混动概念车</a></p><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201421/715558.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2014/1/31/120x90_0_2014013101400110575.jpg" title="不停车也可熄火 博世推出滑行起停系统" alt="不停车也可熄火 博世推出滑行起停系统" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201421/715558.html" title="不停车也可熄火 博世推出滑行起停系统" target="_blank">博世推出滑行版起停系统</a></p><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201412/695418.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2014/1/7/120x90_0_2014010717240425398.jpg" title="续航力表现究竟如何？体验沃蓝达Volt" alt="续航力表现究竟如何？体验沃蓝达Volt" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201412/695418.html" title="续航力表现究竟如何？体验沃蓝达Volt" target="_blank">技术体验沃蓝达Volt车型</a></p><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201329/615967.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2013/9/10/120x90_0_2013091021440127121.jpg" title="混动凶猛 比亚迪秦技术解析与动力体验" alt="混动凶猛 比亚迪秦技术解析与动力体验" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201329/615967.html" title="混动凶猛 比亚迪秦技术解析与动力体验" target="_blank">比亚迪秦技术解析与体验</a></p></ul><h2 class="tith2"><p class="titbor font12"><span class="titcon">相关文章<span class="font14b">-新鲜技术解读</span></span></p><span class="fr font12 mr10"><a href="http://www.autohome.com.cn/8362/0/0/1/conjunction.html"  target="_blank">更多&gt;&gt;</a></span></h2><ul class="contul"><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201439/842339.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2014/9/18/120x90_0_2014091817122868316.jpg" title="两种选择 别克昂科威ENVISION四驱浅析" alt="两种选择 别克昂科威ENVISION四驱浅析" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201439/842339.html" title="两种选择 别克昂科威ENVISION四驱浅析" target="_blank">昂科威两种四驱系统浅析</a></p><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201437/841606.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2014/9/16/120x90_0_2014091609461755677.jpg" title="新型橡胶材料 用蒲公英制造汽车轮胎" alt="新型橡胶材料 用蒲公英制造汽车轮胎" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201437/841606.html" title="新型橡胶材料 用蒲公英制造汽车轮胎" target="_blank">蒲公英橡胶制造汽车轮胎</a></p><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201400/840974.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2014/9/13/120x90_0_2014091300152082076.jpg" title="2017年上市！ 通用V2V及半自动驾驶技术" alt="2017年上市！ 通用V2V及半自动驾驶技术" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201400/840974.html" title="2017年上市！ 通用V2V及半自动驾驶技术" target="_blank">通用V2V/半自动驾驶技术</a></p><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201407/841133.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2014/9/12/120x90_0_2014091222285722666.jpg" title="未来能否到来？五问高通无线充电技术" alt="未来能否到来？五问高通无线充电技术" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201407/841133.html" title="未来能否到来？五问高通无线充电技术" target="_blank">评高通车用无线充电技术</a></p><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201442/839709.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2014/9/9/120x90_0_2014090911313741611.jpg" title="安全是品牌DNA 沃尔沃最新安全科技集锦" alt="安全是品牌DNA 沃尔沃最新安全科技集锦" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201442/839709.html" title="安全是品牌DNA 沃尔沃最新安全科技集锦" target="_blank">沃尔沃最新安全科技集锦</a></p></ul>
+                    <!--end相关文章-->
+                </div>
+            </div>
+        </div>
+        <!--end右侧主体-->
+    </div>
+    <!--回到顶部-->
+    
+<style type="text/css"> 
+        .gotop02{width:50px; font-size:12px;text-align:center; background-color:#fafbfc; text-decoration:none; position:fixed; _position:absolute; left:987px;bottom:10px;_bottom:auto;z-index:100;}
+        .gotop02 a.gotop02-con{ display:inline-block; width:48px; height:38px; overflow:hidden;position:relative; margin-top:-1px;border:solid 1px #ccd3e4;color:#fff; font-size:12px; text-decoration:none; line-height:18px; float:left;}
+        .gotop02 a.gotop02-con i{ width:16px; height:16px; background:url(http://x.autoimg.cn/car/images/icon-top.png) no-repeat;position:relative; left:0px; top:12px;overflow:hidden;}
+        .gotop02 a.gotop02-con .icon-find{ background-position:-39px 0;}
+        .gotop02 a.gotop02-con .icon-book{ background-position:-19px 0;}
+        .gotop02 a.gotop02-con .icon-top{ background-position:0 0;}
+        .gotop02 a.gotop02-con span{ display:inline-block; width:30px; height:32px;text-align:center; padding: 3px 10px; line-height:16px; position:absolute; left:-1px; top:0;cursor:pointer;}
+        .gotop02 a.gotop02-con:hover{ color:#fff; background-color:#5577bb;border:solid 1px #5577bb;}
+        .gotop02 a.gotop02-con:hover i,.gotop02 a.gotop02-con span{ display:none;background-image:none;}
+        .gotop02 a.gotop02-con:hover span,.gotop02 a.gotop02-con i{ display:inline-block;}        
+</style>
+<div class="gotop02" id="gotop">    
+    
+    <a id="feedback" href="http://www.autohome.com.cn/bug/default.aspx" target="_blank" class="gotop02-con"><i class="icon-book"></i><span>意见反馈</span></a>    
+    <a id="backtop" class="gotop02-con" href="javascript:void(0)"  style="display:none" ><i class="icon-top"></i><span>返回顶部</span></a>
+</div>
+
+<script type="text/javascript">
+    var divShow = document.getElementById('backtop');
+    divShow.onclick = function () {
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+    } 
+    function goTop() {
+        var wtop = document.documentElement.scrollTop || document.body.scrollTop;        
+        var btop = document.getElementById("backtop");
+        var gotop = document.getElementById("gotop");
+        var selectTop;
+        if (document.getElementById('SelectTop')) {
+            selectTop = document.getElementById('SelectTop')
+        }
+        if (!!window.ActiveXObject && !window.XMLHttpRequest) {
+             var   topOffset = 120;
+            gotop.style.position = 'absolute';
+            if (selectTop) {
+                gotop.style.top = (wtop - 8 + parseInt(document.documentElement.clientHeight) - topOffset - 40) + "px";
+            }
+            else {
+                gotop.style.top = (wtop - 8 + parseInt(document.documentElement.clientHeight) - topOffset + 40) + "px";
+            }
+        }
+        if (wtop > 0) {
+            btop.style.display = "";
+            if (selectTop) {
+                selectTop.style.display = "";
+            }
+        } else {
+            btop.style.display = "none";
+            var obj = document.getElementById("divSearchTerm");
+            if (obj) {
+                if (selectTop) {
+                    if (obj.style.display != "none") { selectTop.style.display = "none"; } else { selectTop.style.display = ""; }
+                }
+            }
+        }
+    }
+    window.setInterval("goTop()", 100);
+</script>
+    <!--end回到顶部-->
+</body>
+</html>
+<script type="text/javascript" src="/JavaScript/shuyu/shuyuCookie.js"></script>
+<script type="text/javascript">
+    function addEvent(obj, type, fn) {
+        if (obj.attachEvent) {obj.attachEvent('on' + type, fn);} else {obj.addEventListener(type, fn, false);
+        }
+    }
+
+    (function addFlashAttribute() {
+        if (window.ActiveXObject && navigator.userAgent.toLowerCase().indexOf("msie") > 0) {
+            var flashes = document.getElementsByTagName("embed");
+            for (var i = 0; i < flashes.length; i++) {
+                flashes[i].setAttribute("WMode", "Opaque");
+            }
+            var objs = document.getElementsByTagName("OBJECT");
+            for (var j = 0; j < objs.length; j++) {
+                objs[j].WMode = "Opaque";
+            }
+        }
+    })();
+    function GotoPosition(id) {
+        if (parseInt(id) > 0) {
+            var position = document.getElementById("lg" + id);
+            //var top = window.ActiveXObject && navigator.userAgent.toLowerCase().indexOf("msie") > 0 ? GetElementTop(position)-48:GetElementTop(position)-48;
+            var top = GetElementTop(position) - 48;
+            window.scrollTo(0, top);
+        }
+    }
+    function GetElementTop(element) {
+        var actualTop = element.offsetTop;
+        var current = element.offsetParent;
+        while (current != null) {
+            actualTop += current.offsetTop;
+            current = current.offsetParent;
+        }
+        return actualTop;
+    }
+    var tipHeigh = document.getElementById("menuright").offsetHeight + 154;
+    window.onload = function () {
+        tipHeigh = document.getElementById("menuright").offsetHeight;
+    }
+    window.onscroll = function () {
+        var wtop = document.documentElement.scrollTop;
+        if (wtop == 0) {
+            wtop = document.body.scrollTop;
+        }
+        var $tip = document.getElementById("menuright");
+        var $bottom = document.getElementById("divBottom");
+        if (wtop > 140) {
+            if (wtop > $bottom.offsetTop - tipHeigh - 20) {
+                if (!!window.ActiveXObject && !window.XMLHttpRequest) {//IE6
+                    $tip.style.top = $bottom.offsetTop - tipHeigh - 20 + "px";
+                }
+                else {
+                    $tip.style.position = "absolute";
+                    $tip.style.left = "601px";
+                    $tip.style.top = $bottom.offsetTop - tipHeigh - 20 + "px";
+                }
+            } else {
+                if (!!window.ActiveXObject && !window.XMLHttpRequest) {//IE6
+                    $tip.style.top = wtop + "px";
+                }
+                else {
+                    $tip.style.position = "fixed";
+                    $tip.style.left = "797px";
+                    $tip.style.top = 78 + "px";
+                }
+            }
+        } else {
+            if (!!window.ActiveXObject && !window.XMLHttpRequest) {//IE6
+                document.getElementById("menuright").style.top = "140px";
+            } else {
+                $tip.style.position = "fixed";
+                $tip.style.left = "797px";
+                $tip.style.top = (205 - wtop) + "px";
+            }
+        }
+
+    }
+
+    function getQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+    }
+    addEvent(window, "load", function () {
+        (function toPosition() {
+            var lg = getQueryString("lang");
+            if (typeof (lg) != "undefined" && parseInt(lg) > 0) {
+                GotoPosition(getQueryString("lang"));
+            }
+        })();
+    });
+
+</script>
+<script type="text/javascript">
+    var langId = '769';
+    var langName = '轮毂电机技术';
+    var pid = '13';
+    var cid = '15';
+    setViewed(langId, langName, pid, cid);
+</script>
+<script language="javascript" type="text/javascript">
+    var pvTrack = function () { };
+    pvTrack.site = 2; 
+    pvTrack.category = 216;
+    pvTrack.subcategory = 789;
+    pvTrack.object =769;
+</script>
+<script language=javascript type=text/javascript>
+var url_stats="http://stats.autohome.com.cn/pv_count.php?SiteId=";
+(function (){
+    if (typeof(pvTrack)!=="undefined"){				
+		setTimeout("func_stats()",3000);		
+		var doc = document,t=pvTrack;
+		var pv_site,pv_category ,pv_subcategory,pv_object,pv_series,pv_type,pv_typeid,pv_spec,pv_level,pv_dealer,pv_ref,pv_cur;
+		pv_ref=escape(doc.referrer);pv_cur=escape(doc.URL);
+		pv_site=t.site;pv_category=t.category ;pv_subcategory= t.subcategory;pv_object=t.object;pv_series=t.series;pv_type=t.type;pv_typeid=t.typeid;pv_spec=t.spec;pv_level=t.level;pv_dealer=t.dealer;
+		url_stats+= pv_site+(pv_category != null ? "&CategoryId=" + pv_category : "")+ (pv_subcategory != null ? "&SubCategoryId=" + pv_subcategory : "")+ (pv_object != null ? "&objectid=" + pv_object : "")+ (pv_series != null ? "&seriesid=" + pv_series : "")+ (pv_type != null ? "&type=" + pv_type : "")+ (pv_typeid != null ? "&typeid=" + pv_typeid : "")+ (pv_spec != null ? "&specid=" + pv_spec : "")+ (pv_level != null ? "&jbid=" + pv_level : "")+ (pv_dealer != null ? "&dealerid=" + pv_dealer : "")+ "&ref=" + pv_ref + "&cur=" + pv_cur+"&rnd="+Math.random();
+		var len_url_stats =url_stats.length;
+		}
+})();
+document.write('<iframe id="PageView_stats" src="" style="display:none;"></iframe>');
+function func_stats(){document.getElementById('PageView_stats').src =url_stats;}
+</script>
+<script language="javascript" type="text/javascript" src="http://x.autoimg.cn/pv/js/ga-count.js"></script>

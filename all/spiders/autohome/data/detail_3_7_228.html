@@ -1,0 +1,699 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+    <title>
+        quattro_汽车百科</title>
+    <meta name="Keywords" content="quattro" />
+    <meta name="Description" content="奥迪quattro 提到全时四驱，相信很多人脑海里都会闪现一个词，那就是奥迪的quattro！奥迪是最早将四轮驱动装置运用在拉力赛中并取得巨..." />
+    <meta http-equiv="x-ua-compatible" content="ie=emulateie7" />
+    <link href="/stylecss/frame.css?v=20130911" rel="stylesheet" type="text/css" />
+    <link href="/Style/shuyu/ency.css?v=20131230" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+<script type="text/javascript">
+    function fnH() {
+        var ftree = document.getElementById('frame_tree');
+        var fleft = document.getElementById('frame_left');
+        var windowh = document.documentElement.clientHeight;
+        ftree.style.height = (windowh - 75) + "px";    
+        fleft.style.height = windowh + "px";
+    }
+    if (window.addEventListener) {
+        window.addEventListener("load", fnH, false);
+        window.addEventListener("resize", fnH, false);
+    } else if (window.attachEvent) {
+        window.attachEvent("onload", fnH);
+        window.attachEvent("onresize", fnH);
+    }
+</script>
+<!--头部区域开始-->
+<!--迷你导航开始-->
+<div class="minitop" id="minitop">
+  <div class="mini_main">
+    <div class="mini_left">
+      <ul>
+        <li>
+          <a target="_self" href="http://www.autohome.com.cn/">&lt;&lt; 汽车之家首页</a>
+        </li>
+        <li>
+          <span>|</span>
+        </li>
+        <li id="cslbtt" class="cslbtt"><span>城市：</span><a target="_blank" href="http://www.autohome.com.cn/beijing/">北京</a><a target="_blank" href="http://www.autohome.com.cn/shanghai/">上海</a><a target="_blank" href="http://www.autohome.com.cn/shenzhen/">深圳</a><a target="_blank" href="http://www.autohome.com.cn/guangzhou/">广州</a><a target="_blank" href="http://www.autohome.com.cn/hangzhou/">杭州</a><a target="_blank" href="http://www.autohome.com.cn/nanjing/">南京</a><a target="_blank" href="http://www.autohome.com.cn/AreaList.html">查看所有城市&gt;&gt;</a></li>
+      </ul>
+    </div>
+    <div class="mini_right">
+      <ul class="frs ">
+        <li class="moreli">
+          <div class="moreli_title">
+            <a target="_self" href="javascript:void(0);">
+              <i class="icon-more"></i>
+              <span>更多应用</span>
+              <em></em>
+            </a>
+          </div>
+          <!--更多切换层开始-->
+          <div class="topchadiv topchadiv-dw01">
+            <div class="topchadiv_top">
+              <div class="topchadiv_top_con"></div>
+            </div>
+            <div class="topchadiv_box">
+              <div class="topchadiv_con">
+                <a target="_blank" href="http://www.autohome.com.cn/buycar.html?pvareaid=101806">购车计算器</a>
+                <a target="_blank" href="http://www.autohome.com.cn/channel2/MaintenanceCars/Violation.aspx?pvareaid=101807">违章查询</a>
+                <a target="_blank" href="http://car.autohome.com.cn/zhaoche/jiage/?pvareaid=101808">按价格找车</a>
+                <a target="_blank" href="http://car.autohome.com.cn/zhaoche/pinpai/?pvareaid=101809">按品牌找车</a>
+                <div class="linedc"></div>
+                <a target="_blank" href="http://dealer.autohome.com.cn/Passport/login.aspx?pvareaid=101810">车商汇</a>
+                <a target="_blank" href="http://www.che168.com/?pvareaid=100400">二手车之家</a>
+                <a target="_blank" href="http://www.pcpop.com">泡泡网</a>
+                <a target="_blank" href="http://www.it168.com">IT168</a>
+              </div>
+            </div>
+          </div>
+          <!--更多切换层结束-->
+        </li>
+      </ul>
+      <ul id="clubInfo" class="frs" style="display: none;">
+        <li>
+          <div class="moreli_title"><a target="_blank" href="http://club.autohome.com.cn/?pvareaid=101645"><i class="icon-club"></i><span>进入论坛</span><em></em></a></div>
+          <div class="topchadiv topchadiv-dw02"><div class="topchadiv_top"><div class="topchadiv_top_con"></div></div>
+          <div class="topchadiv_box"><div id="bbsList" class="topchadiv_con">加载中...</div></div></div>
+        </li>
+      </ul>      
+      <ul id="homeInfo" class="frs" style="display: none;">
+        <li>
+          <div class="moreli_title">
+            <a target="_self" href="javascript:void(0);">
+              <span>消息</span>
+              <span class="info" id="InfoId" style="display:none;"></span>
+              <em></em>
+            </a>
+          </div>
+          <!--更多切换层开始-->
+          <div class="topchadiv topchadiv-dw03">
+            <div class="topchadiv_top">
+              <div class="topchadiv_top_con"></div>
+            </div>
+            <div class="topchadiv_box">
+              <div id="dataInfo" class="topchadiv_con">
+              </div>
+            </div>
+          </div>
+          <!--更多切换层结束-->
+        </li>
+      </ul>
+      <ul id="login" class="frs frs-login"><li><div class="moreli_title">您好！请&nbsp;<a target="_self" href="http://account.autohome.com.cn/?backurl=http://www.autohome.com.cn/beijing/">登录</a>&nbsp;或&nbsp;<a target="_self" href="http://account.autohome.com.cn/register?backurl=http://www.autohome.com.cn/beijing/">注册</a></div></li></ul>
+    </div>
+  </div>
+</div>
+<!--迷你导航结束--><script type="text/javascript">   
+    (function(window,undefined){var auto=function(){var document=window.document;var auto=function(selector){return new auto.fn.init(selector)};auto.fn=auto.prototype={elem:null,init:function(selector){this.length=1;this[0]="string"==typeof selector?document.getElementById(selector):selector;this.elem=this[0]}};auto.extend=auto.fn.extend=function(){var target=arguments[0]||{},i=1,length=arguments.length,deep=false,options;if(typeof target==="boolean"){deep=target;target=arguments[1]||{};i=2}if(typeof target!=="object"&&!typeof target==="function")target={};if(length==i){target=this;--i}for(;i<length;i++){if((options=arguments[i])!=null){for(var name in options){var src=target[name],copy=options[name];if(target===copy){continue}if(deep&&copy&&typeof copy==="object"&&!copy.nodeType){target[name]=auto.extend(deep,src||(copy.length!=null?[]:{}),copy)}else{if(copy!==undefined){target[name]=copy}}}}}return target};auto.fn.init.prototype=auto.fn;return auto}();auto.extend({isArray:function(o){return Object.prototype.toString.call(o)=="[object Array]"},isMouseLeaveOrEnter:function(e,handler){if(e.type!=="mouseout"&&e.type!=="mouseover"){return false}var reltg=e.relatedTarget?e.relatedTarget:e.type==="mouseout"?e.toElement:e.fromElement;while(reltg&&reltg!==handler){reltg=reltg.parentNode}return reltg!==handler},ready:function(fn){document.onreadystatechange=function(){if(document.readyState==="complete")fn()}},cookie:{set:function(name,value,option){var str=name+"="+encodeURIComponent(value);if(option){if(option.expireHours){var d=new Date();d.setTime(d.getTime()+option.expireHours*3600*1e3);str+="; expires="+d.toGMTString()}if(option.path)str+="; path="+option.path;else str+="; path=/";if(option.domain)str+="; domain="+option.domain;if(option.secure)str+="; true"}document.cookie=str},get:function(name,defval){var nameEQ=name+"=";var ca=document.cookie.split(";");for(var i=0;i<ca.length;i++){var c=ca[i];while(c.charAt(0)==" ")c=c.substring(1,c.length);if(c.indexOf(nameEQ)==0)return decodeURIComponent(c.substring(nameEQ.length,c.length))}return typeof defval=="undefined"?null:defval},del:function(name){var exp=new Date();exp.setTime(exp.getTime()-1);var cval=this.get(name);if(cval!=null)document.cookie=name+"="+cval+";expires="+exp.toGMTString()}},jsLoad:function(){var scr,fn,args=[],length=arguments.length;if(length==1){target=arguments[0]||{};if(typeof target=="object"){src=target.url;fn=target.fn;args=target.args}}else{src=arguments[0];fn=arguments[1];for(var i=0;i<length-2;i++){args[i]=arguments[i+2]}}s=document.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src",src);s.onload=s.onreadystatechange=function(){if(!s.readyState||s.readyState=="loaded"||s.readyState=="complete"){if(typeof fn=="function")fn.apply(this,args);s.onload=s.onreadystatechange=null;try{s.parentNode&&s.parentNode.removeChild(s)}catch(e){}}};document.getElementsByTagName("head")[0].appendChild(s)},waitTime:function(fn,s){var waitInterval,args=[],length=arguments.length;if(length>2){if(length==3){if(auto.isArray(arguments[2])){args=arguments[2]}}else{for(var i=0;i<length-2;i++){args[i]=arguments[i+2]}}}clearTimeout(waitInterval);waitInterval=window.setTimeout(function(){fn.apply(this,args)},s)},binds:function(target,eventName,handler,args){var eventHandler=handler;if(args){eventHander=function(e){handler.call(args,e)}}if(window.addEventListener){if(eventName.substring(0,2)=="on")eventName=eventName.substring(2,eventName.length);target.addEventListener(eventName,eventHandler,false)}else if(window.attachEvent){if(eventName.substring(0,2)!="on")eventName="on"+eventName;target.attachEvent(eventName,eventHandler)}},mouseHover:function(f,c,s){var fn,args=[],length=arguments.length,fo=auto(f),co=auto(c);if(fo==null||co==null)return;fn=length>3?arguments[3]:function(){};this.binds(fo[0],"onmouseover",function(){fn();s==0?co.show():auto.waitTime(function(){co.show()},s)});this.binds(fo[0],"onmouseout",function(){s==0?co.hide():auto.waitTime(function(){co.hide()},s)})},mouseClick:function(f,c,ch,s){var fn,args=[],length=arguments.length,fo=auto(f),co=auto(c),cho=auto(ch);if(fo==null||co==null||cho==null)return;fn=length>4?arguments[4]:function(){};this.binds(cho[0],"onclick",function(){fn();s==0?co.target():auto.waitTime(function(){co.target()},s)});this.binds(fo[0],"onmouseout",function(evt){if(auto.isMouseLeaveOrEnter(evt,fo[0])){s==0?co.hide():auto.waitTime(function(){co.hide()},s)}})}});auto.fn.extend({show:function(){this.elem.style.display="block"},hide:function(){this.elem.style.display="none"},target:function(){this.elem.style.display==""||this.elem.style.display=="block"?this.hide():this.show()},html:function(val){if(val){this.elem.innerHTML=val}else{return this.elem.innerHTML}},attr:function(name){var val=arguments[1];if(val){this.elem.attributes(name,val)}else{return this.elem.getAttribute(name)}},css:function(val){if(val){this.elem.className=val}else{return this.elem.className}},click:function(fn){this.elem.onclick=function(){fn()}},href:function(url){if(url){this.elem.href=url}else{return this.elem.href}}});auto.extend({home:{waitTime:[0,300,250],homeUrl:"http://www.autohome.com.cn/",clubUrl:"http://club.autohome.com.cn/",clubServUrl:"http://club.service.autohome.com.cn/",newServUrl:"http://news.service.autohome.com.cn/",nowUrl:encodeURIComponent(location.href),ocid:auto.cookie.get("cityId")?parseInt(auto.cookie.get("cityId")):0,ccid:auto.cookie.get("cookieCityId")?parseInt(auto.cookie.get("cookieCityId")):0,areaid:parseInt(auto.cookie.get("area"))?parseInt(auto.cookie.get("area")):0,cid:auto.cookie.get("cookieCityId")==null||auto.cookie.get("cookieCityId")==0?auto.cookie.get("area")?parseInt(auto.cookie.get("area")/100)*100:0:parseInt(auto.cookie.get("cookieCityId")),getUserArea:function(cid){var cityid=cid!=null||cid>0?cid:auto.home.cid;auto.jsLoad(auto.home.homeUrl+"Ashx/AjaxHeadArea.ashx?OperType=GetAreaNavList&VarName=AreaNavList&CityId="+cityid,function(){if(typeof AreaNavList!="undefined"){if(AreaNavList.Status){if(AreaNavList.AreaNavCount>0){var arrAreaNav=AreaNavList.AreaNavList;html="<span>城市：</span>";for(var i=0;i<arrAreaNav.length;i++){html+='<a href="'+auto.home.homeUrl+arrAreaNav[i].PinYin+'/" target="_blank">'+arrAreaNav[i].CityName+"</a>"}html+='<a href="'+auto.home.homeUrl+'AreaList.html" target="_blank">查看所有城市&gt;&gt;</a>';auto("cslbtt").html(html)}}}})},areaCookie:function(){var r=true;if(typeof arguments[0]=="boolean"){r=arguments[0]}expire=arguments[1]?arguments[1]:{expireHours:36e3*24,domain:".autohome.com.cn"};this.set=function(cityName,oldCityId,newCityId){auto.cookie.del("cityId");auto.cookie.del("cookieCityId");auto.cookie.set("cityId",oldCityId,expire);auto.cookie.set("cookieCityId",newCityId,expire);auto("hidcid")[0].value=newCityId;if(r){window.location.reload()}else{changArea(newCityId);auto.home.getUserArea(newCityId);auto("changediv").hide();auto("changediv").html(GetCityHtml(auto("hidcid")[0].value))}}}}});window.auto=auto})(window);Function.prototype.bind=function(bindObj,args){var _self=this;return function(){return _self.apply(bindObj,[].concat(args))}};function readCookie(name,defauleValue){var nameEQ=name+"=";var ca=document.cookie.split(";");for(var i=0;i<ca.length;i++){var c=ca[i];while(c.charAt(0)==" ")c=c.substring(1,c.length);if(c.indexOf(nameEQ)==0)return decodeURIComponent(c.substring(nameEQ.length,c.length))}return typeof defauleValue!="undefined"?defauleValue:null}function AutohomeJsLoad(args){var s=document.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src",args.url);s.onload=s.onreadystatechange=function(){if(!this.readyState||this.readyState=="loaded"||this.readyState=="complete"){if(typeof args.callBack=="function")args.callBack(args.args);s.onload=s.onreadystatechange=null;try{s.parentNode&&s.parentNode.removeChild(s)}catch(e){}}};document.getElementsByTagName("head")[0].appendChild(s)}function GetClubList(data){var html='';if(!data.ReturnCode){if(data.Result.length==0)return;for(var i=0;i<data.Result.length;i++){html+='<a target="_blank" href="'+data.Result[i].ObjUrl+'#pvareaid=101647">'+data.Result[i].ObjTitle+'</a>'}}if(html!=''){auto("bbsList").html(html)}else{auto("bbsList").hide()}};Function.prototype.bind=function(bindObj,args){var _self=this;return function(){return _self.apply(bindObj,[].concat(args))}};function AutoUserFct(){this.init()}AutoUserFct.prototype={sopClubUrl:auto.home.newServUrl+"header/AjaxHeadClub.ashx?OperType=GetClubList&VarName=UserClubList&timestamp="+Math.random(),logUrl:"http://account.autohome.com.cn/?backurl="+auto.home.nowUrl,userUrl:"http://i.autohome.com.cn",regUrl:"http://account.autohome.com.cn/register?backurl="+auto.home.nowUrl,upgradeUrl:"http://account.autohome.com.cn/Upgrade?backurl="+auto.home.nowUrl,isLogIn:false,UC:null,UID:null,UP:null,UN:null,clubUserShow:null,isLoadOver:false,logoffArray:[],loginArray:[],LoginDIV:document.getElementById("login"),isNeedAddCookie:function(){var tempClubUserShow=readCookie("clubUserShow");if(tempClubUserShow==null){return true}else{return false}},isShowUserHeader:function(){var tempClubUserShow=readCookie("clubUserShow");if(tempClubUserShow!=null){this.clubUserShow=tempClubUserShow.split("|");this.UN=this.clubUserShow[3];this.UP=parseInt(this.clubUserShow[2]);this.UID=this.clubUserShow[0];return true}else{return false}},init:function(){this.isLoadOver=false;window.onfocus=openFun;window.onblur=closeFun;if(readCookie("clubUserShow")!=null){this.isLogIn=true;this.showPageHeader();if(this.isNeedAddCookie()){AutohomeJsLoad({url:"http://account.autohome.com.cn/addcookie/CookieRepair",callBack:function(){}.bind(this,[])})}else{}}else{this.showPageHeader()}},getClubList:function(uid){uid=uid?uid:this.UID;if(uid){AutohomeJsLoad({url:'http://ms.i.autohome.com.cn/collection/myclub?callback=GetClubList',callBack:function(){}})}},getCookieClubList:function(){if(readCookie("historybbsName4")!=null){var historybbs=readCookie("historybbsName4");var historystr="";html="";if(historybbs.indexOf(",")>0){historystr=historybbs.split(",");for(var i=historystr.length;i>(historystr.length>7?historystr.length-7:0);i--){html+='<a href="'+auto.home.clubUrl+"bbs/forum-"+historystr[i-1].split("|")[0]+'-1.html?pvareaid=101646" target="_blank">'+historystr[i-1].split("|")[1]+"论坛</a>"}}else{historystr=historybbs.split("|");html+='<a href="'+auto.home.clubUrl+"bbs/forum-"+historystr[0]+'-1.html?pvareaid=101646" target="_blank">'+historystr[1]+"论坛</a>"}auto("bbsList").html(html);auto("clubInfo").show()}else{auto("clubInfo").hide()}},getHomeList:function(){AutohomeJsLoad({url:"http://msg.autohome.com.cn/clubalert?callback=jsonpCallbackInfo&uid="+readCookie("clubUserShow").split("|")[0]+"&timestamp="+Math.random(),callBack:function(){}})},showPageHeader:function(){if(!this.isShowUserHeader()){htmlMain='<li><div class="moreli_title">您好！请&nbsp;<a href="'+this.logUrl+'" target="_self">登录</a>&nbsp;或&nbsp;<a href="'+this.regUrl+'" target="_self">注册</a></div></li>';this.getCookieClubList();auto("homeInfo").hide()}else{htmlMain='<li><div class="moreli_title">您好！<a href="'+this.userUrl+'" class="reda">'+this.UN+'</a>&nbsp;<a href="javascript:AutohomeUserInfo.logoff()" target="_self">退出</a></div></li>';this.getHomeList();this.getClubList();auto("clubInfo").show();auto("homeInfo").show()}this.onlogin();this.LoginDIV.innerHTML=htmlMain},logoff:function(){this.isLogIn=false;this.isLoadOver=false;window.clearInterval(clearIntervar);AutohomeJsLoad({url:"http://account.autohome.com.cn/login/logoutjson?backvar=autologinout&timestamp="+Math.random(),callBack:function(){this.logoffHTML();this.onlogoff();this.getCookieClubList();auto("homeInfo").hide()}.bind(this,[])});AutohomeJsLoad({url:"http://account.che168.com/login/logoutjson?backvar=cheloginout&timestamp="+Math.random(),callBack:function(){}.bind(this,[])})},logoffHTML:function(){this.isLogIn=false;this.isLoadOver=true;this.LoginDIV.innerHTML='<li><div class="moreli_title">您好！请&nbsp;<a href="'+this.logUrl+'" target="_self">登录</a>&nbsp;或&nbsp;<a href="'+this.regUrl+'" target="_self">注册</a></div></li>'},onlogoff:function(){for(var i=0,length=this.logoffArray.length;i<length;i++){if(typeof this.logoffArray[i]=="function")try{this.logoffArray[i]()}catch(err){}}},onlogin:function(){this.isLoadOver=true;for(var i=0,length=this.loginArray.length;i<length;i++){if(typeof this.loginArray[i]=="function")try{this.loginArray[i]()}catch(err){}}},onloginAdd:function(fun){if(typeof fun=="function"&&this.isLoadOver){try{fun()}catch(err){}}this.loginArray.push(fun)},onlogoffAdd:function(fun){if(typeof fun=="function"&&this.isLoadOver){try{fun()}catch(err){}}this.logoffArray.push(fun)}};var AutohomeUserInfo=new AutoUserFct();function jsonpCallbackInfo(data){var html="",temp="";data.NewReply>0?data.NewReply>99?html+='<a href="http://i.autohome.com.cn/receivereply/?pvareaid=101298" target="_blank"><span class="cn">99+条新论坛回复</span><span class="ck">查看论坛回复</span></a>':html+='<a href="http://i.autohome.com.cn/receivereply/?pvareaid=101298" target="_blank"><span class="cn">'+data.NewReply+'条新论坛回复</span><span class="ck">查看论坛回复</span></a>':temp+='<a href="http://i.autohome.com.cn/receivereply/?pvareaid=101606" target="_blank">查看论坛回复</a>';data.commentreply>0?data.commentreply>99?html+='<a href="http://i.autohome.com.cn/inbox/?pvareaid=101482" target="_blank"><span class="cn">99+条新评论回复</span><span class="ck">查看评论回复</span></a>':html+='<a href="http://i.autohome.com.cn/inbox/?pvareaid=101482" target="_blank"><span class="cn">'+data.commentreply+'条新评论回复</span><span class="ck">查看评论回复</span></a>':temp+='<a href="http://i.autohome.com.cn/inbox/?pvareaid=101607" target="_blank">查看评论回复</a>';data.NewComment>0?data.NewComment>99?html+='<a href="http://i.autohome.com.cn/club/record_comment/?pvareaid=101299" target="_blank"><span class="cn">99+条新话说评论</span><span class="ck">查看话说评论</span></a>':html+='<a href="http://i.autohome.com.cn/club/record_comment/?pvareaid=101299" target="_blank"><span class="cn">'+data.NewComment+'条新话说评论</span><span class="ck">查看话说评论</span></a>':temp+='<a href="http://i.autohome.com.cn/club/record_comment/?pvareaid=101608" target="_blank">查看话说评论</a>';data.NewLetter>0?data.NewLetter>99?html+='<a href="http://i.autohome.com.cn/club/message/?pvareaid=101300" target="_blank"><span class="cn">99+条新私信</span><span class="ck">查看私信</span></a>':html+='<a href="http://i.autohome.com.cn/club/message/?pvareaid=101300" target="_blank"><span class="cn">'+data.NewLetter+'条新私信</span><span class="ck">查看私信</span></a>':temp+='<a href="http://i.autohome.com.cn/club/message/?pvareaid=101609" target="_blank">查看私信</a>';data.NewNotice>0?data.NewNotice>99?html+='<a href="http://i.autohome.com.cn/club/notice/?pvareaid=101301" target="_blank"><span class="cn">99+条新通知</span><span class="ck">查看通知</span></a>':html+='<a href="http://i.autohome.com.cn/club/notice/?pvareaid=101301" target="_blank"><span class="cn">'+data.NewNotice+'条新通知</span><span class="ck">查看通知</span></a>':temp+='<a href="http://i.autohome.com.cn/club/notice/?pvareaid=101610" target="_blank">查看通知</a>';data.NewFollowers>0?data.NewFollowers>99?html+='<a href="http://i.autohome.com.cn/club/follower/?pvareaid=101297" target="_blank"><span class="cn">99+个新粉丝</span><span class="ck">查看粉丝</span></a>':html+='<a href="http://i.autohome.com.cn/club/follower/?pvareaid=101297" target="_blank"><span class="cn">'+data.NewFollowers+'个新粉丝</span><span class="ck">查看粉丝</span></a>':temp+='<a href="http://i.autohome.com.cn/club/follower/?pvareaid=101611" target="_blank">查看粉丝</a>';if(data.order!=null){data.order>0?data.order>99?html+='<a href="http://i.autohome.com.cn/club/orderlist/?pvareaid=101548" target="_blank"><span class="cn">99+条新订单</span><span class="ck">查看订单</span></a>':html+='<a href="http://i.autohome.com.cn/orderlist/?pvareaid=101548" target="_blank"><span class="cn">'+data.order+'条新订单</span><span class="ck">查看订单</span></a>':temp+='<a href="http://i.autohome.com.cn/orderlist/?pvareaid=101612" target="_blank">查看订单</a>'}else{temp+='<a href="http://i.autohome.com.cn/orderlist/?pvareaid=101612" target="_blank">查看订单</a>'}var a="";if(html.length>0&&temp.length>0){a=html+'<div class="linedc"></div>'+temp}else if(temp.length==0){a=html}else if(html.length==0){a=temp}auto("dataInfo").html(a);var count=data.NewLetter+data.NewReply+data.NewComment+data.NewNotice+data.NewFollowers+data.commentreply+(data.order==null?0:data.order);if(count>0){if(count>99){auto("InfoId").css("info");document.getElementById("InfoId").innerHTML="99+";auto("InfoId").show()}else{auto("InfoId").css("info");auto("InfoId").html(count);auto("InfoId").show()}}else{auto("InfoId").hide()}}var clearIntervar=null;function openFun(){if(AutohomeUserInfo.isLogIn){AutohomeUserInfo.getHomeList();clearIntervar=setInterval("AutohomeUserInfo.getHomeList()",15e3)}}function closeFun(){if(AutohomeUserInfo.isLogIn){window.clearInterval(clearIntervar)}}auto.home.getUserArea();
+</script>
+<script type="text/javascript">
+    (function(win){var doc=win.document,navSelect=byClass('moreli_title',null,'div'),nodeCache=[],len=navSelect.length,i=len-1;function byClass(name,content,tag){var arr=[],nodes=(content||doc).getElementsByTagName((tag||'*')),len=nodes.length,pattern=new RegExp("(\\s|^)"+name+"($|\\s)"),i=0;for(;i<len;i++)pattern.test(nodes[i].className)&&arr.push(nodes[i]);return arr};function addEvent(elem,type,fn){elem.addEventListener?elem.addEventListener(type,fn,false):elem.attachEvent('on'+type,fn)};function hasClass(elem,name){var className=' '+name+' ';if((' '+elem.className+' ').replace(/[\n\t]/g,' ').indexOf(className)>-1)return true;return false};function addClass(elem,name){!hasClass(elem,name)&&(elem.className+=(elem.className?' ':'')+name)};function removeClass(elem,name){hasClass(elem,name)&&(elem.className=elem.className.replace(name,''))};function getSelect(elem){var o=null,n=elem.nextSibling;while(n){if(n.nodeType===1&&n.className&&n.className.indexOf('topchadiv')!=-1){o=n;break}n=n.nextSibling};return o};for(;i>-1;i--){(function(i){addEvent(navSelect[i],'mouseover',function(){navSelect[i].timer&&clearTimeout(navSelect[i].timer);var s;if(nodeCache[i]){s=nodeCache[i]}else{s=nodeCache[i]=getSelect(navSelect[i]);if(s){addEvent(s,'click',function(e){var target=e.srcElement==null?e.target:e.srcElement;if(target.tagName=="A"||target.parentNode.tagName=="A"){navSelect[i].timer=setTimeout(function(){s&&(s.style.display='none',removeClass(navSelect[i],'moreli_active'))},0)}});addEvent(s,'mouseover',function(){navSelect[i].timer&&clearTimeout(navSelect[i].timer)});addEvent(s,'mouseout',function(){navSelect[i].timer=setTimeout(function(){s&&(s.style.display='none',removeClass(navSelect[i],'moreli_active'))},50)})}}if(s){s.style.display='block';addClass(navSelect[i],'moreli_active')}});addEvent(navSelect[i],'mouseout',function(){var s;if(nodeCache[i])s=nodeCache[i];else s=nodeCache[i]=getSelect(navSelect[i]);navSelect[i].timer=setTimeout(function(){s&&(s.style.display='none',removeClass(navSelect[i],'moreli_active'))},50)})})(i)}})(window);</script><!--顶部开始-->
+<div id="frame_top" class="frame_top">
+   <div class="topline">
+      <div id="logo"><a href="http://www.autohome.com.cn"><img src="http://www.autoimg.cn/car/images/logo.png" /></a></div>
+   </div>
+   <ul>
+      <li class=""><a href="/">报价</a></li>
+	  <li class=""><a href="/pic/">图片</a></li>
+      <li class=""><a href="/baoyang/index.html">保养</a></li>      
+	  <li class=""><a href="/video/index.html">视频</a></li>
+      <li class=""><a id="aChe168Link" href="">二手车</a></li>
+	  <li class="hot"><a href="/shuyu/index.html">百科</a></li>	  
+      <li class="navpos"><a href="/jingxuan/index.html" target="_blank">精图</a></li>
+   </ul>
+   <div class="topline_bottom"></div>
+</div>
+<script type="text/javascript">
+    (function () {
+        if (! -[1, ]) {
+            var b_version = navigator.appVersion;
+            var version = b_version.split(";");
+            var trim_Version = version[1].replace(/[ ]/g, "");
+            if (trim_Version == "MSIE6.0") {
+                window.setInterval(function () {
+                    var wtop = document.documentElement.scrollTop || document.body.scrollTop;
+                    document.getElementById("minitop").style.top = (wtop) + "px";  
+                    document.getElementById("frame_top").style.top = (wtop+28) + "px";  
+                    document.getElementById("frame_left").style.top = (wtop)+"px";
+                }, 20);
+            }
+        }
+    })();
+</script>
+<script type="text/javascript">
+
+    /*取COOKIE*/
+    function che168ReadCookie(name,defaultVal) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
+        }
+        return defaultVal;
+    }
+    /*二手车TAB　Link*/
+    function GetChe168Link() {
+        var url = "/2sc/area/index.html";
+        var areaId=0;
+        if (parseInt(areaId) == 0) {
+            var area = che168ReadCookie("cookieCityId", 0);
+            if (parseInt(area) == 0)
+                area = che168ReadCookie("area", 0);
+            if (parseInt(area) > 0) {
+                url = url.replace("area", area);
+            }
+            else {
+                url = url.replace("area", "1");
+            }
+        }
+        else {
+            url = url.replace("area", areaId);
+        }
+        document.getElementById("aChe168Link").href = url;
+
+    }
+    GetChe168Link();
+</script>
+<!--顶部结束-->
+    
+<div id="frame_left" class="frame_left">
+    <div id="frame_tree" class="frame_tree" style="height: 1500px; margin-top: 73px">
+        <ul>
+            <li id='p76' onclick = "OpenBrand(76)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_76.html" >新能源</a></h3><li id='p8' onclick = "OpenBrand(8)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_8.html" >发动机</a></h3><li id='p1' onclick = "OpenBrand(1)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_1.html" >变速箱</a></h3><li class="openli" id='p3' onclick="setopenclose(this,3);"><h3><em></em><span></span><a  href="/shuyu/list_1_0_3.html" >车身及底盘</a></h3><div class="listtree"  id='s3' style="display:block" ><dl><dt id='4'><a  href="/shuyu/list_1_4_3.html">车身结构</a></dt><dd id='lan251'><a  href="/shuyu/detail_3_4_251.html" >A柱</a></dd><dd id='lan240'><a  href="/shuyu/detail_3_4_240.html" >CDV</a></dd><dd id='lan235'><a  href="/shuyu/detail_3_4_235.html" >Coupe</a></dd><dd id='lan677'><a  href="/shuyu/detail_3_4_677.html" >GOA</a></dd><dd id='lan281'><a  href="/shuyu/detail_3_4_281.html" >车身结构</a></dd><dd id='lan223'><a  href="/shuyu/detail_3_4_223.html" >车体结构</a></dd><dd id='lan249'><a  href="/shuyu/detail_3_4_249.html" >乘用车</a></dd><dd id='lan385'><a  href="/shuyu/detail_3_4_385.html" >防撞梁</a></dd><dd id='lan386'><a  href="/shuyu/detail_3_4_386.html" >风阻系数</a></dd><dd id='lan394'><a  href="/shuyu/detail_3_4_394.html" >概念车</a></dd><dd id='lan389'><a  href="/shuyu/detail_3_4_389.html" >肌肉车</a></dd><dd id='lan480'><a  href="/shuyu/detail_3_4_480.html" >激光焊接车身</a></dd><dd id='lan474'><a  href="/shuyu/detail_3_4_474.html" >金属漆</a></dd><dd id='lan393'><a  href="/shuyu/detail_3_4_393.html" >空腔注蜡</a></dd><dd id='lan238'><a  href="/shuyu/detail_3_4_238.html" >跨界车</a></dd><dd id='lan131'><a  href="/shuyu/detail_3_4_131.html" >轮距</a></dd><dd id='lan387'><a  href="/shuyu/detail_3_4_387.html" >鸥翼门</a></dd><dd id='lan832'><a  href="/shuyu/detail_3_4_832.html" >碰撞缓冲区</a></dd><dd id='lan391'><a  href="/shuyu/detail_3_4_391.html" >小钢炮</a></dd><dd id='lan132'><a  href="/shuyu/detail_3_4_132.html" >轴距</a></dd><dd id='lan475'><a  href="/shuyu/detail_3_4_475.html" >珠光漆</a></dd><dt id='5'><a  href="/shuyu/list_1_5_3.html">底盘结构</a></dt><dd id='lan174'><a  href="/shuyu/detail_3_5_174.html" >半轴</a></dd><dd id='lan231'><a  href="/shuyu/detail_3_5_231.html" >差速器</a></dd><dd id='lan397'><a  href="/shuyu/detail_3_5_397.html" >传动轴</a></dd><dd id='lan775'><a  href="/shuyu/detail_3_5_775.html" >发动机护板</a></dd><dd id='lan208'><a  href="/shuyu/detail_3_5_208.html" >副车架</a></dd><dd id='lan657'><a  href="/shuyu/detail_3_5_657.html" >簧下质量</a></dd><dd id='lan398'><a  href="/shuyu/detail_3_5_398.html" >万向节</a></dd><dd id='lan396'><a  href="/shuyu/detail_3_5_396.html" >主减速器</a></dd><dt id='6'><a  href="/shuyu/list_1_6_3.html">悬架及转向</a></dt><dd id='lan765'><a  href="/shuyu/detail_3_6_765.html" >CDC</a></dd><dd id='lan843'><a  href="/shuyu/detail_3_6_843.html" >HBMC</a></dd><dd id='lan779'><a  href="/shuyu/detail_3_6_779.html" >弹簧</a></dd><dd id='lan57'><a  href="/shuyu/detail_3_6_57.html" >多连杆</a></dd><dd id='lan164'><a  href="/shuyu/detail_3_6_164.html" >钢板弹簧</a></dd><dd id='lan401'><a  href="/shuyu/detail_3_6_401.html" >横向稳定杆</a></dd><dd id='lan660'><a  href="/shuyu/detail_3_6_660.html" >后轮转向</a></dd><dd id='lan199'><a  href="/shuyu/detail_3_6_199.html" >减振器</a></dd><dd id='lan409'><a  href="/shuyu/detail_3_6_409.html" >可变转向比</a></dd><dd id='lan61'><a  href="/shuyu/detail_3_6_61.html" >麦弗逊</a></dd><dd id='lan738'><a  href="/shuyu/detail_3_6_738.html" >敏捷操控系统</a></dd><dd id='lan403'><a  href="/shuyu/detail_3_6_403.html" >扭力转向</a></dd><dd id='lan58'><a  href="/shuyu/detail_3_6_58.html" >双叉臂</a></dd><dd id='lan145'><a  href="/shuyu/detail_3_6_145.html" >双横臂</a></dd><dd id='lan46'><a  href="/shuyu/detail_3_6_46.html" >拖曳臂</a></dd><dd id='lan402'><a  href="/shuyu/detail_3_6_402.html" >外倾角</a></dd><dd id='lan59'><a  href="/shuyu/detail_3_6_59.html" >悬架</a></dd><dd id='lan405'><a  href="/shuyu/detail_3_6_405.html" >整体桥</a></dd><dd id='lan404'><a  href="/shuyu/detail_3_6_404.html" >整体主动转向</a></dd><dd id='lan408'><a  href="/shuyu/detail_3_6_408.html" >助力转向</a></dd><dt id='7'><a  href="/shuyu/list_1_7_3.html">四驱结构</a></dt><dd id='lan419'><a  href="/shuyu/detail_3_7_419.html" >4MATIC</a></dd><dd id='lan784'><a  href="/shuyu/detail_3_7_784.html" >4MOTION</a></dd><dd id='lan136'><a  href="/shuyu/detail_3_7_136.html" >4WD</a></dd><dd id='lan679'><a  href="/shuyu/detail_3_7_679.html" >Dual Pump System REAL TIME 4WD</a></dd><dd id='lan895'><a  href="/shuyu/detail_3_7_895.html" >i-AWD</a></dd><dd id='lan228'><a style="color: #000000; font-weight: bold;"  href="/shuyu/detail_3_7_228.html" >quattro</a></dd><dd id='lan186'><a  href="/shuyu/detail_3_7_186.html" >SH-AWD</a></dd><dd id='lan893'><a  href="/shuyu/detail_3_7_893.html" >TOD四驱系统</a></dd><dd id='lan187'><a  href="/shuyu/detail_3_7_187.html" >xDrive</a></dd><dd id='lan234'><a  href="/shuyu/detail_3_7_234.html" >差速锁</a></dd><dd id='lan896'><a  href="/shuyu/detail_3_7_896.html" >超选四驱</a></dd><dd id='lan307'><a  href="/shuyu/detail_3_7_307.html" >分动箱</a></dd><dd id='lan835'><a  href="/shuyu/detail_3_7_835.html" >吉普Jeep四驱技术</a></dd><dd id='lan412'><a  href="/shuyu/detail_3_7_412.html" >四驱形式</a></dd><dd id='lan415'><a  href="/shuyu/detail_3_7_415.html" >中央差速器</a></dd></dl><li id='p13' onclick = "OpenBrand(13)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_13.html" >车轮制动</a></h3><li id='p16' onclick = "OpenBrand(16)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_16.html" >安全辅助类</a></h3><li id='p11' onclick = "OpenBrand(11)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_11.html" >配置及多媒体</a></h3><li id='p18' onclick = "OpenBrand(18)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_18.html" >参数配置详解</a></h3><li id='p32' onclick = "OpenBrand(32)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_32.html" >汽车赛事</a></h3><li id='p38' onclick = "OpenBrand(38)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_38.html" >汽车改装</a></h3><li id='p25' onclick = "OpenBrand(25)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_25.html" >维修及保养</a></h3><li id='p60' onclick = "OpenBrand(60)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_60.html" >汽车美容装饰</a></h3><li id='p27' onclick = "OpenBrand(27)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_27.html" >相关人物</a></h3><li id='p29' onclick = "OpenBrand(29)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_29.html" >厂商信息</a></h3><li id='p36' onclick = "OpenBrand(36)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_36.html" >车展信息</a></h3><li id='p57' onclick = "OpenBrand(57)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_57.html" >汽车品牌</a></h3><li id='p40' onclick = "OpenBrand(40)"><h3><em></em><span></span><a  href="/shuyu/list_1_0_40.html" >专业名词</a></h3>
+        </ul>
+        <div id="carBottom" style="height: 775px;">
+        </div>
+    </div>
+</div>
+<script language="javascript" type="text/javascript">
+
+    Function.prototype.bind = function (bindObj, args) { var _self = this; return function () { return _self.apply(bindObj, [].concat(args)); }; };
+    function h3MouseEvent(){
+        function h3MouseOver(){
+            this.style.backgroundColor="#d9e6f6";
+            this.getElementsByTagName("a")[0].style.color="#d60000";
+        }
+        function h3MouseOut(){
+            this.style.backgroundColor="";
+            this.getElementsByTagName("a")[0].style.color="";
+        }
+        var list=document.getElementById("frame_tree").getElementsByTagName("li");
+        for(var i=0;i<list.length;i++){
+            if(list[i].className==""){
+                var objh3=list[i].getElementsByTagName("h3")[0];
+                if(objh3)
+                {
+                    if (window.addEventListener) {
+                        objh3.addEventListener("mouseover", h3MouseOver.bind(objh3,[objh3]), false);
+                        objh3.addEventListener("mouseout", h3MouseOut.bind(objh3,[objh3]), false);
+                    } else if (window.attachEvent) {
+                        objh3.attachEvent("onmouseover", h3MouseOver.bind(objh3,[objh3]));
+                        objh3.attachEvent("onmouseout", h3MouseOut.bind(objh3,[objh3]));
+                    }
+                }
+            }
+        }
+    }
+    h3MouseEvent();
+
+
+            var hashId = parseInt(56)
+            if(hashId != 0){
+                if (document.getElementById('p' + 3) != null) {
+                setTimeout(function () {document.getElementById('frame_tree').scrollTop = parseInt(hashId * 24) ; }, 1)
+                }
+            }
+            function OpenBrand(pid)
+            {
+                window.location ="/shuyu/list_1_0_" + pid + ".html";
+            }
+
+            function setopenclose(vxc, vcrt) {
+                var bId = document.getElementById('p' + vcrt);
+                var bl = document.getElementById('s' + vcrt);
+                if (bl.style.display == 'none' || bl.style.display == '') {
+                    bl.style.display = 'block';
+                    bId.className="openli";
+                }
+                else {
+                    bl.style.display = 'none';
+                    bId.className="";
+                }
+            }
+
+            function fnHCarBottom() {
+                var o = document.getElementById('frame_tree');
+                var h = document.documentElement.clientHeight;
+                o.style.height = (h - 70) + 'px';
+                document.getElementById('carBottom').style.height = (h - 74) + 'px';
+            }
+            function winResize() {
+                fnHCarBottom();
+            }
+            var appName = navigator.appName.toLowerCase();
+            if (appName != 'netscape') {
+                fnHCarBottom();
+                if (window.frameElement != null) {
+                    window.frameElement.attachEvent("onresize", winResize);
+                }
+                else {
+                    window.attachEvent("onresize", winResize);
+                }
+            }
+            else{
+                fnHCarBottom();
+                if (window.frameElement != null) {
+                    window.frameElement.addEventListener("resize", winResize, false);
+                }
+                else {
+                    window.addEventListener("resize", winResize, false);
+                }
+            }
+            fnH();
+</script>
+
+    <!--右侧内容开始-->
+    <div class="frame_right">
+        <!--start右侧主体-->
+        <div id="container">
+            <!--start搜索-->
+            
+<div class="overflow">
+    <form id="souform" method="get" action="/shuyu/search/">
+    <div class="search fl">
+        <p class="fl">
+            <input type="text" class="searchinp" name="txtsearch" id="txtsearch" autocomplete="off" value="" />
+        </p>
+        <p class="fl"><a href="javascript:void(0)"  onclick="onSearch();"  class="btn-seach" >搜索</a></p>
+    </div>
+    <div class="hotcs fl">
+        <span>热词：</span><a href="http://car.autohome.com.cn/shuyu/detail_1_2_141.html">DSG</a><a href="http://car.autohome.com.cn/shuyu/detail_8_10_103.html">缸内直喷</a><a href="http://car.autohome.com.cn/shuyu/detail_60_61_849.html">底盘装甲</a><a href="http://car.autohome.com.cn/shuyu/detail_3_6_61.html">麦弗逊</a><a href="http://www.autohome.com.cn/chezhan/beijing/">北京车展</a>
+      </div>
+    </form>
+     <div class="slt_lxc" id="autocomplateTip" style="display: none">
+    </div>
+    <script type="text/javascript" language="javascript">
+        function onSearch() {
+            var val = document.getElementById("souform").getElementsByTagName("input")[0].value;
+            val = val.replace(/(^\s*)(\s*$)/g, "");
+            val = val.replace(/(<|>)/g, "");
+            if (val != "") {
+                document.getElementById("souform").getElementsByTagName("input")[0].value = val;
+                setTimeout(function(){ document.getElementById("souform").submit()},0);
+            }
+        }
+        function acOnFocus() {
+            var script = document.createElement("script");
+            script.src = "/JavaScript/shuyu/autocomplate_shuyu.js?v=3";
+            script.onreadystatechange = script.onload = function () {
+                if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+                    if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")
+                        Sou.Autocomplate.AddAutocomplate(document.getElementById("souform").getElementsByTagName("input")[0]);
+                }
+            }
+            document.getElementsByTagName("head")[0].appendChild(script);
+            document.getElementById("souform").getElementsByTagName("input")[0].onfocus = "";
+        }
+        document.getElementById("souform").getElementsByTagName("input")[0].onfocus = acOnFocus;
+    </script>
+</div>
+
+            <!--end搜索 start顶部-->
+            <!-- 导航开始 -->
+            
+<div class="subnav overflow">
+    <ul class="fl subnavul">
+        <li><a href="http://www.autohome.com.cn" target="_blank">汽车之家</a>&nbsp;&gt;&nbsp;<a href="http://car.autohome.com.cn/shuyu/index.html">汽车百科</a>&nbsp;&gt;&nbsp;
+        
+                <a href="/shuyu/list_1_0_3.html">车身及底盘</a>&nbsp;&gt;&nbsp;
+            
+                <a href="/shuyu/list_1_7_3.html">四驱结构</a>&nbsp;&gt;&nbsp;
+            
+                
+            
+                quattro
+            </li>
+    </ul>
+</div>
+
+
+            <!-- 导航结束 -->
+            <!--end当前位置导航start标题-->
+            <h1 class="contith1">
+                <span id="lblName"><a id="lg228" name="lg228"></a>quattro</span></h1>
+            <!--end标题start内容区-->
+            <div class="conmain clearfix endcon" id="termbox">
+                <!--start左侧-->
+                <div class="conleft">
+                    <p style="text-align: center;"><strong><font style="FONT-SIZE: 14px">奥迪quattro</font></strong></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 提到<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_147.html?lang=147 " target=_blank>全时四驱</a>，相信很多人脑海里都会闪现一个词，那就是奥迪的quattro！奥迪是最早将四轮驱动装置运用在拉力赛中并取得巨大成功的车厂。那么究竟什么是quattro？</font></p>
+<p align="center"><font style="FONT-SIZE: 14px"></font></p>
+<p align="center"><font style="FONT-SIZE: 14px"><a href="http://car.autohome.com.cn/photo/8560/12/1009476.html" target="_blank"><img style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none" src="http://www.autoimg.cn/upload/spec/8560/w_20110221163919945240.jpg"></a></font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; quattro一词在意大利语中就是“四”的意思，而对于奥迪来说quattro还有其他含义。1980年奥迪公司研发了quattro四轮驱动系统，并把它装备在一辆基于奥迪80底盘的双门轿车上，这辆轿车的名字也叫Quattro。另外奥迪旗下还有一家名叫quattro的子公司，专门实验和研发高性能车型。因此，quattro既代表着奥迪四驱技术，又代表一种车型，还是一家公司的名字。</font></p>
+<p align="center"><font style="FONT-SIZE: 14px"><img src="http://img.autohome.com.cn/2009/4/13/13-9-50-16-816828733.jpg"></font></p>
+<p align="center"><font style="FONT-SIZE: 14px">『<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>结构图』</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 提到了quattro，很多人又会紧接着联想到另外一个词那就是Torsen<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>，在这里我们翻译成<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>。<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>是一个<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>感应式<a class="ShuKeyWordLink" href="/shuyu/detail_38_39_146.html?lang=146 " target=_blank>限滑差速器</a>，在quattro系统中，它作为中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>安装在变速箱的输出端，动力从变速箱出来后会先经过<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>，之后再分配到前后桥。多数带有quattro标志的奥迪车都装备了<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>，对于这些车来说，<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>是实现全时四轮驱动的核心部件。</font></p>
+<p><font style="FONT-SIZE: 14px"></font></p><font style="FONT-SIZE: 14px">
+<hr>
+</font>
+<p></p>
+<p><font style="FONT-SIZE: 14px">关于<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>的作用原理，我再次引用百度百科里的解释：</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; Torsen这个名字的由来取Torque-sensing Traction――感觉<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>牵引，Torsen的核心是蜗轮、蜗杆齿轮啮合系统，从Torsen<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>的结构视图中可以看到双蜗轮、蜗杆结构，正是它们的相互啮合互锁以及<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>单向地从蜗轮传送到蜗杆齿轮的构造实现了<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>锁止功能，这一特性限制了滑动。在在弯道正常行驶时，前、后<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>的作用是传统<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>，蜗杆齿轮不影响<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_174.html?lang=174 " target=_blank>半轴</a>输出速度的不同，如车向左转时，右侧车轮比<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>快，而左侧速度低，左右速度不同的蜗轮能够严密地匹配同步啮合齿轮。此时蜗轮蜗杆并没有锁止，因为<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>是从蜗轮到蜗杆齿轮。而当一侧车轮打滑时，蜗轮蜗杆组件发挥作用，通过<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>或液压式多盘<a class="ShuKeyWordLink" href="/shuyu/detail_1_2_764.html?lang=764 " target=_blank>离合器</a>，极为迅速地自动调整动力分配。</font></p>
+<p><font style="FONT-SIZE: 14px"></font></p><font style="FONT-SIZE: 14px">
+<hr>
+</font>
+<p></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 从这段文字中我们可以发现，<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>是一套纯机械式的装置，其中没有任何电子设备介入，驾驶员也不能手动设定。这就意味着该装置有很高的可靠性和灵敏度，因此这套系统可以被装在拉力赛车等高性能车上，在复杂路况下提供无与伦比的抓地力。在奥迪产品序列里，装备quattro系统的车往往就意味着高性能！</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 不过由于在国内的普及度不高，人们对这套系统缺乏了解，而许多零零散散的介绍又不是很详细，渐渐的使人们对quattro产生了很多误解，误解主要集中在以下三点：<strong>quattro全时四轮驱动系统是一套纯机械的四驱系统；该系统可以保证即使三个车轮全部失去抓地也会将100%的动力传递到没有失去抓地的车轮上；Torsen<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>是quattro系统的核心，而像奥迪TT和A3这种<a class="ShuKeyWordLink" href="/shuyu/detail_8_9_555.html?lang=555 " target=_blank>发动机</a>横置的、没有装备<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>的车虽然名字里有quattro但实际上不是真正的quattro！</strong></font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 要解答前两个问题，我们还是要从quattro的结构说起。目前我们通常意义上讲的奥迪quattro四驱系统所使用的中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>是一个<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>，然而我们总是在感叹<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>带给车辆的高性能，却忽略了这是一个系统，仅靠这一个<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>是不可能实现完美操控的。之前已经说过，要实现全时四轮驱动必须有三个<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>，作为中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>的<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>可以分配通往前后轴的<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>，可是<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>到了前后轴之后还要通过<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>分配到左右车轮。</font></p>
+<p align="center"><font style="FONT-SIZE: 14px"></font></p>
+<p align="center"><font style="FONT-SIZE: 14px"><a href="http://car.autohome.com.cn/photo/5890/1/250500.html" target="_blank"><img style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none" src="http://www.autoimg.cn/upload/spec/4639/w_4639913854909.jpg"></a></font></p>
+<p align="center"><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 『奥迪A4L 3.2 quattro』</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 其实多数装备奥迪quattro系统的车（除了高性能RS和R8等）在前后轴只上只配备了普通的开放式<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>，与普通家用两驱车<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>的构造没什么区别，根本不具备限滑功能。这就产生了一个问题：假如车辆一侧的两个车轮全部因为陷入泥地而失去抓地，即使有<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>分配前后<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>，两个普通开放式<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>仍然会将动力传递到打滑的车轮。如果没有电子系统的辅助，岂不是奥迪四驱轿车就得抛锚？</font></p>
+<p align="center"><font style="FONT-SIZE: 14px"><img src="http://img.autohome.com.cn/2009/4/13/13-9-50-15-161463378.jpg"></font></p>
+<p align="center"><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 『奥迪A8四驱系统结构图』</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 奥迪当然不会允许如此尴尬的事情发生！为此，工程师们在quattro系统内集成了EDL，EDL的全称是Electronic Differential Lock，翻译成中文应该叫电子<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_234.html?lang=234 " target=_blank>差速锁</a>。这一装置会监测四个车轮的转速，当某个车轮因失去抓地而空转时，EDL便会通过<a class="ShuKeyWordLink" href="/shuyu/detail_16_44_110.html?lang=110 " target=_blank>ABS</a>给空转的车轮单独施加制动力，使得<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>通过开放式<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>传递到另一侧不打滑的车轮。</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 由于前后轴的两个<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>都是普通<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>，因而想把动力100%传递到某个不打滑的车轮几乎是不可能的。首先<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>本身能达到的<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>分配比例就有限，目前市面上的多数奥迪四驱车的<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>的<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>分配比例只能达到2:1，也就是说顶多有三分之二的<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>能被分配到一端。不过在中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>和电子<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_234.html?lang=234 " target=_blank>差速锁</a>的相互配合下使得奥迪车即使仅有一个车轮有抓地力时也能够行进，只是此时动力相对较弱罢了。</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 要实现<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_147.html?lang=147 " target=_blank>全时四驱</a>，需要Torsen<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>和EDL、<a class="ShuKeyWordLink" href="/shuyu/detail_16_44_110.html?lang=110 " target=_blank>ABS</a>、<a class="ShuKeyWordLink" href="/shuyu/detail_16_44_109.html?lang=109 " target=_blank>ESP</a>等电子系统相互配合才能完成，所以说Torsen<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>是纯机械的，但奥迪quattro四驱系统不是纯机械的。</font></p>
+<p align="center"><font style="FONT-SIZE: 14px"></font></p>
+<p align="center"><font style="FONT-SIZE: 14px"><a href="http://car.autohome.com.cn/photo/7834/1/940352.html" target="_blank"><img style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none" src="http://www.autoimg.cn/upload/spec/7834/w_20101202170030843240.jpg"></a></font></p>
+<p align="center"><font style="FONT-SIZE: 14px">『奥迪TT』</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 这是在很多车迷中流传的一种说法：像奥迪TT和A3这种<a class="ShuKeyWordLink" href="/shuyu/detail_8_9_555.html?lang=555 " target=_blank>发动机</a>横置的、没有装备<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>的车虽然名字里有quattro但实际上不是真正的quattro。会产生这样的想法很正常，quattro和Torsen这两个词通常是捆绑在一起出现的，而在奥迪TT和A3上这两个词没有一起出现，难免会让很多人产生怀疑。</font></p>
+<p align="center"><font style="FONT-SIZE: 14px"></font></p>
+<p align="center"><font style="FONT-SIZE: 14px"><a href="http://car.autohome.com.cn/shuyu/showimg.aspx?img=http://www.autoimg.cn/shuyu/20110729/original/5257922178272689707.jpg" target="_blank"><img style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none" src="http://www.autoimg.cn/shuyu/20110729/500/5257922178272689707.jpg"></a></font></p>
+<p align="center"><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 『1980年<a class="ShuKeyWordLink" href="/shuyu/detail_36_37_537.html?lang=537 " target=_blank>日内瓦车展</a>亮相的Quattro』</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 要说清楚这个问题，我们还要往回翻，刚才已经提到了奥迪quattro既代表着奥迪四驱技术，又代表一种车型，还是一家公司的名字。按照时间先后排列是先研发出的quattro四轮驱动技术，之后是在1980年在<a class="ShuKeyWordLink" href="/shuyu/detail_36_37_537.html?lang=537 " target=_blank>日内瓦车展</a>正式亮相的Quattro，再往后的1983年，名为quattro的奥迪高性能部门成立。而Torsen<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>直到1987年才被运用到奥迪的quattro四驱系统中。也就是说在1987年之前的奥迪quattro系统是不包括<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>的。</font></p>
+<p align="center"><font style="FONT-SIZE: 14px"><img src="http://img.autohome.com.cn/2009/4/13/13-9-50-18-551832858.jpg">『奥迪Quattro赛车』</font></p><p align="center"></p><p align="center"></p>
+<p><span style="font-size: 14px; ">&nbsp; &nbsp; 另一方面，为庆祝quattro技术诞生25周年，奥迪公司于2005年举行了一系列的庆祝活动，说明奥迪官方承认的quattro技术诞生时间是1980年而不是1987年。如果说只有装备托森差速器的奥迪四驱系统才能叫quattro的话，早期的奥迪quattro系统和Quattro汽车以及奥迪宣称的“25周年”岂不是成了大笑话？</span></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 因此我们可以这样理解：quattro是奥迪四轮驱动系统的总称，所有奥迪生产的装备四轮驱动系统的车都可以加上“quattro”后缀。这就好像大众辉腾的四驱系统实际上完全移植了奥迪quattro，但在大众品牌下依然要叫“<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_784.html?lang=784 " target=_blank>4MOTION</a>”。如果从机械原理角度讲，奥迪TT和A3上的四驱系统确实没有装备<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>，而是采用大众<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_784.html?lang=784 " target=_blank>4MOTION</a>的结构。因此说奥迪TT和A3不是quattro这种说法不正确，但从结构原理上讲也有一定道理。</font></p>
+<p><font style="FONT-SIZE: 14px"><strong>进化史</strong></font></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110719042423549.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110719042423549.jpg"></font></a></p>
+<p><font style="FONT-SIZE: 14px">●&nbsp; <strong>quattro的诞生――理念源于大众Iltis越野车</strong></font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 故事发生在芬兰位于北极圈内的一片森林中，时逢2月天寒地冻。奥迪预备测试部主管驾驶着75马力的大众Iltis越野车跟随在一支以奥迪100为基础研发的拥有200马力前驱车队伍的后面。由于悬殊的动力差距，在直道行驶时他总被队伍落在后面，而到了弯道则情况相反。他发现了这一点，思考后断定原因在于大众Iltis越野车采用了四驱系统，并与底盘研发部门主管达成共识：将大众Iltis越野车的四驱系统移植到奥迪轿车上。这一年是1977年。</font></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/5/art_2012110518042023122.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/5/artb_2012110518042023122.jpg"></font></a></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 测试归来，他们向奥迪技术研发主管、著名的费迪南德&#8226;皮耶希建议将Iltis越野车的四驱系统移植到空间和技术基础都比较好的纵置前驱车型奥迪80上。经过反复的思考，皮耶希批准了这一计划并要求秘密进行。6个月后，奥迪四驱系统项目获得了正式批准，研发项目号为EA262，此时的项目内容已经在稳步进行中了。</font></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110720064264166.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110720064264166.jpg"></font></a><a href="http://www.autohome.com.cn/img/?img=2012/11/5/art_2012110518133123979.jpg" target="_blank"></a></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 转过年的1月，山区被大雪覆盖，对于首次向大众销售主管展示四驱原型车的奥迪试车小组来说条件非常理想。当这辆仍然配备夏季胎的奥迪A1（即：全轮驱动1）轻松超越绑着防滑链的其他汽车时出乎了所有人的意料。&nbsp;</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 当然，奥迪四驱轿车的传动系统还有一个棘手的技术问题需要解决：采用传统的前后轴固定连接结构让汽车在转弯时后轮出现滑动。标准的解决方案是采用笨重且昂贵的独立动力分配器，而奥迪变速器系统设计师弗兰茨&#8226;滕格勒则找到了更理想的解决方案：<strong>采用空心轴将动力传输至中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>，通过万向轴将动力传至后轮，而空心轴再负责将动力引向前轮，这就是第一代quattro。</strong></font></p>
+<p align="center"><strong><a href="http://www.autohome.com.cn/img/?img=2012/11/5/art_2012110518265376963.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/5/artb_2012110518265376963.jpg"></font></a></strong></p>
+<p align="center"><font style="FONT-SIZE: 14px">『壁虎象征了quattro强大的抓地力』</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; quattro一词在意大利语中就是“四”的意思，而对于奥迪来说quattro还有其他含义。1980年奥迪公司研发了quattro四轮驱动系统，并把它装备在一辆基于奥迪80底盘的双门轿车上，这辆轿车的名字也叫Quattro（关于车型首字母大小写的问题，奥迪官方资料中并未有明确说明，且大小写同时存在，为了使网友在阅读中便于区分，下文中提到车型时统一为Quattro）。另外奥迪后来成立了一家名叫quattro的子公司，专门实验和研发高性能车型。</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 到1983年，奥迪的赛车部门quattro有限公司成立。公司的名字是为了向当时在奥迪Quattro车型基础上打造的拉力赛车表示致敬，并特意将首写字母改为小写“q”。这个公司起初主要负责高性能私人定制与配件的研发，现在的主要业务是为奥迪打造高性能的车型和配件，以及为客户定制车型，目前奥迪quattro所生产的产品主要包括了奥迪S line套件、奥迪S系列和奥迪RS系列，当然奥迪最高性能的R8也是由奥迪quattro公司完成。</font></p>
+<p><font style="FONT-SIZE: 14px">●&nbsp; <strong>推广之路――赛场上的“常胜将军”</strong></font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 进行一场革命往往是很困难的，历史的经验告诉我们：人们用了半个世纪的时间才真正接受了柴油<a class="ShuKeyWordLink" href="/shuyu/detail_8_9_555.html?lang=555 " target=_blank>发动机</a>。然而，对于实现将四轮驱动技术应用于轿车的愿望，奥迪并不愿等上50年。奥迪的研发主管费迪南德&#8226;皮耶希选择了另一种方式来实现目标：让配备quattro四轮驱动技术的奥迪赛车参加世界上最具挑战的汽车赛事，通过比赛中各种极端的路况向人们证明奥迪四驱技术。</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 奥迪四驱赛车Quattro之所以能通过国际汽联的审核有一个重要原因，那就是福特、蓝旗亚、雷诺等奥迪的竞争对手并未对此提出异议，他们自认为自己拥有成熟的后驱技术高高在上，并没有把德国人折腾出来的“四驱怪物”放在眼里。</font></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110715234278980.jpg" target="_blank"><font style="FONT-SIZE: 14px"></font></a></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110719275023273.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110719275023273.jpg"></font></a></p><a href="http://www.autohome.com.cn/img/?img=2012/11/5/art_2012110518352535490.jpg" target="_blank"></a>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 奥迪在经过了赛事初期油箱污物、车顶起火、电气设备故障等小挫折后，终于在1982年获得了7次赛段冠军和车队总冠军，然而此时的Quattro赛车<a class="ShuKeyWordLink" href="/shuyu/detail_3_4_132.html?lang=132 " target=_blank>轴距</a>长，车重大、350马力<a class="ShuKeyWordLink" href="/shuyu/detail_8_9_555.html?lang=555 " target=_blank>发动机</a>在调校方面还值得推敲，离完美相差甚远。隔年，奥迪推出了“瘦身”100千克、动力提升30马力的Quattro A2赛车，独揽瑞典、葡萄牙、阿根廷和芬兰等分站冠军；1984年更是包揽了车队总冠军、1985年赢得了美国科罗拉多具有传奇色彩的派克峰登山赛、1986年又刷新了登山赛记录、1987年上演帽子戏法再次刷新登山赛记录。此时奥迪quattro四驱技术在拉力赛赛场上已经声名鹊起。</font></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110719293717091.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110719293717091.jpg"></font></a><a href="http://www.autohome.com.cn/img/?img=2012/11/5/art_2012110518391004209.jpg" target="_blank"></a></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 1988年奥迪将重心转移到了泛美房车系列赛，美国观众起初认为奥迪很难在房车赛场上有所作为，但随后Audi 200 TransAm首次参赛就获得冠军。一年之后，奥迪90 Quattro IMSA GTO赛车凭借13战7胜的战绩让四驱系统在场地赛中称王。</font></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/5/art_2012110518483426591.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/5/artb_2012110518483426591.jpg"></font></a></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 一直极少在德国赛场上露面的奥迪在1990年加入了德国房车锦标赛，奥迪V8 DTM赛车将宝马M3和梅赛德斯190“斩落马下”，获得了全面胜利。一年之后，奥迪的所向披靡被“政策”所阻止：1992年初，奥迪赛车8缸<a class="ShuKeyWordLink" href="/shuyu/detail_8_9_555.html?lang=555 " target=_blank>发动机</a>采用的新的<a class="ShuKeyWordLink" href="/shuyu/detail_8_9_178.html?lang=178 " target=_blank>曲轴</a>本已获得赛车主管部门的许可，但随后又被告知与规定相悖，结果只能是奥迪退赛。之后，奥迪连续推出了两款A组别赛车――Audi 80 Compitition和A4 Supertouring。这两款车在世界范围内都可谓先锋赛车。仅在1996年，奥迪A4 Supertouring就在澳大利亚、比利时、德国、英格兰、意大利、西班牙和南非的房车锦标赛上斩获头名。</font></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/5/art_2012110518521017029.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/5/artb_2012110518521017029.jpg"></font></a></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 一系列的胜利最终让官方也不得不承认四轮驱动技术的优越性。1997年，国际汽联规定四轮驱动的赛车额外增加重量不得超过95千克，并宣布自1998年1月1日起全面禁止四驱车参赛，原因是维护机会均等原则。奥迪用了17年的时间终于证明了普通两轮驱动汽车面对四驱汽车根本没有取胜的机会。</font></p>
+<p><font style="FONT-SIZE: 14px"></font>&nbsp;</p>
+<div style="PAGE-BREAK-BEFORE: always; BACKGROUND-COLOR: #c0c0c0; HEIGHT: 1px; FONT-SIZE: 1px; VERTICAL-ALIGN: middle" id="1071162827" title="Print Page Break"><font style="FONT-SIZE: 14px">&nbsp; </font></div>
+<p><font style="FONT-SIZE: 14px"></font>&nbsp;</p>
+<p><font style="FONT-SIZE: 14px">●&nbsp; <strong>历经七代进化</strong></font></p>
+<p><font style="FONT-SIZE: 14px">◆&nbsp; <strong>第一代quattro：空心<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_397.html?lang=397 " target=_blank>传动轴</a></strong></font></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110719432026159.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110719432026159.jpg"></font></a></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110708344330710.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110708344330710.jpg"></font></a></p>
+<p align="left"><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 奥迪借鉴了大众Iltis越野车的四驱概念，但由于轿车的空间所限，完完整整的移植是不可能的。于是，奥迪的工程师琢磨出一个巧妙的解决方案：在变速箱后端安装<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>，依旧由传统的<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_397.html?lang=397 " target=_blank>传动轴</a>将动力传递至后轴<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>；而在变速箱内部安装了一根空心<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_397.html?lang=397 " target=_blank>传动轴</a>使动力可以传送到前轴<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>。这样一来就省去体积大、重量大的<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_307.html?lang=307 " target=_blank>分动箱</a>，从而有效的解决了空间问题。</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 为了使奥迪quattro应对更为苛刻的路况，奥迪工程师在第一代quattro技术中使用了前、中、后三个开放式<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>，其中中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>和后轴<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>均带手动锁止功能。驾驶者可以根据不同路况需求，通过中控台的锁止开关控制<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>的工作状态。</font></p>
+<p><font style="FONT-SIZE: 14px">◆&nbsp; <strong>第二代quattro：托森A型中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a></strong></font></p>
+<p align="center"><strong><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110720075892376.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110720075892376.jpg"></font></a><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110719515358050.jpg" target="_blank"></a></strong></p>
+<p align="center"><strong><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110715341434131.jpg" target="_blank"></a><a href="http://www.autohome.com.cn/img/?img=2012/11/7/7-9-47-6-971270740.jpg" target="_blank"></a></strong><a href="http://www.autohome.com.cn/img/?img=2012/11/8/8-14-9-33-839214905.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/8/8-14-9-33-696368946.jpg"></font></a></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 1986年对于奥迪来说是重要的一年，在这一年quattro四驱系统迎来了一次重要的革新：采用了托森A型中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>。托森（Torsen）这个名字的源于Torque-sensing Traction――<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>感应，其核心结构是蜗轮蜗杆机构，基于这种机构单向传递动力的特性使托森A型中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>具备了自锁功能，在正常情况下动力以50:50的分配比例传递至前后轴，当某个车轮出现打滑现象时，中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>可主动的将动力分配给附着力更好的车轴，比第一代更方便。后轴和前轴<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>仍然为带有手动锁止功能的<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>和开放式<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>。</font></p>
+<p><font style="FONT-SIZE: 14px">◆&nbsp; <strong>第三代quattro：首次应用于<a class="ShuKeyWordLink" href="/shuyu/detail_1_2_351.html?lang=351 " target=_blank>自动变速箱</a>车型</strong></font></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110719523866457.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110719523866457.jpg"></font></a></p>
+<p align="center"><strong><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110718080127595.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110718080127595.jpg"></font></a></strong></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 1988年亮相的奥迪V8根据自动和<a class="ShuKeyWordLink" href="/shuyu/detail_1_2_350.html?lang=350 " target=_blank>手动变速箱</a>的不同分别配备了两种quattro系统，这两套系统的区别在于中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>型式的不同：与<a class="ShuKeyWordLink" href="/shuyu/detail_1_2_350.html?lang=350 " target=_blank>手动变速箱</a>匹配的quattro依然采用了托森A型中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>，而与<a class="ShuKeyWordLink" href="/shuyu/detail_1_2_351.html?lang=351 " target=_blank>自动变速箱</a>匹配的quattro采用了带有电控多片<a class="ShuKeyWordLink" href="/shuyu/detail_1_2_764.html?lang=764 " target=_blank>离合器</a>的行星齿轮中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>。另外，第三代quattro系统将后轴开放式<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>也更换为托森A型<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>，从此quattro迎来了自动控制的时代。</font></p>
+<p><font style="FONT-SIZE: 14px">◆&nbsp; <strong>第四代quattro：托森B型中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>，首次加入“EDL电子<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_234.html?lang=234 " target=_blank>差速锁</a>”功能</strong></font></p>
+<p align="center"><strong><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110720084424184.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110720084424184.jpg"></font></a><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110719540845630.jpg" target="_blank"></a></strong></p>
+<p><strong><a href="http://www.autohome.com.cn/img/?img=2012/11/7/7-18-10-10-113310777.JPG" target="_blank"><font style="FONT-SIZE: 14px"></font></a><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110710412740005.jpg" target="_blank"></a></strong>&nbsp;</p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110718092092969.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110718092092969.jpg"></font></a><font style="FONT-SIZE: 14px">&nbsp;</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 在quattro诞生14年后，第四代quattro正式应用。首先，这一代系统使用托森B型中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>，托森B型<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>采用平行齿轮结构，同样具有自锁功能，不一样的是它可以配备在<a class="ShuKeyWordLink" href="/shuyu/detail_1_2_351.html?lang=351 " target=_blank>自动变速箱</a>车型上。其次，第四代quattro首次加入了“EDL电子<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_234.html?lang=234 " target=_blank>差速锁</a>”功能，当单侧车轮出现打滑时，“电子<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_234.html?lang=234 " target=_blank>差速锁</a>”可利用液压控制单元对打滑车轮进行制动，有效增强另外一侧车轮的驱动力。</font></p>
+<p><strong><font style="FONT-SIZE: 14px">想搞清楚<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>、<a class="ShuKeyWordLink" href="/shuyu/detail_38_39_146.html?lang=146 " target=_blank>限滑差速器</a>、“电子<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_234.html?lang=234 " target=_blank>差速锁</a>”？请点击下面图片：</font></strong></p>
+<p align="center"><a href="http://www.autohome.com.cn/tech/201202/299759.html" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: rgb(0,0,0) 1px solid; BORDER-TOP: rgb(0,0,0) 1px solid; BORDER-RIGHT: rgb(0,0,0) 1px solid" title="汽车之家" border="0" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/7-15-16-25-999533219.jpg"></font></a><a href="http://www.autohome.com.cn/img/?img=2012/11/7/7-15-16-25-999533219.jpg" target="_blank"></a></p>
+<p><font style="FONT-SIZE: 14px">◆&nbsp; <strong>第五代quattro：优化后的托森A型中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a></strong></font></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110718113292152.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110718113292152.jpg"></font></a><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110717342453357.jpg" target="_blank"></a></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 奥迪工程师将突破点放在了优化<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>感应式A型中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>和<a class="ShuKeyWordLink" href="/shuyu/detail_16_44_109.html?lang=109 " target=_blank>ESP</a>电子稳定程序与四驱系统的配合上。经过优化的A型中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>具备更为出色的<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>分配能力，同时牵引力锁止值也经过了优化。为了奥迪quattro车型应对各种极限路况，第五代quattro全时四轮驱动技术与<a class="ShuKeyWordLink" href="/shuyu/detail_16_44_109.html?lang=109 " target=_blank>ESP</a>系统的配合更为密切。这一改进使quattro车型具备了更高的主动安全性。</font></p>
+<p><font style="FONT-SIZE: 14px">◆&nbsp; <strong>第六代quattro：托森C型中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>，奥迪Q系列诞生</strong></font></p>
+<p align="center"><strong><a href="http://car.autohome.com.cn/photo/5388/1/404375.html" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" title="奥迪 奥迪(进口) 奥迪Q5(进口) 2010款 3.2FSI 运动版" border="1" alt="奥迪 奥迪(进口) 奥迪Q5(进口) 2010款 3.2FSI 运动版" src="http://img.autohome.com.cn/upload/spec/5388/t_5388679184696.jpg"></font></a><font style="FONT-SIZE: 14px">&nbsp; </font></strong><a href="http://car.autohome.com.cn/photo/5993/1/298991.html" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" title="奥迪 奥迪(进口) 奥迪Q7 2010款 4.2 FSI quattro 豪华型" border="1" alt="奥迪 奥迪(进口) 奥迪Q7 2010款 4.2 FSI quattro 豪华型" src="http://img.autohome.com.cn/upload/spec/5307/t_5307507094742.jpg"></font></a></p>
+<p align="center"><font style="FONT-SIZE: 14px">『奥迪Q5（左）、Q7（右）均配备了第六代quattro四驱系统』</font></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110714095685923.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110714095685923.jpg"></font></a></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 第六代quattro核心部件中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>由B型升级到了C型，其结构也由平行齿轮结构变为行星齿轮结构，自动锁止功能的反应时间也更迅速。在通常情况下，中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>以40:60的分配比例将动力传递至前后轴，当遇到特殊路况时，前轮可以根据需要分配到15%～65%的动力，后轮则可以分配到85%～35%的动力。偏向后轮的动力输出特点为车辆提供了更高的操控性能，在直线加速和弯道中这一特点表现的尤为突出。 目前市场上在售的A4L、A6L也都是采用的第六代quattro四驱系统。</font></p>
+<p><font style="FONT-SIZE: 14px"></font>&nbsp;</p>
+<div style="PAGE-BREAK-BEFORE: always; BACKGROUND-COLOR: #c0c0c0; HEIGHT: 1px; FONT-SIZE: 1px; VERTICAL-ALIGN: middle" id="6781321514" title="Print Page Break"><font style="FONT-SIZE: 14px">&nbsp; </font></div>
+<p><font style="FONT-SIZE: 14px"></font>&nbsp;</p>
+<p><font style="FONT-SIZE: 14px">◆&nbsp; <strong>第七代quattro：冠状齿轮中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a></strong></font></p>
+<p align="center"><a href="http://car.autohome.com.cn/photo/12121/1/1486224.html" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" title="奥迪 奥迪(进口) 奥迪A5 2012款 2.0TFSI Sportback quattro" border="1" alt="奥迪 奥迪(进口) 奥迪A5 2012款 2.0TFSI Sportback quattro" src="http://img.autohome.com.cn/upload/spec/12121/t_20120321185113064240.jpg"></font></a><font style="FONT-SIZE: 14px">&nbsp; </font><a href="http://car.autohome.com.cn/photo/10863/1/1649610.html" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" title="奥迪 奥迪RS 奥迪RS 5 2012款 RS 5 Coupe" border="1" alt="奥迪 奥迪RS 奥迪RS 5 2012款 RS 5 Coupe" src="http://img.autohome.com.cn/upload/2012/8/24/t_201208241908323214122.jpg"></font></a></p>
+<p align="center"><font style="FONT-SIZE: 14px">『奥迪A5（左）、RS5（右）的四驱系统都采用了最新的冠状齿轮<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>』</font></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110714241737437.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110714241737437.jpg"></font></a></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 全新一代的quattro四驱系统，最大的改变在于将托森中央<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>更换成了冠状齿轮<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>。这种<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>最大的优点是体积小、重量轻的同时有着更高的动力分配比。虽然冠状齿轮也是纯机械结构，但依靠多片<a class="ShuKeyWordLink" href="/shuyu/detail_1_2_764.html?lang=764 " target=_blank>离合器</a>的控制，它比<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>有着更大的<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>比例调节范围，而且前后的<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>分配也更加灵活。</font></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/8/8-22-15-10-502874334.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/8/8-22-15-11-732925500.jpg"></font></a><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110714241593917.jpg" target="_blank"></a></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 冠状齿轮<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>的工作原理其实就是通过改变“力臂”长短来实现<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>的分配调节。从变速箱输出的动力输入到冠状齿轮<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>行星齿轮架上，通过行星齿轮向前后冠状齿轮（连接前后轴）传递动力，前后冠状齿轮分别配单组和多组摩擦片。</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 正常状态下，通过前后冠状齿轮与<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>行星齿轮不同的作用半径实现前后桥40:60的<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>分配，前后冠状齿轮与行星齿轮相对静止，当前桥或后桥车轮附着力降低（打滑）时，冠状齿轮与行星齿轮发生相对旋转，挤压打滑一侧冠状齿轮压紧摩擦片，使因打滑流失的动力部分通过<a class="ShuKeyWordLink" href="/shuyu/detail_3_5_231.html?lang=231 " target=_blank>差速器</a>壳体传递至未打滑的驱动桥，而前后摩擦片组的数量也决定了<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>分配的范围：根据车辆前后桥附着力情况，前轮的动力在15%-70%之前自动分配，后轮的动力则在30%到85%之间自动分配。</font></p>
+<p align="left"><font style="FONT-SIZE: 14px">●&nbsp; <strong>横置quattro四驱系统</strong></font></p>
+<p align="center"><strong><a href="http://car.autohome.com.cn/photo/12604/1/1512952.html" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" title="奥迪 奥迪(进口) 奥迪TT 2011款 TT Coupe 2.0TFSI quattro" border="1" alt="奥迪 奥迪(进口) 奥迪TT 2011款 TT Coupe 2.0TFSI quattro" src="http://img.autohome.com.cn/upload/spec/12604/t_20120420134309766264.jpg"></font></a><font style="FONT-SIZE: 14px">&nbsp; </font></strong><a href="http://car.autohome.com.cn/photo/13466/1/1626272.html" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" title="奥迪 奥迪(进口) 奥迪Q3 2012款 40 TFSI运动型" border="1" alt="奥迪 奥迪(进口) 奥迪Q3 2012款 40 TFSI运动型" src="http://img.autohome.com.cn/upload/spec/13466/t_20120802091224081213.jpg"></font></a></p>
+<p align="center"><font style="FONT-SIZE: 14px">『奥迪TT（左）、Q3（右）采用的是来自Haldex的四驱系统』</font></p>
+<p align="left"><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 除了经典的<a class="ShuKeyWordLink" href="/shuyu/detail_8_9_325.html?lang=325 " target=_blank>纵置发动机</a>并采用<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_229.html?lang=229 " target=_blank>托森差速器</a>外，奥迪旗下TT以及奥迪Q3都是使用了<a class="ShuKeyWordLink" href="/shuyu/detail_8_9_324.html?lang=324 " target=_blank>横置发动机</a>平台的车型，采用了Haldex的四驱系统，负责分配前后桥动力的是电-液控制的多片<a class="ShuKeyWordLink" href="/shuyu/detail_1_2_764.html?lang=764 " target=_blank>离合器</a>，这种结构和大众横置平台的<a class="ShuKeyWordLink" href="/shuyu/detail_3_7_784.html?lang=784 " target=_blank>4MOTION</a>其实在本质上相同，<strong>但是由于属于奥迪品牌下，因此同样叫做quattro。</strong></font></p>
+<p align="left"><strong><font style="FONT-SIZE: 14px">想了解Haldex四驱系统请点击下面图片:</font></strong></p>
+<p align="center"><a href="http://www.autohome.com.cn/tech/201106/205152.html" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: rgb(0,0,0) 1px solid; BORDER-TOP: rgb(0,0,0) 1px solid; BORDER-RIGHT: rgb(0,0,0) 1px solid" title="汽车之家" border="0" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/7-15-13-3-267831067.jpg"></font></a><a href="http://www.autohome.com.cn/img/?img=2012/11/7/7-15-13-3-267831067.jpg" target="_blank"></a></p>
+<p align="left"><font style="FONT-SIZE: 14px">●&nbsp; <strong>电动quattro，未来的四驱系统？</strong></font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 在过好眼下每一天的同时，有越来越多的车企开始着手部署未来。它们都希望可以彻底摆脱对传统燃料的依赖。那么在<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_1255.html?lang=1255 " target=_blank>电动车</a>和<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_239.html?lang=239 " target=_blank>混合动力</a>车型上该怎样实现四驱呢？</font></p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/8/8-22-18-5-683888692.jpg" target="_blank"></a><a href="http://www.autohome.com.cn/img/?img=2012/11/8/8-22-18-5-683888692.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/8/8-22-18-5-290217240.jpg"></font></a></p>
+<p><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110714325769768.jpg" target="_blank"><font style="FONT-SIZE: 14px"></font></a>&nbsp;</p>
+<p align="center"><a href="http://www.autohome.com.cn/img/?img=2012/11/7/art_2012110714423271469.jpg" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black" border="1" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/artb_2012110714423271469.jpg"></font></a></p>
+<p align="left"><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 全车装备了四个异步电机，分别独立驱动四个车轮，总<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_98.html?lang=98 " target=_blank>功率</a>230千瓦（313马力），而峰值<a class="ShuKeyWordLink" href="/shuyu/detail_40_41_99.html?lang=99 " target=_blank>扭矩</a>则高达惊人的4500N・m，这是个令人难以相信的数字。普通状态下动力分配为前30%、后70%，而如果有车轮打滑，每个车轮的电机都能独立调整动力分配。</font></p>
+<p align="left"><strong><font style="FONT-SIZE: 14px">了解奥迪F12<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_1255.html?lang=1255 " target=_blank>电动车</a>请点击下图：</font></strong></p>
+<p align="center"><strong><a href="http://www.autohome.com.cn/tech/201210/411705.html" target="_blank"><font style="FONT-SIZE: 14px"><img style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: rgb(0,0,0) 1px solid; BORDER-TOP: rgb(0,0,0) 1px solid; BORDER-RIGHT: rgb(0,0,0) 1px solid" title="汽车之家" border="0" alt="汽车之家" src="http://img.autohome.com.cn/2012/11/7/7-16-37-41-644030165.jpg"></font></a></strong></p>
+<p><strong><font style="FONT-SIZE: 14px">全文总结：</font></strong></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 奥迪很好的利用了赛场：一方面检验并展示的系统的可靠性；另一方面利用优秀的成绩描绘着quattro系统卓越的性能。</font></p>
+<p><font style="FONT-SIZE: 14px">&nbsp;&nbsp;&nbsp; 随后，quattro顺利下放至民用车领域，工程师们不断的钻研使quattro历经七代步断进步，坚持着这条机械之路。如今，在这个奉行节能主义的时代，quattro并没有固步自封，它们在<a class="ShuKeyWordLink" href="/shuyu/detail_0_76_1255.html?lang=1255 " target=_blank>电动车</a>领域同样走出了一条路。</font></p>
+<p><br><font style="FONT-SIZE: 14px">&nbsp;</font></p>		<div class="dashed_line"></div>
+                </div>
+                <!--end左侧start右侧-->
+                <div class="conright" id="menuright" style="position: fixed; left: 797px; top: 205px;
+                    _position: absolute; _top: 140px; _left: 603px; z-index: 100; width: 173px;">
+                    <div class="rcont">
+                        <h3 class="conrtit">词条目录</h3><dl class="rsubnav"><dt><a style="cursor:pointer;"  onclick="window.scrollTo(0, 0);"> quattro</a></dt></dl></div>
+                        <div id="cookieLang" class="term_r1">
+                        </div>
+                    </div>
+                </div>
+                <!--end右侧-->
+                <div id="divBottom">
+                    <!--end内容区start最新术语-->
+                    <h2 class="tith2">
+                        <p class="titbor">
+                            <span class="titcon">更多术语</span></p>
+                    </h2>
+                    <ul class="contul">
+                        <li><p class="concimg"><a href="/shuyu/detail_40_41_1256.html"><img src="http://car0.autoimg.cn/shuyu/20140909/120/4774448709125075401.jpg" title="IDAS" alt="IDAS" rel="nofollow"/></a></p><p class="c838383">专业名词</p><p><a href="/shuyu/detail_40_41_1256.html" title="IDAS">IDAS</a></p></li><li><p class="concimg"><a href="/shuyu/detail_57_59_713.html"><img src="http://car0.autoimg.cn/shuyu/20120831/120/5259378267585906190.jpg" title="W216" alt="W216" rel="nofollow"/></a></p><p class="c838383">奔驰</p><p><a href="/shuyu/detail_57_59_713.html" title="W216">W216</a></p></li><li><p class="concimg"><a href="/shuyu/detail_38_39_484.html"><img src="http://car0.autoimg.cn/shuyu/20120831/120/5398339109926434017.jpg" title="直出排气" alt="直出排气" rel="nofollow"/></a></p><p class="c838383">汽车改装</p><p><a href="/shuyu/detail_38_39_484.html" title="直出排气">直出排气</a></p></li><li><p class="concimg"><a href="/shuyu/detail_11_12_682.html"><img src="http://car0.autoimg.cn/shuyu/20120831/120/5097363278315365607.jpg" title="堵车辅助" alt="堵车辅助" rel="nofollow"/></a></p><p class="c838383">配置及多媒体</p><p><a href="/shuyu/detail_11_12_682.html" title="堵车辅助">堵车辅助</a></p></li><li><p class="concimg"><a href="/shuyu/detail_18_46_167.html"><img src="http://car0.autoimg.cn/shuyu/20120831/120/4769379838179555919.jpg" title="空气悬架" alt="空气悬架" rel="nofollow"/></a></p><p class="c838383">配置详解-操控配置</p><p><a href="/shuyu/detail_18_46_167.html" title="空气悬架">空气悬架</a></p></li>
+                    </ul>
+                    <!--end最新术语start相关文章-->
+                    <h2 class="tith2"><p class="titbor font12"><span class="titcon">相关文章<span class="font14b">-四驱详解</span></span></p><span class="fr font12 mr10"><a href="http://www.autohome.com.cn/62/0/0/1/conjunction.html"  target="_blank">更多&gt;&gt;</a></span></h2><ul class="contul"><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201413/842219.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2014/9/17/120x90_0_2014091717293362712.jpg" title="玩转四驱(9) 纳智捷品牌四驱技术详解" alt="玩转四驱(9) 纳智捷品牌四驱技术详解" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201413/842219.html" title="玩转四驱(9) 纳智捷品牌四驱技术详解" target="_blank">纳智捷品牌四驱技术详解</a></p><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201405/841076.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2014/9/12/120x90_0_2014091217062583439.jpg" title="玩转四驱（8） 雷诺品牌四驱技术讲解" alt="玩转四驱（8） 雷诺品牌四驱技术讲解" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201405/841076.html" title="玩转四驱（8） 雷诺品牌四驱技术讲解" target="_blank">四驱技术讲解：雷诺品牌</a></p><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201400/836195.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2014/9/2/120x90_0_2014090213272854745.jpg" title="玩转四驱（7） 日产品牌四驱技术讲解" alt="玩转四驱（7） 日产品牌四驱技术讲解" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201400/836195.html" title="玩转四驱（7） 日产品牌四驱技术讲解" target="_blank">四驱技术讲解：日产品牌</a></p><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201409/834218.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2014/8/18/120x90_0_2014081821140070785.jpg" title="玩转四驱（6） 标致品牌四驱技术讲解" alt="玩转四驱（6） 标致品牌四驱技术讲解" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201409/834218.html" title="玩转四驱（6） 标致品牌四驱技术讲解" target="_blank">四驱技术讲解：标致品牌</a></p><li><p class="concimg"><a href="http://www.autohome.com.cn/tech/201406/830776.html" target="_blank"><img src="http://www0.autoimg.cn/newspic/2014/8/26/120x90_0_2014082609571355749.jpg" title="玩转四驱（5） 三菱品牌四驱技术讲解" alt="玩转四驱（5） 三菱品牌四驱技术讲解" rel="nofollow"/></a></p><p><a href="http://www.autohome.com.cn/tech/201406/830776.html" title="玩转四驱（5） 三菱品牌四驱技术讲解" target="_blank">四驱技术讲解：三菱品牌</a></p></ul>
+                    <!--end相关文章-->
+                </div>
+            </div>
+        </div>
+        <!--end右侧主体-->
+    </div>
+    <!--回到顶部-->
+    
+<style type="text/css"> 
+        .gotop02{width:50px; font-size:12px;text-align:center; background-color:#fafbfc; text-decoration:none; position:fixed; _position:absolute; left:987px;bottom:10px;_bottom:auto;z-index:100;}
+        .gotop02 a.gotop02-con{ display:inline-block; width:48px; height:38px; overflow:hidden;position:relative; margin-top:-1px;border:solid 1px #ccd3e4;color:#fff; font-size:12px; text-decoration:none; line-height:18px; float:left;}
+        .gotop02 a.gotop02-con i{ width:16px; height:16px; background:url(http://x.autoimg.cn/car/images/icon-top.png) no-repeat;position:relative; left:0px; top:12px;overflow:hidden;}
+        .gotop02 a.gotop02-con .icon-find{ background-position:-39px 0;}
+        .gotop02 a.gotop02-con .icon-book{ background-position:-19px 0;}
+        .gotop02 a.gotop02-con .icon-top{ background-position:0 0;}
+        .gotop02 a.gotop02-con span{ display:inline-block; width:30px; height:32px;text-align:center; padding: 3px 10px; line-height:16px; position:absolute; left:-1px; top:0;cursor:pointer;}
+        .gotop02 a.gotop02-con:hover{ color:#fff; background-color:#5577bb;border:solid 1px #5577bb;}
+        .gotop02 a.gotop02-con:hover i,.gotop02 a.gotop02-con span{ display:none;background-image:none;}
+        .gotop02 a.gotop02-con:hover span,.gotop02 a.gotop02-con i{ display:inline-block;}        
+</style>
+<div class="gotop02" id="gotop">    
+    
+    <a id="feedback" href="http://www.autohome.com.cn/bug/default.aspx" target="_blank" class="gotop02-con"><i class="icon-book"></i><span>意见反馈</span></a>    
+    <a id="backtop" class="gotop02-con" href="javascript:void(0)"  style="display:none" ><i class="icon-top"></i><span>返回顶部</span></a>
+</div>
+
+<script type="text/javascript">
+    var divShow = document.getElementById('backtop');
+    divShow.onclick = function () {
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+    } 
+    function goTop() {
+        var wtop = document.documentElement.scrollTop || document.body.scrollTop;        
+        var btop = document.getElementById("backtop");
+        var gotop = document.getElementById("gotop");
+        var selectTop;
+        if (document.getElementById('SelectTop')) {
+            selectTop = document.getElementById('SelectTop')
+        }
+        if (!!window.ActiveXObject && !window.XMLHttpRequest) {
+             var   topOffset = 120;
+            gotop.style.position = 'absolute';
+            if (selectTop) {
+                gotop.style.top = (wtop - 8 + parseInt(document.documentElement.clientHeight) - topOffset - 40) + "px";
+            }
+            else {
+                gotop.style.top = (wtop - 8 + parseInt(document.documentElement.clientHeight) - topOffset + 40) + "px";
+            }
+        }
+        if (wtop > 0) {
+            btop.style.display = "";
+            if (selectTop) {
+                selectTop.style.display = "";
+            }
+        } else {
+            btop.style.display = "none";
+            var obj = document.getElementById("divSearchTerm");
+            if (obj) {
+                if (selectTop) {
+                    if (obj.style.display != "none") { selectTop.style.display = "none"; } else { selectTop.style.display = ""; }
+                }
+            }
+        }
+    }
+    window.setInterval("goTop()", 100);
+</script>
+    <!--end回到顶部-->
+</body>
+</html>
+<script type="text/javascript" src="/JavaScript/shuyu/shuyuCookie.js"></script>
+<script type="text/javascript">
+    function addEvent(obj, type, fn) {
+        if (obj.attachEvent) {obj.attachEvent('on' + type, fn);} else {obj.addEventListener(type, fn, false);
+        }
+    }
+
+    (function addFlashAttribute() {
+        if (window.ActiveXObject && navigator.userAgent.toLowerCase().indexOf("msie") > 0) {
+            var flashes = document.getElementsByTagName("embed");
+            for (var i = 0; i < flashes.length; i++) {
+                flashes[i].setAttribute("WMode", "Opaque");
+            }
+            var objs = document.getElementsByTagName("OBJECT");
+            for (var j = 0; j < objs.length; j++) {
+                objs[j].WMode = "Opaque";
+            }
+        }
+    })();
+    function GotoPosition(id) {
+        if (parseInt(id) > 0) {
+            var position = document.getElementById("lg" + id);
+            //var top = window.ActiveXObject && navigator.userAgent.toLowerCase().indexOf("msie") > 0 ? GetElementTop(position)-48:GetElementTop(position)-48;
+            var top = GetElementTop(position) - 48;
+            window.scrollTo(0, top);
+        }
+    }
+    function GetElementTop(element) {
+        var actualTop = element.offsetTop;
+        var current = element.offsetParent;
+        while (current != null) {
+            actualTop += current.offsetTop;
+            current = current.offsetParent;
+        }
+        return actualTop;
+    }
+    var tipHeigh = document.getElementById("menuright").offsetHeight + 154;
+    window.onload = function () {
+        tipHeigh = document.getElementById("menuright").offsetHeight;
+    }
+    window.onscroll = function () {
+        var wtop = document.documentElement.scrollTop;
+        if (wtop == 0) {
+            wtop = document.body.scrollTop;
+        }
+        var $tip = document.getElementById("menuright");
+        var $bottom = document.getElementById("divBottom");
+        if (wtop > 140) {
+            if (wtop > $bottom.offsetTop - tipHeigh - 20) {
+                if (!!window.ActiveXObject && !window.XMLHttpRequest) {//IE6
+                    $tip.style.top = $bottom.offsetTop - tipHeigh - 20 + "px";
+                }
+                else {
+                    $tip.style.position = "absolute";
+                    $tip.style.left = "601px";
+                    $tip.style.top = $bottom.offsetTop - tipHeigh - 20 + "px";
+                }
+            } else {
+                if (!!window.ActiveXObject && !window.XMLHttpRequest) {//IE6
+                    $tip.style.top = wtop + "px";
+                }
+                else {
+                    $tip.style.position = "fixed";
+                    $tip.style.left = "797px";
+                    $tip.style.top = 78 + "px";
+                }
+            }
+        } else {
+            if (!!window.ActiveXObject && !window.XMLHttpRequest) {//IE6
+                document.getElementById("menuright").style.top = "140px";
+            } else {
+                $tip.style.position = "fixed";
+                $tip.style.left = "797px";
+                $tip.style.top = (205 - wtop) + "px";
+            }
+        }
+
+    }
+
+    function getQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+    }
+    addEvent(window, "load", function () {
+        (function toPosition() {
+            var lg = getQueryString("lang");
+            if (typeof (lg) != "undefined" && parseInt(lg) > 0) {
+                GotoPosition(getQueryString("lang"));
+            }
+        })();
+    });
+
+</script>
+<script type="text/javascript">
+    var langId = '228';
+    var langName = 'quattro';
+    var pid = '3';
+    var cid = '7';
+    setViewed(langId, langName, pid, cid);
+</script>
+<script language="javascript" type="text/javascript">
+    var pvTrack = function () { };
+    pvTrack.site = 2; 
+    pvTrack.category = 216;
+    pvTrack.subcategory = 789;
+    pvTrack.object =228;
+</script>
+<script language=javascript type=text/javascript>
+var url_stats="http://stats.autohome.com.cn/pv_count.php?SiteId=";
+(function (){
+    if (typeof(pvTrack)!=="undefined"){				
+		setTimeout("func_stats()",3000);		
+		var doc = document,t=pvTrack;
+		var pv_site,pv_category ,pv_subcategory,pv_object,pv_series,pv_type,pv_typeid,pv_spec,pv_level,pv_dealer,pv_ref,pv_cur;
+		pv_ref=escape(doc.referrer);pv_cur=escape(doc.URL);
+		pv_site=t.site;pv_category=t.category ;pv_subcategory= t.subcategory;pv_object=t.object;pv_series=t.series;pv_type=t.type;pv_typeid=t.typeid;pv_spec=t.spec;pv_level=t.level;pv_dealer=t.dealer;
+		url_stats+= pv_site+(pv_category != null ? "&CategoryId=" + pv_category : "")+ (pv_subcategory != null ? "&SubCategoryId=" + pv_subcategory : "")+ (pv_object != null ? "&objectid=" + pv_object : "")+ (pv_series != null ? "&seriesid=" + pv_series : "")+ (pv_type != null ? "&type=" + pv_type : "")+ (pv_typeid != null ? "&typeid=" + pv_typeid : "")+ (pv_spec != null ? "&specid=" + pv_spec : "")+ (pv_level != null ? "&jbid=" + pv_level : "")+ (pv_dealer != null ? "&dealerid=" + pv_dealer : "")+ "&ref=" + pv_ref + "&cur=" + pv_cur+"&rnd="+Math.random();
+		var len_url_stats =url_stats.length;
+		}
+})();
+document.write('<iframe id="PageView_stats" src="" style="display:none;"></iframe>');
+function func_stats(){document.getElementById('PageView_stats').src =url_stats;}
+</script>
+<script language="javascript" type="text/javascript" src="http://x.autoimg.cn/pv/js/ga-count.js"></script>
